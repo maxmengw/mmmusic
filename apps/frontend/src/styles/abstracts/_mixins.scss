@@ -1,0 +1,54 @@
+@use 'variables' as v;
+
+// Glass Effect Mixin
+@mixin glass-effect {
+  background: v.$glass-bg;
+  backdrop-filter: blur(5px);
+  border: 1px solid v.$glass-border;
+}
+
+// Button Mixin
+@mixin button-base {
+  border-radius: v.$radius-md;
+  padding: v.$spacing-md v.$spacing-lg;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: v.$transition-slow;
+  @include glass-effect;
+}
+
+// Circular Button Mixin
+@mixin button-circle($size: 55px) {
+  @include glass-effect;
+  border-radius: v.$radius-circle;
+  width: $size;
+  height: $size;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: v.$color-white;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: v.$transition-normal;
+  
+  &:hover {
+    background: v.$glass-highlight;
+  }
+}
+
+// Theme Gradient Mixin
+@mixin theme-gradient($gradient) {
+  background: $gradient;
+}
+
+@mixin mobile {
+  @media (max-width: 540px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}

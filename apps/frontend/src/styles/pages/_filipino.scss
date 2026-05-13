@@ -1,0 +1,116 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.filipino-music-page {
+  min-height: 100vh;
+  background: radial-gradient(900px 600px at 60px 60px,
+      rgba(0, 24, 87, 0.92) 0%,
+      rgba(0, 24, 87, 0.60) 35%,
+      rgba(0, 24, 87, 0.00) 60%),
+      $gradient-filipino;
+  color: $color-white;
+
+  &--banded {
+    background: radial-gradient(900px 600px at 60px 60px,
+      rgba(0, 24, 87, 0.92) 0%,
+      rgba(0, 24, 87, 0.60) 35%,
+      rgba(0, 24, 87, 0.00) 60%),
+      linear-gradient(135deg,
+        #FCDD09 0%, #FCDD09 33%,
+        #0038A8 33%, #0038A8 66%,
+        #CE1126 66%, #CE1126 100%
+      );
+  }
+}
+
+.filipino-music-directory {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 16px 40px;
+
+  @include mobile {
+    padding-top: 64px;
+  }
+}
+
+.page-title {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: $color-white;
+  font-size: 2rem;
+  padding-top: $spacing-lg;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: $spacing-lg;
+
+  @include tablet {
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+    gap: 16px;
+  }
+
+  @include mobile {
+    grid-template-columns: 1fr;
+  }
+}
+
+.category {
+  padding: 20px;
+  @include glass-effect;
+  border-radius: 14px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.15);
+  color: $color-white;
+  display: flex;
+  flex-direction: column;
+}
+
+.category-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid $glass-border;
+  color: $color-white;
+  font-size: 1.3rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.category-description {
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 0.95rem;
+  margin-bottom: $spacing-md;
+  line-height: 1.5;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+
+.example {
+  margin-top: auto;
+  background: $glass-highlight;
+  border: 1px solid $glass-border;
+  border-radius: 10px;
+  padding: 15px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.example-title {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.98);
+  margin-bottom: 4px;
+  font-family: "Inter", sans-serif;
+}
+
+.example-text {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.92);
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}

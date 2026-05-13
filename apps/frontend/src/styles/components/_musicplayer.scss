@@ -1,0 +1,72 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.music-player-bar {
+  position: fixed;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  @include glass-effect;
+  backdrop-filter: blur(10px);
+  border-radius: $radius-md;
+  padding: 10px 20px;
+  z-index: $z-nav;
+}
+
+.music-player-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative; // for playlist modal positioning
+}
+
+.player-song-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 150px;
+}
+
+.song-title {
+  color: $color-white;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.song-artist {
+  color: $color-white;
+  font-size: 0.7rem;
+  opacity: 0.8;
+}
+
+.player-controls {
+  display: flex;
+  align-items: center;
+  gap: $spacing-md;
+  flex: 1;
+}
+
+.player-playlist-btn {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.playlist-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.control-btn {
+  @include glass-effect;
+  color: $color-white;
+  border-radius: $radius-md;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: $transition-normal;
+
+  &:hover {
+    background: $glass-highlight;
+  }
+}

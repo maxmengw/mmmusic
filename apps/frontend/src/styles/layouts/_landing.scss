@@ -1,0 +1,201 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.landing-page {
+  background: $gradient-background;
+  background-image: url('/image/music.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(8, 0, 255, 0.3) 0%, rgba(173, 151, 66, 0.3) 100%);
+    z-index: $z-overlay;
+    pointer-events: none;
+  }
+
+  > * {
+    position: relative;
+    z-index: $z-overlay + 1;
+  }
+}
+
+.header-container {
+  width: 100vw;
+  height: 55vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $color-white;
+  text-align: center;
+  padding: $spacing-lg;
+  box-sizing: border-box;
+  top: 9vh;
+
+  @include mobile {
+    height: 40vh;
+    padding: $spacing-md;
+    top: 1vh;
+  }
+}
+
+.header-title {
+  font-family: "Inter", sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+  letter-spacing: 0.1em;
+  line-height: 2;
+  transition: $transition-slow;
+
+  &:hover {
+    transform: scale(1.05);
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9);
+    letter-spacing: 0.15em;
+    cursor: pointer;
+  }
+
+  @include mobile {
+    font-size: 3.5rem;
+    margin-bottom: $spacing-md;
+  }
+}
+
+.header-subtitle {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  line-height: 1.5;
+  margin-bottom: $spacing-md;
+  transition: $transition-slow;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-3px);
+  }
+
+  @include mobile {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+}
+
+// Navbar
+.navbar {
+  font-weight: 400;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: $z-nav;
+  width: 100%;
+  max-width: 700px;
+  @include glass-effect;
+  border-radius: $radius-md;
+  padding: $spacing-md;
+  display: flex;
+  justify-content: center;
+
+  ul {
+    display: flex;
+    list-style: none;
+    gap: $spacing-lg;
+
+    @include mobile {
+      gap: $spacing-md;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: $color-white;
+    font-size: 1.1rem;
+    transition: $transition-slow;
+    padding: $spacing-sm 1.5rem;
+    border-radius: $radius-sm;
+
+    &:hover {
+      color: $glass-hover;
+    }
+
+    @include mobile {
+      font-size: 0.9rem;
+      padding: 0.3rem 0.7rem;
+    }
+  }
+
+  @include mobile {
+    width: 92%;
+    padding: 0.6rem 0.8rem;
+    top: 10px;
+  }
+}
+
+// Three Buttons
+.three-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  margin: 8rem 0 4rem 0;
+
+  button {
+    @include glass-effect;
+    color: $color-white;
+    border-radius: $radius-md;
+    padding: $spacing-md $spacing-lg;
+    font-size: 1.1rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: $transition-slow;
+
+    &:hover {
+      color: $glass-hover;
+      background: $glass-highlight;
+    }
+  }
+
+  @include mobile {
+    gap: $spacing-md;
+    padding: 0 $spacing-sm;
+    margin: 2rem 0 $spacing-md 0;
+    top: 13vh;
+
+    button {
+      font-size: 0.9rem;
+      padding: 0.4rem 0.8rem;
+    }
+  }
+}
+
+// Footer
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 1vh;
+  width: 100%;
+  text-align: center;
+  color: $color-white;
+  font-size: 1rem;
+  background: none;
+  margin: 0;
+  padding: 0.7rem 0;
+  z-index: $z-nav;
+
+  @include mobile {
+    font-size: 0.9rem;
+    padding: $spacing-sm 0;
+  }
+}

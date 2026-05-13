@@ -1,0 +1,31 @@
+{
+  "name": "mms_music",
+  "workspaces": [
+    "apps/*"
+  ],
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm:start:frontend\" \"npm:start:backend\"",
+    "start:frontend": "npm run dev --workspace=@mms_music/frontend",
+    "start:backend": "npm start --workspace=@mms_music/backend",
+    "generate:backend": "npx --workspace=@mms_music/backend prisma generate",
+    "migrate:backend": "npx --workspace=@mms_music/backend prisma migrate dev",
+    "seed:backend": "npx --workspace=@mms_music/backend prisma db seed",
+    "prisma:reset": "npx --workspace=@mms_music/backend prisma migrate reset --force --skip-seed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@clerk/types": "^4.96.0",
+    "class-validator-jsonschema": "^5.1.0",
+    "dotenv": "^17.2.3"
+  }
+}

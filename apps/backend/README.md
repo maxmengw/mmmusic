@@ -1,0 +1,3 @@
+PORT=3000
+DATABASE_URL="file:./dev.db"
+FRONTEND_URL=http://localhost:5173

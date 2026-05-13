@@ -1,0 +1,60 @@
+{
+    "title": "Filipino Music",
+    "categories": [
+        {
+            "name": "Moira Dela Torre",
+            "description": "Known for her heartfelt and emotional ballads that capture love, pain, and healing. Her songs often resonate with people going through personal journeys.",
+            "examples": ["Paubaya"]
+        },
+        {
+            "name": "Ben&Ben",
+            "description": "Indie folk-pop band known for poetic storytelling and harmonies that explore love, hope, and self-discovery.",
+            "examples": ["Kathang Isip"]
+        },
+        {
+            "name": "SB19",
+            "description": "P-pop boy group recognized for their powerful performances, inspiring lyrics, and international acclaim representing modern Filipino pop.",
+            "examples": ["MAPA"]
+        },
+        {
+            "name": "Sarah Geronimo",
+            "description": "Pop superstar and actress known for her powerful vocals and versatility across pop, R&B, and dance genres.",
+            "examples": ["Tala"]
+        },
+        {
+            "name": "Zack Tabudlo",
+            "description": "Singer-songwriter and producer with a modern pop and R&B sound, known for his relatable love songs.",
+            "examples": ["Binibini"]
+        },
+        {
+            "name": "IV of Spades",
+            "description": "Funk-pop rock band known for their retro sound, creative visuals, and distinct musical style.",
+            "examples": ["Mundo"]
+        },
+        {
+            "name": "December Avenue",
+            "description": "Alternative rock band known for emotional lyrics and mellow rock melodies that speak about love and heartbreak.",
+            "examples": ["Kung 'Di Rin Lang Ikaw"]
+        },
+        {
+            "name": "Eraserheads",
+            "description": "Iconic Filipino rock band often dubbed as the 'Beatles of the Philippines,' pioneers of 90s Pinoy rock.",
+            "examples": ["Ang Huling El Bimbo"]
+        },
+        {
+            "name": "Juan Karlos",
+            "description": "Singer-songwriter and actor known for his soulful voice and alternative rock sound.",
+            "examples": ["Ere"]
+        },
+        {
+            "name": "Parokya ni Edgar",
+            "description": "Pop rock band known for their humorous lyrics, catchy tunes, and cultural influence in Filipino music.",
+            "examples": ["Harana"]
+        },
+        {
+            "name": "Yeng Constantino",
+            "description": "Singer-songwriter known for her pop-rock anthems that reflect Filipino youth emotions and experiences.",
+            "examples": ["Jeepney Love Story"]
+        }
+    ]
+}

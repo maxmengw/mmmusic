@@ -1,0 +1,42 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('/image/music.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(8, 0, 255, 0.3) 0%, rgba(173, 151, 66, 0.3) 100%);
+    z-index: $z-overlay;
+    pointer-events: none;
+  }
+}
+
+.login-redirecting {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: $color-white;
+  font-size: 1.5rem;
+  z-index: $z-overlay + 1;
+}
+
+.login-error {
+  color: red;
+  margin-top: $spacing-sm;
+  font-size: 1rem;
+}

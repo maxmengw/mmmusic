@@ -1,0 +1,132 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.about-page {
+  min-height: 100vh;
+  background: v.$gradient-background;
+  background-image: url('/image/music.jpg');
+  background-size: cover;
+  background-position: center;
+
+  &::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(8, 0, 255, 0.3) 0%, rgba(173, 151, 66, 0.3) 100%);
+    z-index: v.$z-overlay;
+    pointer-events: none;
+  }
+}
+
+.about-container {
+  position: relative;
+  z-index: v.$z-overlay + 1;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 100px 20px 60px;
+}
+
+.page-title {
+  color: v.$color-white;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: v.$spacing-md;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.about-intro {
+  color: v.$color-white;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: v.$spacing-xl;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  opacity: 0.95;
+  line-height: 1.8;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: v.$spacing-xl;
+}
+
+.about-section {
+  @include m.glass-effect;
+  padding: v.$spacing-lg;
+  border-radius: v.$radius-md;
+}
+
+.section-title {
+  color: v.$color-white;
+  font-size: 2rem;
+  margin-bottom: v.$spacing-lg;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  border-bottom: 2px solid v.$glass-border;
+  padding-bottom: v.$spacing-sm;
+}
+
+.section-text {
+  color: v.$color-white;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  opacity: 0.95;
+}
+
+.features-list,
+.purpose-list {
+  display: flex;
+  flex-direction: column;
+  gap: v.$spacing-lg;
+}
+
+.feature-item,
+.purpose-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: v.$spacing-md;
+  border-radius: v.$radius-sm;
+
+  h3, h4 {
+    color: v.$color-white;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin-bottom: v.$spacing-sm;
+  }
+
+  p {
+    color: v.$color-white;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    opacity: 0.9;
+    line-height: 1.6;
+  }
+}
+
+
+@include m.mobile {
+  .about-container {
+    padding: 80px 16px 40px;
+  }
+
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .about-intro {
+    font-size: 1rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  
+}

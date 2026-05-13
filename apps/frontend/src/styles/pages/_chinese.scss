@@ -1,0 +1,13 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.chinese-music-page {
+  @include theme-gradient($gradient-chinese);
+  min-height: 100vh;
+}
+
+.chinese-music-directory {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 40px;
+}

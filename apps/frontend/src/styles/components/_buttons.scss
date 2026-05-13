@@ -1,0 +1,55 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.back-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: $z-button;
+  @include button-base;
+  color: $color-white;
+
+  &:hover {
+    color: $glass-hover;
+    background: $glass-highlight;
+  }
+
+  @include mobile {
+    top: 10px;
+    left: 10px;
+    padding: 0.6rem $spacing-md;
+    font-size: 0.9rem;
+  }
+}
+
+.add-button {
+  position: fixed;
+  top: $spacing-md;
+  right: $spacing-md;
+  z-index: $z-button;
+  @include button-circle;
+}
+
+.delete-button {
+  position: fixed;
+  top: 5rem;
+  right: $spacing-md;
+  z-index: $z-button;
+  @include button-circle;
+}
+
+.login-button {
+  position: fixed;
+  top: $spacing-md;
+  right: $spacing-md;
+  z-index: $z-button;
+  @include button-circle;
+}
+
+.logout-button {
+  position: fixed;
+  top: $spacing-md;
+  right: $spacing-md;
+  z-index: $z-button;
+  @include button-circle;
+}

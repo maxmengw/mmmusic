@@ -1,0 +1,60 @@
+{
+    "title": "Korean Music",
+    "categories": [
+        {
+            "name": "IU",
+            "description": "Solo artist known for her sweet vocals and emotional ballads. She's considered one of Korea's most beloved singers with a unique storytelling style.",
+            "examples": ["Good Day"]
+        },
+        {
+            "name": "BTS",
+            "description": "Global K-pop sensation and seven-member boy group that has achieved unprecedented international success with their meaningful lyrics and diverse musical styles.",
+            "examples": ["Spring Day"]
+        },
+        {
+            "name": "Busker Busker",
+            "description": "Indie folk band known for their acoustic sound and nostalgic melodies that capture the essence of Korean emotions and seasons.",
+            "examples": ["Cherry Blossom Ending"]
+        },
+        {
+            "name": "BIGBANG",
+            "description": "Pioneering K-pop group that helped define the modern Korean music industry with their self-producing abilities and unique style.",
+            "examples": ["Lies"]
+        },
+        {
+            "name": "Taeyang",
+            "description": "R&B and soul artist, member of BIGBANG, known for his powerful vocals and smooth dance moves with influences from American R&B.",
+            "examples": ["Eyes, Nose, Lips"]
+        },
+        {
+            "name": "TWICE",
+            "description": "Nine-member girl group known for their catchy pop songs, colorful concepts, and synchronized choreography that appeals to a wide audience.",
+            "examples": ["TT"]
+        },
+        {
+            "name": "BLACKPINK",
+            "description": "Four-member girl group known for their fierce image, powerful performances, and blend of pop, hip-hop, and EDM elements.",
+            "examples": ["Whistle"]
+        },
+        {
+            "name": "Wanna One",
+            "description": "Project boy group formed through a survival show, known for their energetic performances and strong fanbase during their active period.",
+            "examples": ["Energetic"]
+        },
+        {
+            "name": "IVE",
+            "description": "Six-member girl group known for their elegant concept and sophisticated pop sound, featuring former IZ*ONE members.",
+            "examples": ["LOVE DIVE"]
+        },
+        {
+            "name": "NewJeans",
+            "description": "Five-member girl group known for their Y2K-inspired concept and minimalist approach to K-pop with a focus on natural vocals.",
+            "examples": ["Hype Boy"]
+        },
+        {
+            "name": "(G)I-DLE",
+            "description": "Six-member self-producing girl group known for their bold concepts, unique sound, and members' involvement in songwriting and composition.",
+            "examples": ["TOMBOY"]
+        }
+    ]
+}

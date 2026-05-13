@@ -1,0 +1,40 @@
+// Colors
+$color-white: #ffffff;
+$color-black: #000000;
+
+// Gradients - Background
+$gradient-background: linear-gradient(135deg, #0800ff 0%, #ad9742 100%);
+
+// Gradients - Country Themes
+$gradient-korean: linear-gradient(to bottom, #cd2e3a 0%, #0047a0 100%);
+$gradient-chinese: linear-gradient(to bottom, #f40002 0%, #c6c30f 100%);
+$gradient-filipino: linear-gradient(to bottom, #FCDD09 0%, #0038A8 50%, #CE1126 100%);
+
+// Glass Effect
+$glass-bg: rgba(255, 255, 255, 0.2);
+$glass-border: rgba(255, 255, 255, 0.2);
+$glass-highlight: rgba(255, 255, 255, 0.3);
+$glass-hover: rgba(211, 211, 211, 0.8);
+
+// Spacing
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 2rem;
+$spacing-xl: 3rem;
+
+// Border
+$radius-sm: 15px;
+$radius-md: 30px;
+$radius-circle: 50%;
+
+// Transitions
+$transition-fast: all 0.2s ease;
+$transition-normal: all 0.3s ease;
+$transition-slow: all 0.5s ease;
+
+
+$z-base: 1;
+$z-overlay: 2;
+$z-modal: 999;
+$z-button: 1000;
+$z-nav: 1000;

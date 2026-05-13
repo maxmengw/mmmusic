@@ -1,0 +1,127 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.glass-toast {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: $radius-md !important;
+  backdrop-filter: blur(5px) !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+  color: $color-white !important;
+  padding: $spacing-md !important;
+  font-family: "Inter", sans-serif !important;
+  
+  & > div {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+  & > div > div:first-child {
+    display: none !important;
+  }
+  
+  svg {
+    display: none !important;
+  }
+  
+  & > div > div:last-child {
+    color: $color-white !important;
+    font-family: "Inter", sans-serif !important;
+  }
+  
+  span, div {
+    color: $color-white !important;
+    font-family: "Inter", sans-serif !important;
+  }
+}
+
+.glass-toast-success {
+  background: rgba(74, 222, 128, 0.2) !important;
+  backdrop-filter: blur(5px) !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+  border: 1px solid rgba(74, 222, 128, 0.3) !important;
+  border-left: none !important;
+  box-shadow: none !important;
+  
+  & > div {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+  svg {
+    display: none !important;
+  }
+  
+  & > div > div:first-child {
+    display: none !important;
+  }
+}
+
+.glass-toast-error {
+  background: rgba(248, 113, 113, 0.2) !important;
+  backdrop-filter: blur(5px) !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+  border: 1px solid rgba(248, 113, 113, 0.3) !important;
+  border-left: none !important;
+  box-shadow: none !important;
+  
+  & > div {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+  & > div > div:first-child {
+    display: none !important;
+  }
+  
+  svg {
+    display: none !important;
+  }
+}
+
+div[class*="react-hot-toast"],
+div[data-hot-toast],
+div[role="status"],
+[class*="react-hot-toast"] {
+  &[class*="glass-toast"],
+  &.glass-toast {
+    background: transparent !important;
+    border: none !important;
+    border-left: none !important;
+    box-shadow: none !important;
+    font-family: "Inter", sans-serif !important;
+    
+    & > div {
+      background: transparent !important;
+      border: none !important;
+      border-left: none !important;
+      box-shadow: none !important;
+      font-family: "Inter-thin", sans-serif !important;
+    }
+    
+    & > div > div:first-child,
+    & > div > span:first-child {
+      display: none !important;
+      border-left: none !important;
+    }
+    
+    svg {
+      display: none !important;
+    }
+  }
+  
+  &[class*="glass-toast-success"],
+  &[class*="glass-toast-error"] {
+    border-left: none !important;
+    font-family: "Inter-thin", sans-serif !important;
+    
+    & > div {
+      border-left: none !important;
+      font-family: "Inter-thin", sans-serif !important;
+    }
+  }
+}

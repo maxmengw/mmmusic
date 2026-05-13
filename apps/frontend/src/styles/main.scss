@@ -1,0 +1,42 @@
+// Abstracts
+@use 'abstracts/variables' as *;
+@use 'abstracts/mixins' as *;
+
+// Base
+@use 'base/reset';
+@use 'base/typography';
+
+// Layouts
+@use 'layouts/landing';
+
+// Components
+@use 'components/buttons';
+@use 'components/forms';
+@use 'components/modals';
+@use 'components/musicplayer';
+@use 'components/SearchModal';
+@use 'components/playlistmodal';
+@use 'components/toast';
+
+// Pages
+@use 'pages/filipino';
+@use 'pages/korean';
+@use 'pages/chinese';
+@use 'pages/login';
+@use 'pages/contact';
+@use 'pages/about';
+@use 'pages/notfound';
+
+// Export CSS Variables for React Inline Styles
+:root {
+  --background-gradient: #{$gradient-background};
+  --korean-gradient: #{$gradient-korean};
+  --chinese-gradient: #{$gradient-chinese};
+  --filipino-gradient: #{$gradient-filipino};
+  --text-white: #{$color-white};
+  --text-black: #{$color-black};
+  --glass-bg: #{$glass-bg};
+  --glass-border: #{$glass-border};
+  --glass-highlight: #{$glass-highlight};
+  --nav-hover-accent: #{$glass-hover};
+}

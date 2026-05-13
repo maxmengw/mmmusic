@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "target": "ESNext",
+  "module": "ESNext",
+  "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "paths": {
+      "@shared/*": ["../../shared/*"]
+    },
+    "skipLibCheck": true
+  },
+  "include": ["src", "vite.config.ts"],
+  "exclude": ["node_modules", "dist"]
+}

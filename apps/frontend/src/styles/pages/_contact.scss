@@ -1,0 +1,99 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.contact-page {
+  background: $gradient-background;
+  background-image: url('/image/music.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(8, 0, 255, 0.3) 0%, rgba(173, 151, 66, 0.3) 100%);
+    z-index: $z-overlay;
+    pointer-events: none;
+  }
+}
+
+.contact-content {
+  position: relative;
+  @include glass-effect;
+  padding: 30px;
+  border-radius: $radius-md;
+  max-width: 450px;
+  width: 100%;
+  z-index: $z-overlay + 1;
+
+  h1 {
+    color: $color-white;
+    margin-bottom: 0.3rem;
+    text-align: center;
+  }
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.form-component {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+
+  label {
+    color: $color-white;
+    font-size: 1rem;
+  }
+
+  input,
+  textarea {
+    padding: $spacing-sm 0.8rem;
+    border: 1px solid $glass-border;
+    border-radius: $radius-md;
+    background: $glass-bg;
+    backdrop-filter: blur(5px);
+    color: $color-white;
+    font-size: 0.9rem;
+
+    &::placeholder {
+      color: $color-white;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  textarea {
+    resize: vertical;
+    border-radius: $radius-md;
+  }
+}
+
+.submit-button {
+  background: $glass-bg;
+  color: $color-white;
+  border: 1px solid $glass-border;
+  border-radius: $radius-md;
+  padding: $spacing-md $spacing-lg;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: $transition-slow;
+
+  &:hover {
+    color: $glass-hover;
+    background: $glass-highlight;
+  }
+}
