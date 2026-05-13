@@ -5,9 +5,8 @@ import setupSwagger from "./config/swagger";
 import cors from "cors";
 import corsOptions from "./config/cors";
 import { clerkMiddleware } from "@clerk/express";
-import koreanMusicRoutes from "./routes/koreanMusicRoutes";
+import musicRoutes from "./routes/musicRoutes";
 import youtubeMusicRoutes from "./routes/youtubeMusicRoutes";
-import "./api/v1/controllers/koreanMusicController";
 
 dotenv.config();
 
@@ -18,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(morgan("combined"));
 app.use(clerkMiddleware());
-app.use("/api/v1", koreanMusicRoutes);
+app.use("/api/v1", musicRoutes);
 app.use("/api/v1", youtubeMusicRoutes);
 
 setupSwagger(app);

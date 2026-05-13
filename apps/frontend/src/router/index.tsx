@@ -4,7 +4,7 @@ import Login from "../components/pages/Login"
 import Landing from "../components/layout/Landing";
 import About from "../components/pages/About";
 import Contact from "../components/pages/Contact";
-import KoreanMusic from "../components/pages/musicpages/KoreanMusic";
+import Music from "../components/pages/musicpages/Music";
 import MusicPlayerBar from "../components/layout/MusicPlayerBar";
 import NotFound from "../components/pages/NotFound";
 
@@ -42,13 +42,13 @@ const routerConfigs: RouterConfig[] = [
     },
     {
         path: "/ChineseMusic",
-        element: <KoreanMusic />,
+        element: <Music />,
         requireAuth: true,
         layout: true
     },
     {
-        path: "/KoreanMusic",
-        element: <KoreanMusic />,
+        path: "/Music",
+        element: <Music />,
         requireAuth: true,
         layout: true
     },

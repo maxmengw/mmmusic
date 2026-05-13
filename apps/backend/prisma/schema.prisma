@@ -12,12 +12,12 @@ model User {
   clerkId       String         @unique
   createdAt     DateTime       @default(now())
   updatedAt     DateTime       @updatedAt
-  koreanMusics  KoreanMusic[]
+  musics        Music[]
   youtubeMusics YouTubeMusic[]
   playlistItems PlaylistItem[]
 }
 
-model KoreanMusic {
+model Music {
   id          String   @id @default(uuid())
   name        String
   description String

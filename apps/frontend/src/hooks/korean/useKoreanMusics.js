@@ -1,18 +1,14 @@
 import { useState, useEffect } from 'react';
 import { useAuth } from '@clerk/clerk-react';
 import * as MusicService from '../../services/music/musicService';
-import type { MusicData } from '@shared/types/MusicData';
-
 export function useKoreanMusics() {
-    const [data, setData] = useState<MusicData | null>(null);
+    const [data, setData] = useState(null);
     const { getToken, isSignedIn } = useAuth();
-
     const fetchData = async () => {
         if (!isSignedIn) {
             setData(null);
             return;
         }
-
         try {
             const sessionToken = await getToken();
             if (!sessionToken) {
@@ -21,16 +17,15 @@ export function useKoreanMusics() {
             }
             const result = await MusicService.getMusics(sessionToken);
             setData(result);
-        } catch (error) {
+        }
+        catch (error) {
             console.error('Failed to load music data', error);
             setData(null);
         }
     };
-
     useEffect(() => {
         fetchData();
     }, [isSignedIn, getToken]);
-
     return {
         data,
         refetch: fetchData

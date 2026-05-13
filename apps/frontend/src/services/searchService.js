@@ -1,34 +1,19 @@
-import type { MusicData } from '@shared/types/MusicData';
 import * as KoreanMusicService from './music/musicService';
-
-export interface SearchResult {
-    country: string;
-    categoryName: string;
-    categoryDescription: string;
-    examples: string[];
-    matchType: 'category' | 'example' | 'description';
-}
-
-export const getAllMusicData = async (sessionToken?: string): Promise<MusicData[]> => {
+export const getAllMusicData = async (sessionToken) => {
     const musicData = await KoreanMusicService.getMusics(sessionToken);
     return [musicData];
 };
-
-export const searchMusic = async (query: string, sessionToken?: string): Promise<SearchResult[]> => {
+export const searchMusic = async (query, sessionToken) => {
     if (!query.trim() || query.length < 2) {
         return [];
     }
-
-    const results: SearchResult[] = [];
+    const results = [];
     const allMusicData = await getAllMusicData(sessionToken);
     const lowercaseQuery = query.toLowerCase();
-
     allMusicData.forEach(musicData => {
         const country = extractCountryName(musicData.title);
-        
         musicData.categories.forEach(category => {
             const match = findMatchInCategory(category, lowercaseQuery);
-            
             if (match.hasMatch) {
                 results.push({
                     country,
@@ -40,17 +25,13 @@ export const searchMusic = async (query: string, sessionToken?: string): Promise
             }
         });
     });
-
     return sortSearchResults(results);
 };
-
-export const getAllCategories = async (sessionToken?: string): Promise<SearchResult[]> => {
+export const getAllCategories = async (sessionToken) => {
     const allMusicData = await getAllMusicData(sessionToken);
-    const results: SearchResult[] = [];
-
+    const results = [];
     allMusicData.forEach(musicData => {
         const country = extractCountryName(musicData.title);
-        
         musicData.categories.forEach(category => {
             results.push({
                 country,
@@ -61,47 +42,33 @@ export const getAllCategories = async (sessionToken?: string): Promise<SearchRes
             });
         });
     });
-
     return results;
 };
-
-const extractCountryName = (title: string): string => {
-    return title.replace(" Music", ""); 
+const extractCountryName = (title) => {
+    return title.replace(" Music", "");
 };
-
-const findMatchInCategory = (category: any, query: string): { hasMatch: boolean; matchType: 'category' | 'example' | 'description' } => {
+const findMatchInCategory = (category, query) => {
     const categoryNameMatch = category.name.toLowerCase().includes(query);
-    
     if (categoryNameMatch) {
         return { hasMatch: true, matchType: 'category' };
     }
-    
-    const exampleMatches = category.examples.some((example: string) => 
-        example.toLowerCase().includes(query)
-    );
-    
+    const exampleMatches = category.examples.some((example) => example.toLowerCase().includes(query));
     if (exampleMatches) {
         return { hasMatch: true, matchType: 'example' };
     }
-    
     const descriptionMatch = category.description.toLowerCase().includes(query);
-    
     if (descriptionMatch) {
         return { hasMatch: true, matchType: 'description' };
     }
-    
     return { hasMatch: false, matchType: 'category' };
 };
-
-
-const sortSearchResults = (results: SearchResult[]): SearchResult[] => {
+const sortSearchResults = (results) => {
     const priority = { 'category': 3, 'example': 2, 'description': 1 };
-    
     return results.sort((a, b) => {
         // First by match type priority
         const priorityDiff = priority[b.matchType] - priority[a.matchType];
-        if (priorityDiff !== 0) return priorityDiff;
-        
+        if (priorityDiff !== 0)
+            return priorityDiff;
         // Then by country alphabetically
         return a.country.localeCompare(b.country);
     });

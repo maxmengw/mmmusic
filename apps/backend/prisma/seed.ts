@@ -1,5 +1,5 @@
 import prisma from "./client";
-import koreaMusicData from "../../../shared/data/koreanMusicData.json";
+import musicData from "../../../shared/data/musicData.json";
 import youtubeMusicData from "../../../shared/data/youtubeMusicsList.json";
 
 async function main() {
@@ -17,11 +17,11 @@ main()
 	});
 
 async function seedData() {
-	await prisma.koreanMusic.deleteMany();
+	await prisma.music.deleteMany();
 	console.log("Seeding...");
 
-	for (const name of koreaMusicData.categories) {
-		await prisma.koreanMusic.create({
+	for (const name of musicData.categories) {
+		await prisma.music.create({
 			data: {
 				name: name.name,
 				description: name.description,
