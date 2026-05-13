@@ -1,6 +1,4 @@
 import type { MusicData } from '@shared/types/MusicData';
-import * as ChineseMusicService  from "./chinese/chineseMusicService";
-import * as FilipinoMusicService from './filipino/filipinoMusicService';
 import * as KoreanMusicService from './korean/koreanMusicService';
 
 export interface SearchResult {
@@ -13,9 +11,7 @@ export interface SearchResult {
 
 export const getAllMusicData = async (sessionToken?: string): Promise<MusicData[]> => {
     const koreanMusicData = await KoreanMusicService.getKoreaMusics(sessionToken);
-    const chineseMusicData = await ChineseMusicService.getChineseMusics(sessionToken);
-    const filipinoMusicData = await FilipinoMusicService.getFilipinoMusics(sessionToken);
-    return [chineseMusicData, koreanMusicData, filipinoMusicData];
+    return [koreanMusicData];
 };
 
 export const searchMusic = async (query: string, sessionToken?: string): Promise<SearchResult[]> => {

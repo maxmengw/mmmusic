@@ -1,7 +1,5 @@
 import prisma from "./client";
 import koreaMusicData from "../../../shared/data/koreanMusicData.json";
-import chineseMusicData from "../../../shared/data/chineseMusicData.json";
-import filipinoMusicData from "../../../shared/data/filipinoMusicData.json";
 import youtubeMusicData from "../../../shared/data/youtubeMusicsList.json";
 
 async function main() {
@@ -20,8 +18,6 @@ main()
 
 async function seedData() {
 	await prisma.koreanMusic.deleteMany();
-	await prisma.chineseMusic.deleteMany();
-	await prisma.filipinoMusic.deleteMany();
 	console.log("Seeding...");
 
 	for (const name of koreaMusicData.categories) {
@@ -30,24 +26,6 @@ async function seedData() {
 				name: name.name,
 				description: name.description,
 				examples: name.examples,
-			},
-		});
-	}
-	for (const name of chineseMusicData.categories) {
-		await prisma.chineseMusic.create({
-			data: {
-				name: name.name,
-				description: name.description,
-				examples: name.examples,
-			},
-		});
-	}
-	for (const category of filipinoMusicData.categories) {
-		await prisma.filipinoMusic.create({
-			data: {
-				name: category.name,
-				description: category.description,
-				examples: category.examples,
 			},
 		});
 	}

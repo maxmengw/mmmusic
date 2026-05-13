@@ -39,10 +39,6 @@ const setupSwagger = (app: Express): void => {
 	const requestBodyConfig = [
 		{ path: "/api/v1/koreanmusic/add", method: "post", schema: "AddKoreanToExampleDto" },
 		{ path: "/api/v1/koreanmusic/delete", method: "delete", schema: "DeleteKoreanFromExampleDto" },
-		{ path: "/api/v1/chinesemusic/add", method: "post", schema: "AddChineseToExampleDto" },
-		{ path: "/api/v1/chinesemusic/delete", method: "delete", schema: "DeleteChineseFromExampleDto" },
-		{ path: "/api/v1/filipinomusic/add", method: "post", schema: "AddFilipinoToExampleDto" },
-		{ path: "/api/v1/filipinomusic/delete", method: "delete", schema: "DeleteFilipinoFromExampleDto" },
 		{ path: "/api/v1/playlist/add", method: "post", schema: "AddToPlaylistDto" },
 	];
 	
@@ -62,8 +58,6 @@ const setupSwagger = (app: Express): void => {
 
 	const getEndpointsConfig = [
 		{ path: "/api/v1/koreanmusic", method: "get" },
-		{ path: "/api/v1/chinesemusic", method: "get" },
-		{ path: "/api/v1/filipinomusic", method: "get" },
 		{ path: "/api/v1/youtubemusicslist", method: "get" },
 		{ path: "/api/v1/playlist", method: "get" },
 	];

@@ -13,8 +13,6 @@ model User {
   createdAt     DateTime       @default(now())
   updatedAt     DateTime       @updatedAt
   koreanMusics  KoreanMusic[]
-  chineseMusics ChineseMusic[]
-  filipinoMusics FilipinoMusic[]
   youtubeMusics YouTubeMusic[]
   playlistItems PlaylistItem[]
 }
@@ -28,23 +26,7 @@ model KoreanMusic {
   user        User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
-model ChineseMusic {
-  id          String   @id @default(uuid())
-  name        String
-  description String
-  examples    Json
-  userId      String?
-  user        User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
-}
-
-model FilipinoMusic {
-  id          String   @id @default(uuid())
-  name        String
-  description String
-  examples    Json
-  userId      String?
-  user        User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
-}
+// ChineseMusic and FilipinoMusic models removed during refactor; only KoreanMusic kept
 
 model YouTubeMusic {
   id            String         @id @default(uuid())
