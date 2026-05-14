@@ -40,10 +40,19 @@
 
 .login-button {
   position: fixed;
-  top: $spacing-md;
-  right: $spacing-md;
+  left: 50%;
+  bottom: 12vh;
+  transform: translateX(-50%);
   z-index: $z-button;
-  @include button-circle;
+  @include button-base;
+  color: $color-white;
+  min-width: 160px;
+  text-align: center;
+
+  &:hover {
+    color: $glass-hover;
+    background: $glass-highlight;
+  }
 }
 
 .logout-button {

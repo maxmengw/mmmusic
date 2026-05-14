@@ -1,5 +1,5 @@
 import type { MusicData } from '@shared/types/MusicData';
-import * as KoreanMusicService from './music/musicService';
+import * as MusicService from './music/musicService';
 
 export interface SearchResult {
     country: string;
@@ -10,7 +10,7 @@ export interface SearchResult {
 }
 
 export const getAllMusicData = async (sessionToken?: string): Promise<MusicData[]> => {
-    const musicData = await KoreanMusicService.getMusics(sessionToken);
+    const musicData = await MusicService.getMusics(sessionToken);
     return [musicData];
 };
 

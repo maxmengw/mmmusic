@@ -1,29 +1,29 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "../layout/Header";
-import { SignInButton, SignedIn, SignedOut, useAuth } from "@clerk/clerk-react";
+import { SignInButton, useAuth } from "@clerk/clerk-react";
 
 export default function Login() {
     const navigate = useNavigate();
-    const { isSignedIn } = useAuth();
+    const { isSignedIn, isLoaded } = useAuth();
 
     useEffect(() => {
-        if (isSignedIn) {
+        if (isLoaded && isSignedIn) {
             navigate("/Landing");
         }
-    }, [isSignedIn, navigate]);
+    }, [isLoaded, isSignedIn, navigate]);
 
     return (
         <div className="login-page">
             <Header />
-            <SignedOut>
+            {!isSignedIn && (
                 <SignInButton mode="modal">
                     <button className="login-button inter-thin">Sign In</button>
                 </SignInButton>
-            </SignedOut>
-            <SignedIn>
+            )}
+            {isSignedIn && (
                 <p className="login-redirecting">Redirecting...</p>
-            </SignedIn>
+            )}
         </div>
     );
 }

@@ -1,5 +1,7 @@
 # MMS Music
 
+React (Vite) + Node/Express (TypeScript) + Prisma + PostgreSQL + Clerk
+
 A full-stack music memo and playlist manager featuring curated music collections with personalized user libraries.
 
 **Live Demo:** [mms-music-frontend.vercel.app](https://mms-music-frontend.vercel.app)

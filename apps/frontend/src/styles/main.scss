@@ -21,7 +21,6 @@
 // Pages
 @use 'pages/music';
 @use 'pages/filipino';
-@use 'pages/korean';
 @use 'pages/chinese';
 @use 'pages/login';
 @use 'pages/contact';
@@ -32,7 +31,6 @@
 :root {
   --background-gradient: #{$gradient-background};
   --music-gradient: #{$gradient-music};
-  --korean-gradient: #{$gradient-korean};
   --chinese-gradient: #{$gradient-chinese};
   --filipino-gradient: #{$gradient-filipino};
   --text-white: #{$color-white};

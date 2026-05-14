@@ -26,7 +26,7 @@ model Music {
   user        User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
-// ChineseMusic and FilipinoMusic models removed during refactor; only KoreanMusic kept
+// ChineseMusic and FilipinoMusic models removed during refactor
 
 model YouTubeMusic {
   id            String         @id @default(uuid())
