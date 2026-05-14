@@ -2,7 +2,7 @@
 @use '../abstracts/mixins' as *;
 
 .korean-music-page {
-  @include theme-gradient($gradient-korean);
+  @include theme-gradient($gradient-music);
   min-height: 100vh;
 }
 
