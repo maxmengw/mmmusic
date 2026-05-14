@@ -19,6 +19,7 @@
 @use 'components/toast';
 
 // Pages
+@use 'pages/music';
 @use 'pages/filipino';
 @use 'pages/korean';
 @use 'pages/chinese';
@@ -30,6 +31,7 @@
 // Export CSS Variables for React Inline Styles
 :root {
   --background-gradient: #{$gradient-background};
+  --music-gradient: #{$gradient-music};
   --korean-gradient: #{$gradient-korean};
   --chinese-gradient: #{$gradient-chinese};
   --filipino-gradient: #{$gradient-filipino};

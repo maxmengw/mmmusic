@@ -5,7 +5,7 @@
  * User picks a category, sees checkboxes for all examples,
  * then selects what to delete, then submits.
  * 
- * Works for Filipino, Korean, and Chinese pages.
+ * Works for any music category page.
  * This Component only handles the UI, parent handles calling the service/repo 
  */
 

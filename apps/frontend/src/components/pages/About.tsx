@@ -8,16 +8,16 @@ export default function About() {
       <div className="about-container">
         <h1 className="page-title">About MMS Music</h1>
         <p className="about-intro">
-          让音乐连接世界 • Iba't ibang Kultura, Isang Musika • 음악으로 문화를 연결하다
+          Discover Music Across Cultures • 让音乐连接世界 • 문화와 음악이 만나는 곳
         </p>
 
         <div className="about-content">
           <section className="about-section">
             <h2 className="section-title">What is MMS Music?</h2>
             <p className="section-text">
-              MMS Music is a user-friendly, cross‑cultural music memo. It helps you quickly save and organize the
-              songs you love across Chinese, Korean, and Filipino music. Paste a YouTube URL or video ID to attach
-              a playable link and collect it into your personal playlist—simple, lightweight, and made for everyday use.
+              MMS Music is a user-friendly music memo and playlist manager. It helps you quickly save and organize
+              the songs you love. Paste a YouTube URL or video ID to attach a playable link and collect it into your
+              personal playlist—simple, lightweight, and made for everyday use.
             </p>
           </section>
 
@@ -29,8 +29,8 @@ export default function About() {
                 <p>Paste a YouTube URL or video ID to save any song you like into your playlist in seconds.</p>
               </div>
               <div className="feature-item">
-                <h3>Add From Culture Pages</h3>
-                <p>Add songs you like directly from the Chinese, Korean, or Filipino pages into your own list.</p>
+                <h3>Browse Music Categories</h3>
+                <p>Explore curated music categories and add songs you like directly to your own list.</p>
               </div>
               <div className="feature-item">
                 <h3>Open on YouTube</h3>
@@ -41,8 +41,8 @@ export default function About() {
                 <p>Collect your favorites in one place. We merge your picks with a few starter examples for easy playback.</p>
               </div>
               <div className="feature-item">
-                <h3>Cross‑culture Explorer</h3>
-                <p>Browse sample categories across Chinese, Korean, and Filipino music to find new inspirations.</p>
+                <h3>Music Discovery</h3>
+                <p>Browse diverse music selections and find new inspirations with an easy-to-use interface.</p>
               </div>
               <div className="feature-item">
                 <h3>Lightweight Search</h3>
@@ -59,8 +59,8 @@ export default function About() {
                 <p>Help you remember, revisit, and organize songs you love—across cultures—without complexity.</p>
               </div>
               <div className="purpose-item">
-                <h4>Cross‑cultural Listening</h4>
-                <p>Make it effortless to collect and play music from Chinese, Korean, and Filipino traditions in one place.</p>
+                <h4>Easy Music Management</h4>
+                <p>Make it effortless to collect, organize, and play your favorite music in one place.</p>
               </div>
             </div>
           </section>

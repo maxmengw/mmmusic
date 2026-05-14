@@ -2,7 +2,7 @@ import type { MusicData } from '@shared/types/MusicData';
 export default function KoreanMusicIntro({data}: { data: MusicData }) {
     return (
         <div>
-            <main className="korean-music-directory">
+            <main className="music-directory">
                 <h2 className="page-title">{data.title}</h2>
                 <div className="categories-grid">
                     {data.categories.map((category, index) => (

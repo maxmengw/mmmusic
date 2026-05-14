@@ -1,6 +1,6 @@
 # MMS Music
 
-A full-stack music streaming platform featuring curated Filipino, Korean, and Chinese music collections with personalized user libraries.
+A full-stack music memo and playlist manager featuring curated music collections with personalized user libraries.
 
 **Live Demo:** [mms-music-frontend.vercel.app](https://mms-music-frontend.vercel.app)
 
@@ -20,7 +20,7 @@ A full-stack music streaming platform featuring curated Filipino, Korean, and Ch
 
 - Secure authentication and user sessions
 - Personal music collections per user
-- Browse Filipino, Korean, and Chinese music
+- Browse curated music categories
 - Real-time search across all categories
 - Add/remove songs from your library
 - YouTube playlist integration
@@ -177,9 +177,9 @@ All endpoints require `Authorization: Bearer <token>` header.
 | GET | `/filipinomusic` | Get Filipino music |
 | POST | `/filipinomusic/add` | Add Filipino song |
 | DELETE | `/filipinomusic/delete` | Delete Filipino song |
-| GET | `/koreanmusic` | Get Korean music |
-| POST | `/koreanmusic/add` | Add Korean song |
-| DELETE | `/koreanmusic/delete` | Delete Korean song |
+| GET | `/api/v1/music` | Get music categories |
+| POST | `/api/v1/music/add` | Add music to category |
+| DELETE | `/api/v1/music/delete` | Delete music from category |
 | GET | `/chinesemusic` | Get Chinese music |
 | POST | `/chinesemusic/add` | Add Chinese song |
 | DELETE | `/chinesemusic/delete` | Delete Chinese song |

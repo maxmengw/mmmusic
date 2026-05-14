@@ -1,5 +1,5 @@
 export const swaggerSchemas = {
-	AddKoreanToExampleDto: {
+	AddMusicToExampleDto: {
 		type: "object",
 		required: ["name", "example"],
 		properties: {
@@ -17,7 +17,7 @@ export const swaggerSchemas = {
 		},
 	},
 
-	DeleteKoreanFromExampleDto: {
+	DeleteMusicFromExampleDto: {
 		type: "object",
 		required: ["name", "example"],
 		properties: {

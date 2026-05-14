@@ -12,7 +12,7 @@
  * Why: easy to maintain and expandable code by hook-service-repository architecture
  * - Expandable to add new features or switch to real DB
  * - Maintainable to fix bugs and current code by seperating tasks to various layers
- * - Reusable to use in other music pages (Korean/Chinese/Filipino) by hook-service-repository architecture
+ * - Reusable component across music pages using hook-service-repository architecture
  */
 import YouTube from 'react-youtube';
 import { useYouTube } from '../../hooks/music/useYoutube';

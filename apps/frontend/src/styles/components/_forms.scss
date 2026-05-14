@@ -9,7 +9,11 @@
   backdrop-filter: blur(5px);
   font-family: "Inter", sans-serif;
 
-  // Cultural Themed Backgrounds - China, Korea, Philippines
+  // Cultural Themed Backgrounds
+  &.music-form {
+    background: $gradient-music;
+  }
+
   &.chinese-form {
     background: $gradient-chinese;
   }

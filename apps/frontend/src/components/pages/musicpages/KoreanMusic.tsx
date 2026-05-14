@@ -38,7 +38,7 @@ export default function KoreanMusic() {
 
     if (!data || !data.categories || data.categories.length === 0) {
         return (
-            <div className="korean-music-page">
+            <div className="music-page">
                 <HomeButton />
                 <div className="no-data-message">No Data</div>
             </div>
@@ -46,7 +46,7 @@ export default function KoreanMusic() {
     }
 
     return (
-        <div className="korean-music-page">
+        <div className="music-page">
             <HomeButton />
             <KoreanMusicList data={data} />
 
@@ -55,7 +55,7 @@ export default function KoreanMusic() {
             </button>
             <Modal isOpen={showAddModal} onClose={() => setShowAddModal(false)}>
                 <AddForm 
-                    className='korean-form'
+                    className='music-form'
                     field1Label='name'
                     field2Label='example'
                     field1Options={nameOptions}
@@ -69,7 +69,7 @@ export default function KoreanMusic() {
             </button>
             <Modal isOpen={showDeleteModal} onClose={() => setShowDeleteModal(false)}>
                 <DeleteForm
-                    className="korean-form"
+                    className="music-form"
                     categoryLabel="Category"
                     exampleLabel="Example"
                     categories={data.categories}
