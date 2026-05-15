@@ -7,9 +7,14 @@ export default function ThreeButtons() {
         navigate("/Music");
     };
 
+    const handleNavigateMusicMap = () => {
+        navigate("/MusicMap");
+    };
+
     return (
         <div className="three-buttons">
             <button className="inter-thin" onClick={handleNavigateMusic}>Music</button>
+            <button className="inter-thin" onClick={handleNavigateMusicMap}>Music Map</button>
         </div>
     );
 }

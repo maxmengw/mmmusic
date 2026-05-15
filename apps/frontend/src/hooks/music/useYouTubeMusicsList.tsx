@@ -17,8 +17,6 @@ export function useYouTubeMusicsList() {
 
         try {
             const sessionToken = await getToken();
-            // DEBUG: log token presence (only prefix)
-            try { console.debug('useYouTubeMusicsList: isSignedIn=', isSignedIn, 'tokenPresent=', !!sessionToken, 'tokenPrefix=', sessionToken ? sessionToken.slice(0,10) : null); } catch (e) {}
             if (!sessionToken) {
                 setMusics([]);
                 setPlaylist([]);

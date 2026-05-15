@@ -23,8 +23,6 @@ export function useSearch(isOpen: boolean) {
 
         const loadData = async () => {
             const sessionToken = await getToken();
-            // DEBUG: print sign-in/token status (only prefix of token)
-            try { console.debug('useSearch: isSignedIn=', isSignedIn, 'tokenPresent=', !!sessionToken, 'tokenPrefix=', sessionToken ? sessionToken.slice(0,10) : null); } catch (e) {}
             if (!sessionToken) {
                 setSearchResults([]);
                 setIsLoading(false);

@@ -5,6 +5,7 @@ import Landing from "../components/layout/Landing";
 import About from "../components/pages/About";
 import Contact from "../components/pages/Contact";
 import Music from "../components/pages/musicpages/Music";
+import MusicMap from "../components/pages/musicpages/MusicMap";
 import MusicPlayerBar from "../components/layout/MusicPlayerBar";
 import NotFound from "../components/pages/NotFound";
 
@@ -49,6 +50,12 @@ const routerConfigs: RouterConfig[] = [
     {
         path: "/Music",
         element: <Music />,
+        requireAuth: true,
+        layout: true
+    },
+    {
+        path: "/MusicMap",
+        element: <MusicMap />,
         requireAuth: true,
         layout: true
     },
