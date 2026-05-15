@@ -68,10 +68,10 @@ export default function MusicMap() {
                     if (lat && lng) setSelectedCountryCoords({ lat, lng });
                     // fetch a placeholder country image (static mapping for MVP)
                     const imgMap: Record<string, string> = {
-                      canada: '/images/flags/canada.jpg',
-                      japan: '/images/flags/japan.jpg',
-                      brazil: '/images/flags/brazil.jpg',
-                      nigeria: '/images/flags/nigeria.jpg',
+                      canada: '/images/flags/canada.svg',
+                      japan: '/images/flags/japan.svg',
+                      brazil: '/images/flags/brazil.svg',
+                      nigeria: '/images/flags/nigeria.svg',
                     };
                     setCountryImageUrl(imgMap[code] ?? null);
                   }}
