@@ -11,6 +11,8 @@ function buildYouTubeSearchUrl(song: MusicMapSong) {
 export default function MusicMap() {
   const [selectedEra, setSelectedEra] = useState<MusicMapEra>('2020s');
   const [selectedCountryCode, setSelectedCountryCode] = useState('');
+  const [selectedCountryCoords, setSelectedCountryCoords] = useState<{ lat: number; lng: number } | null>(null);
+  const [countryImageUrl, setCountryImageUrl] = useState<string | null>(null);
 
   const selectedCountry = useMemo<MusicMapCountry | undefined>(() => {
     return MUSIC_MAP_COUNTRIES.find((country) => country.code === selectedCountryCode);
@@ -59,13 +61,29 @@ export default function MusicMap() {
                 <GlobeMap
                   countries={MUSIC_MAP_COUNTRIES}
                   selectedCountryCode={selectedCountry?.code}
-                  onSelectCountry={(code) => setSelectedCountryCode(code)}
+                  onSelectCountry={(code, lat, lng) => {
+                    setSelectedCountryCode(code);
+                    if (lat && lng) setSelectedCountryCoords({ lat, lng });
+                    // fetch a placeholder country image (static mapping for MVP)
+                    const imgMap: Record<string, string> = {
+                      canada: '/images/flags/canada.jpg',
+                      japan: '/images/flags/japan.jpg',
+                      brazil: '/images/flags/brazil.jpg',
+                      nigeria: '/images/flags/nigeria.jpg',
+                    };
+                    setCountryImageUrl(imgMap[code] ?? null);
+                  }}
                 />
               </div>
             </div>
 
             {selectedCountry && (
-              <aside className="music-map-panel is-floating" aria-label="Selected country details">
+              <aside className={`music-map-panel is-floating ${countryImageUrl ? 'has-image' : ''}`} aria-label="Selected country details">
+                {countryImageUrl && (
+                  <div className="country-image">
+                    <img src={countryImageUrl} alt={`${selectedCountry.name} image`} />
+                  </div>
+                )}
                 <div className="country-summary">
                   <div className="country-summary-top">
                     <span className="country-region">{selectedCountry.region}</span>

@@ -6,7 +6,8 @@ import type { MusicMapCountry } from '@shared/types/musicMap';
 type GlobeMapProps = {
   countries: MusicMapCountry[];
   selectedCountryCode?: string;
-  onSelectCountry: (code: string) => void;
+  // pass coordinates back so caller can load images / position overlays
+  onSelectCountry: (code: string, lat?: number, lng?: number) => void;
 };
 
 export default function GlobeMap({ countries, selectedCountryCode, onSelectCountry }: GlobeMapProps) {
@@ -82,7 +83,27 @@ export default function GlobeMap({ countries, selectedCountryCode, onSelectCount
           const point = obj as PointData;
           return `${point.country.name}: ${point.country.region}`;
         }}
-        onPointClick={(point: object) => onSelectCountry((point as PointData).country.code)}
+        onPointClick={(point: object) => {
+          const p = point as PointData;
+          // try to animate globe focus if API available
+          try {
+            // react-globe.gl exposes pointOfView for smooth camera transitions
+            // @ts-expect-error - method exists on runtime instance
+            if (globeRef.current?.pointOfView) {
+              // zoom in a bit (lower altitude) to focus the region
+              globeRef.current.pointOfView({ lat: p.lat, lng: p.lng, altitude: 1.6 }, 1000);
+            } else {
+              const controls = globeRef.current?.controls?.();
+              if (controls) {
+                controls.target.set(p.lng, p.lat, 0);
+              }
+            }
+          } catch (err) {
+            // ignore animation errors
+          }
+
+          onSelectCountry(p.country.code, p.lat, p.lng);
+        }}
       />
     </div>
   );
