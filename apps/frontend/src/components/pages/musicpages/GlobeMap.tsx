@@ -53,10 +53,21 @@ export default function GlobeMap({ countries, selectedCountryCode, onSelectCount
   }, []);
 
   // when parent updates resetViewSignal, animate camera back to default
+  const prevPOVRef = useRef<{ lat: number; lng: number; altitude: number } | null>(null);
+
+  // when parent updates resetViewSignal, animate camera back to previous POV if available
   useEffect(() => {
     if (typeof resetViewSignal === 'undefined') return;
     try {
-      if (globeRef.current?.pointOfView) {
+      if (prevPOVRef.current && globeRef.current?.pointOfView) {
+        // animate back to previous POV
+        const prev = prevPOVRef.current;
+        globeRef.current.pointOfView({ lat: prev.lat, lng: prev.lng, altitude: prev.altitude }, 800);
+        // clear after returning
+        setTimeout(() => {
+          prevPOVRef.current = null;
+        }, 850);
+      } else if (globeRef.current?.pointOfView) {
         globeRef.current.pointOfView({ lat: 0, lng: 0, altitude: 2.5 }, 800);
       } else {
         const controls = globeRef.current?.controls?.();
@@ -143,15 +154,26 @@ export default function GlobeMap({ countries, selectedCountryCode, onSelectCount
           if (!name) return;
           const match = countries.find((c) => c.name.toLowerCase() === String(name).toLowerCase());
           if (match) {
-            onSelectCountry(match.code);
-            // try to focus camera on polygon centroid if available
+            const focusAltitude = 0.6;
+            const animMs = 900;
             try {
               if (globeRef.current?.pointOfView && match.lat && match.lng) {
-                globeRef.current.pointOfView({ lat: match.lat, lng: match.lng, altitude: 1.6 }, 900);
+                try {
+                  const current = globeRef.current.pointOfView();
+                  if (current) prevPOVRef.current = current;
+                } catch (e) {
+                  // ignore
+                }
+
+                globeRef.current.pointOfView({ lat: match.lat, lng: match.lng, altitude: focusAltitude }, animMs);
+                setTimeout(() => onSelectCountry(match.code), animMs + 50);
+                return;
               }
             } catch (err) {
               // ignore
             }
+
+            onSelectCountry(match.code);
           }
         }}
         pointsData={points}
@@ -166,12 +188,23 @@ export default function GlobeMap({ countries, selectedCountryCode, onSelectCount
         }}
         onPointClick={(point: object) => {
           const p = point as PointData;
+          const focusAltitude = 0.6; // closer zoom
+          const animMs = 900;
           // try to animate globe focus if API available
           try {
-            // react-globe.gl exposes pointOfView for smooth camera transitions
             if (globeRef.current?.pointOfView) {
-              // zoom in a bit (lower altitude) to focus the region
-              globeRef.current.pointOfView({ lat: p.lat, lng: p.lng, altitude: 1.6 }, 1000);
+              // save current POV so we can restore later
+              try {
+                const current = globeRef.current.pointOfView();
+                if (current) prevPOVRef.current = current;
+              } catch (e) {
+                // ignore if API not available
+              }
+
+              globeRef.current.pointOfView({ lat: p.lat, lng: p.lng, altitude: focusAltitude }, animMs);
+              // call parent after animation completes so UI appears after zoom
+              setTimeout(() => onSelectCountry(p.country.code), animMs + 50);
+              return;
             } else {
               const controls = globeRef.current?.controls?.();
               if (controls) {
@@ -182,7 +215,8 @@ export default function GlobeMap({ countries, selectedCountryCode, onSelectCount
             // ignore animation errors
           }
 
-          onSelectCountry(p.country.code, p.lat, p.lng);
+          // fallback immediate
+          onSelectCountry(p.country.code);
         }}
       />
     </div>
