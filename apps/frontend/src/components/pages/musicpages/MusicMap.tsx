@@ -13,6 +13,7 @@ export default function MusicMap() {
   const [selectedCountryCode, setSelectedCountryCode] = useState('');
   const [selectedCountryCoords, setSelectedCountryCoords] = useState<{ lat: number; lng: number } | null>(null);
   const [countryImageUrl, setCountryImageUrl] = useState<string | null>(null);
+  const [resetViewSignal, setResetViewSignal] = useState(0);
 
   const selectedCountry = useMemo<MusicMapCountry | undefined>(() => {
     return MUSIC_MAP_COUNTRIES.find((country) => country.code === selectedCountryCode);
@@ -61,6 +62,7 @@ export default function MusicMap() {
                 <GlobeMap
                   countries={MUSIC_MAP_COUNTRIES}
                   selectedCountryCode={selectedCountry?.code}
+                  resetViewSignal={resetViewSignal}
                   onSelectCountry={(code, lat, lng) => {
                     setSelectedCountryCode(code);
                     if (lat && lng) setSelectedCountryCoords({ lat, lng });
@@ -78,7 +80,21 @@ export default function MusicMap() {
             </div>
 
             {selectedCountry && (
-              <aside className={`music-map-panel is-floating ${countryImageUrl ? 'has-image' : ''}`} aria-label="Selected country details">
+              <>
+                <div className="map-overlay-veil" onClick={() => {
+                  // clicking outside closes panel and resets globe view
+                  setSelectedCountryCode('');
+                  setSelectedCountryCoords(null);
+                  setCountryImageUrl(null);
+                  setResetViewSignal((s) => s + 1);
+                }} />
+                <aside className={`music-map-panel is-floating ${countryImageUrl ? 'has-image' : ''}`} aria-label="Selected country details">
+                  <button className="close-overlay" aria-label="Close" onClick={() => {
+                    setSelectedCountryCode('');
+                    setSelectedCountryCoords(null);
+                    setCountryImageUrl(null);
+                    setResetViewSignal((s) => s + 1);
+                  }}>×</button>
                 {countryImageUrl && (
                   <div className="country-image">
                     <img src={countryImageUrl} alt={`${selectedCountry.name} image`} />

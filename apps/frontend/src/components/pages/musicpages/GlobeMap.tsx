@@ -8,9 +8,11 @@ type GlobeMapProps = {
   selectedCountryCode?: string;
   // pass coordinates back so caller can load images / position overlays
   onSelectCountry: (code: string, lat?: number, lng?: number) => void;
+  // increment this number to request the globe reset to the default POV
+  resetViewSignal?: number;
 };
 
-export default function GlobeMap({ countries, selectedCountryCode, onSelectCountry }: GlobeMapProps) {
+export default function GlobeMap({ countries, selectedCountryCode, onSelectCountry, resetViewSignal }: GlobeMapProps) {
   // Globe ref typing is not exported by react-globe.gl; allow only this line to use `any`
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const globeRef = useRef<any>(null);
@@ -48,6 +50,23 @@ export default function GlobeMap({ countries, selectedCountryCode, onSelectCount
       });
     }
   }, []);
+
+  // when parent updates resetViewSignal, animate camera back to default
+  useEffect(() => {
+    if (typeof resetViewSignal === 'undefined') return;
+    try {
+      if (globeRef.current?.pointOfView) {
+        globeRef.current.pointOfView({ lat: 0, lng: 0, altitude: 2.5 }, 800);
+      } else {
+        const controls = globeRef.current?.controls?.();
+        if (controls) {
+          controls.reset?.();
+        }
+      }
+    } catch (err) {
+      // ignore
+    }
+  }, [resetViewSignal]);
 
   type PointData = {
     id: string;
