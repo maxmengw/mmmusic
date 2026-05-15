@@ -192,6 +192,33 @@
   }
 }
 
+.country-stage-image {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50; /* above veil (40) but below panel (70) */
+  pointer-events: none;
+}
+
+.country-stage-image img {
+  width: min(80%, 1000px);
+  max-height: 90%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.45);
+  transform: scale(0.84) translateY(18px);
+  opacity: 0;
+  transition: opacity .6s cubic-bezier(.2,.9,.2,1), transform .6s cubic-bezier(.2,.9,.2,1);
+  transform-origin: var(--origin-x, 50%) var(--origin-y, 50%);
+}
+
+.country-stage-image.is-visible img {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
 .country-pin {
   position: absolute;
   transform: translate(-50%, -50%);
