@@ -86,7 +86,7 @@
   border-radius: 28px;
   padding: 1.25rem;
   backdrop-filter: blur(20px);
-  z-index: 5;
+  z-index: 70;
   box-shadow: 0 24px 50px rgba(0, 0, 0, 0.24);
 }
 
@@ -118,7 +118,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  z-index: 60;
+  z-index: 80;
 }
 
 .music-map-panel .country-image {
