@@ -1,6 +1,7 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import Globe from 'react-globe.gl';
+import * as topojson from 'topojson-client';
 import type { MusicMapCountry } from '@shared/types/musicMap';
 
 type GlobeMapProps = {
@@ -77,6 +78,33 @@ export default function GlobeMap({ countries, selectedCountryCode, onSelectCount
     country: MusicMapCountry;
   };
 
+  const [polygons, setPolygons] = useState<any[]>([]);
+
+  const selectedCountryName = countries.find((c) => c.code === selectedCountryCode)?.name;
+
+  // load world topojson and convert to GeoJSON polygons for country highlighting
+  useEffect(() => {
+    let canceled = false;
+    fetch('https://unpkg.com/world-atlas@2.0.2/countries-110m.json')
+      .then((r) => r.json())
+      .then((topo) => {
+        if (canceled) return;
+        try {
+          const geo = (topojson as any).feature(topo, topo.objects.countries).features;
+          setPolygons(geo);
+        } catch (err) {
+          // ignore
+        }
+      })
+      .catch(() => {
+        // ignore network errors
+      });
+
+    return () => {
+      canceled = true;
+    };
+  }, []);
+
   const points: PointData[] = countries.map((c) => ({
     id: c.code,
     lat: c.lat ?? 0,
@@ -92,6 +120,40 @@ export default function GlobeMap({ countries, selectedCountryCode, onSelectCount
         ref={globeRef}
         globeImageUrl="https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
         backgroundImageUrl="https://unpkg.com/three-globe/example/img/night-sky.png"
+        polygonsData={polygons}
+        polygonCapColor={(feat: any) => {
+          const props = feat.properties || {};
+          const name = props.name || props.ADMIN || props.admin || props.NAME;
+          return name === selectedCountryName ? 'rgba(98,210,162,0.95)' : 'rgba(255,255,255,0.03)';
+        }}
+        polygonSideColor={() => 'rgba(0,0,0,0.15)'}
+        polygonStrokeColor={() => 'rgba(0,0,0,0.25)'}
+        polygonAltitude={(feat: any) => {
+          const props = feat.properties || {};
+          const name = props.name || props.ADMIN || props.admin || props.NAME;
+          return name === selectedCountryName ? 0.015 : 0.0005;
+        }}
+        polygonLabel={(feat: any) => {
+          const props = feat.properties || {};
+          return props.name || props.ADMIN || props.admin || props.NAME || 'Country';
+        }}
+        onPolygonClick={(feat: any) => {
+          const props = feat.properties || {};
+          const name = props.name || props.ADMIN || props.admin || props.NAME;
+          if (!name) return;
+          const match = countries.find((c) => c.name.toLowerCase() === String(name).toLowerCase());
+          if (match) {
+            onSelectCountry(match.code);
+            // try to focus camera on polygon centroid if available
+            try {
+              if (globeRef.current?.pointOfView && match.lat && match.lng) {
+                globeRef.current.pointOfView({ lat: match.lat, lng: match.lng, altitude: 1.6 }, 900);
+              }
+            } catch (err) {
+              // ignore
+            }
+          }
+        }}
         pointsData={points}
         pointLat="lat"
         pointLng="lng"
