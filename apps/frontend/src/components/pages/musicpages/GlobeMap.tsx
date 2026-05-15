@@ -107,7 +107,6 @@ export default function GlobeMap({ countries, selectedCountryCode, onSelectCount
           // try to animate globe focus if API available
           try {
             // react-globe.gl exposes pointOfView for smooth camera transitions
-            // @ts-expect-error - method exists on runtime instance
             if (globeRef.current?.pointOfView) {
               // zoom in a bit (lower altitude) to focus the region
               globeRef.current.pointOfView({ lat: p.lat, lng: p.lng, altitude: 1.6 }, 1000);

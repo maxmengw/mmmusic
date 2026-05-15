@@ -11,7 +11,6 @@ function buildYouTubeSearchUrl(song: MusicMapSong) {
 export default function MusicMap() {
   const [selectedEra, setSelectedEra] = useState<MusicMapEra>('2020s');
   const [selectedCountryCode, setSelectedCountryCode] = useState('');
-  const [selectedCountryCoords, setSelectedCountryCoords] = useState<{ lat: number; lng: number } | null>(null);
   const [countryImageUrl, setCountryImageUrl] = useState<string | null>(null);
   const [resetViewSignal, setResetViewSignal] = useState(0);
 
@@ -63,9 +62,8 @@ export default function MusicMap() {
                   countries={MUSIC_MAP_COUNTRIES}
                   selectedCountryCode={selectedCountry?.code}
                   resetViewSignal={resetViewSignal}
-                  onSelectCountry={(code, lat, lng) => {
+                  onSelectCountry={(code) => {
                     setSelectedCountryCode(code);
-                    if (lat && lng) setSelectedCountryCoords({ lat, lng });
                     // fetch a placeholder country image (static mapping for MVP)
                     const imgMap: Record<string, string> = {
                       canada: '/images/flags/canada.svg',
@@ -81,17 +79,16 @@ export default function MusicMap() {
 
             {selectedCountry && (
               <>
-                <div className="map-overlay-veil" onClick={() => {
+                  <div className="map-overlay-veil" onClick={() => {
                   // clicking outside closes panel and resets globe view
                   setSelectedCountryCode('');
-                  setSelectedCountryCoords(null);
+                  
                   setCountryImageUrl(null);
                   setResetViewSignal((s) => s + 1);
                 }} />
                 <aside className={`music-map-panel is-floating ${countryImageUrl ? 'has-image' : ''}`} aria-label="Selected country details">
                   <button className="close-overlay" aria-label="Close" onClick={() => {
                     setSelectedCountryCode('');
-                    setSelectedCountryCoords(null);
                     setCountryImageUrl(null);
                     setResetViewSignal((s) => s + 1);
                   }}>×</button>
@@ -131,6 +128,7 @@ export default function MusicMap() {
                   ))}
                 </div>
               </aside>
+                </>
             )}
           </div>
         </section>
