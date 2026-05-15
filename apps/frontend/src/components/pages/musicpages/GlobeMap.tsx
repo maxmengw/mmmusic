@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import * as THREE from 'three';
 import Globe from 'react-globe.gl';
 import type { MusicMapCountry } from '@shared/types/musicMap';
 
@@ -18,6 +19,30 @@ export default function GlobeMap({ countries, selectedCountryCode, onSelectCount
         controls.autoRotate = false;
         controls.enableZoom = true;
       }
+    }
+
+    // load nicer textures (color, bump/height, specular) for a more realistic globe
+    const mat = globeRef.current?.globeMaterial?.();
+    if (mat) {
+      const loader = new THREE.TextureLoader();
+      // color / albedo map
+      loader.load('https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg', (tex: THREE.Texture) => {
+        mat.map = tex;
+        mat.needsUpdate = true;
+      });
+      // bump / height map to give surface relief
+      loader.load('https://unpkg.com/three-globe/example/img/earth-topology.png', (tex: THREE.Texture) => {
+        mat.bumpMap = tex;
+        mat.bumpScale = 0.06;
+        mat.needsUpdate = true;
+      });
+      // specular map for ocean highlights
+      loader.load('https://unpkg.com/three-globe/example/img/earth-specular.gif', (tex: THREE.Texture) => {
+        mat.specularMap = tex;
+        mat.specular = new THREE.Color('grey');
+        mat.shininess = 10;
+        mat.needsUpdate = true;
+      });
     }
   }, []);
 
