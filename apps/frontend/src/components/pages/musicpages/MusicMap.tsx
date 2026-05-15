@@ -10,10 +10,10 @@ function buildYouTubeSearchUrl(song: MusicMapSong) {
 
 export default function MusicMap() {
   const [selectedEra, setSelectedEra] = useState<MusicMapEra>('2020s');
-  const [selectedCountryCode, setSelectedCountryCode] = useState(MUSIC_MAP_COUNTRIES[0]?.code ?? '');
+  const [selectedCountryCode, setSelectedCountryCode] = useState('');
 
   const selectedCountry = useMemo<MusicMapCountry | undefined>(() => {
-    return MUSIC_MAP_COUNTRIES.find((country) => country.code === selectedCountryCode) ?? MUSIC_MAP_COUNTRIES[0];
+    return MUSIC_MAP_COUNTRIES.find((country) => country.code === selectedCountryCode);
   }, [selectedCountryCode]);
 
   const songs = selectedCountry?.songs[selectedEra] ?? [];
@@ -52,51 +52,53 @@ export default function MusicMap() {
         </section>
 
         <section className="music-map-content">
-          <div className="music-map-board">
-            <div className="music-map-board-title">World view</div>
-            <div className="music-map-globe" aria-label="Selectable world map">
-              <GlobeMap
-                countries={MUSIC_MAP_COUNTRIES}
-                selectedCountryCode={selectedCountry?.code}
-                onSelectCountry={(code) => setSelectedCountryCode(code)}
-              />
-            </div>
-          </div>
-
-          <aside className="music-map-panel">
-            {selectedCountry && (
-              <div className="country-summary">
-                <div className="country-summary-top">
-                  <span className="country-region">{selectedCountry.region}</span>
-                  <span className="country-era">{selectedEra}</span>
-                </div>
-                <h2>{selectedCountry.name}</h2>
-                <p>{selectedCountry.description}</p>
+          <div className="music-map-stage">
+            <div className="music-map-board">
+              <div className="music-map-board-title">World view</div>
+              <div className="music-map-globe" aria-label="Selectable world map">
+                <GlobeMap
+                  countries={MUSIC_MAP_COUNTRIES}
+                  selectedCountryCode={selectedCountry?.code}
+                  onSelectCountry={(code) => setSelectedCountryCode(code)}
+                />
               </div>
-            )}
-
-            <div className="song-list">
-              {songs.map((song) => (
-                <article key={song.id} className="song-card">
-                  <div className="song-card-meta">
-                    <span>{song.year}</span>
-                    <span>{song.genre}</span>
-                  </div>
-                  <h3>{song.title}</h3>
-                  <p>{song.artist}</p>
-                  <p className="song-description">{song.description}</p>
-                  <div className="song-card-actions">
-                    <button className="song-action secondary" onClick={() => handleExplore(song)}>
-                      Open YouTube
-                    </button>
-                    <button className="song-action" onClick={() => void handleCopy(song)}>
-                      Copy info
-                    </button>
-                  </div>
-                </article>
-              ))}
             </div>
-          </aside>
+
+            {selectedCountry && (
+              <aside className="music-map-panel is-floating" aria-label="Selected country details">
+                <div className="country-summary">
+                  <div className="country-summary-top">
+                    <span className="country-region">{selectedCountry.region}</span>
+                    <span className="country-era">{selectedEra}</span>
+                  </div>
+                  <h2>{selectedCountry.name}</h2>
+                  <p>{selectedCountry.description}</p>
+                </div>
+
+                <div className="song-list">
+                  {songs.map((song) => (
+                    <article key={song.id} className="song-card">
+                      <div className="song-card-meta">
+                        <span>{song.year}</span>
+                        <span>{song.genre}</span>
+                      </div>
+                      <h3>{song.title}</h3>
+                      <p>{song.artist}</p>
+                      <p className="song-description">{song.description}</p>
+                      <div className="song-card-actions">
+                        <button className="song-action secondary" onClick={() => handleExplore(song)}>
+                          Open YouTube
+                        </button>
+                        <button className="song-action" onClick={() => void handleCopy(song)}>
+                          Copy info
+                        </button>
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              </aside>
+            )}
+          </div>
         </section>
       </div>
     </div>
