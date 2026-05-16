@@ -11,7 +11,6 @@ function buildYouTubeSearchUrl(song: MusicMapSong) {
 export default function MusicMap() {
   const [selectedEra, setSelectedEra] = useState<MusicMapEra>('2020s');
   const [selectedCountryCode, setSelectedCountryCode] = useState('');
-  const [countryImageUrl, setCountryImageUrl] = useState<string | null>(null);
   const [resetViewSignal, setResetViewSignal] = useState(0);
 
   const selectedCountry = useMemo<MusicMapCountry | undefined>(() => {
@@ -62,41 +61,26 @@ export default function MusicMap() {
                   countries={MUSIC_MAP_COUNTRIES}
                   selectedCountryCode={selectedCountry?.code}
                   resetViewSignal={resetViewSignal}
-                  onSelectCountry={(code) => {
-                    setSelectedCountryCode(code);
-                    // fetch a placeholder country image (static mapping for MVP)
-                    const imgMap: Record<string, string> = {
-                      canada: '/images/flags/canada.svg',
-                      japan: '/images/flags/japan.svg',
-                      brazil: '/images/flags/brazil.svg',
-                      nigeria: '/images/flags/nigeria.svg',
-                    };
-                    setCountryImageUrl(imgMap[code] ?? null);
-                  }}
+                    onSelectCountry={(code) => {
+                      setSelectedCountryCode(code);
+                    }}
                 />
+
               </div>
             </div>
 
-            {selectedCountry && (
+                {selectedCountry && (
               <>
                   <div className="map-overlay-veil" onClick={() => {
                   // clicking outside closes panel and resets globe view
                   setSelectedCountryCode('');
-                  
-                  setCountryImageUrl(null);
                   setResetViewSignal((s) => s + 1);
                 }} />
-                <aside className={`music-map-panel is-floating ${countryImageUrl ? 'has-image' : ''}`} aria-label="Selected country details">
+                <aside className={`music-map-panel is-floating`} aria-label="Selected country details">
                   <button className="close-overlay" aria-label="Close" onClick={() => {
                     setSelectedCountryCode('');
-                    setCountryImageUrl(null);
                     setResetViewSignal((s) => s + 1);
                   }}>×</button>
-                {countryImageUrl && (
-                  <div className="country-image">
-                    <img src={countryImageUrl} alt={`${selectedCountry.name} image`} />
-                  </div>
-                )}
                 <div className="country-summary">
                   <div className="country-summary-top">
                     <span className="country-region">{selectedCountry.region}</span>
