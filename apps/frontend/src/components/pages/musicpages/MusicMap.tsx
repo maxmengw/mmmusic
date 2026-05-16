@@ -179,11 +179,12 @@ export default function MusicMap() {
                         <span>{song.year}</span>
                         <span>{song.genre}</span>
                       </div>
-                      {metaBySongId[song.id]?.coverUrl && (
-                        <div className="song-cover">
-                          <img src={metaBySongId[song.id].coverUrl!} alt={`${song.title} cover`} />
-                        </div>
-                      )}
+                      <div className={`song-cover ${!metaBySongId[song.id] ? 'is-loading' : ''}`}>
+                        <img
+                          src={metaBySongId[song.id]?.coverUrl ?? '/assets/not-found-rose-GKTMwEyW.jpg'}
+                          alt={`${song.title} cover`}
+                        />
+                      </div>
                       <h3>{song.title}</h3>
                       <p>{song.artist}</p>
                       <p className="song-description">{song.description}</p>
