@@ -1,7 +1,7 @@
 import { useMemo, useState, useEffect } from 'react';
 import HomeButton from '../../common/nav/HomeButton';
 import GlobeMap from './GlobeMap';
-import { MUSIC_MAP_COUNTRIES, MUSIC_MAP_ERAS } from '@shared/data/musicMapCountries';
+import { MUSIC_MAP_ERAS } from '@shared/data/musicMapCountries';
 import type { MusicMapCountry, MusicMapEra, MusicMapSong } from '@shared/types/musicMap';
 
 function buildYouTubeSearchUrl(song: MusicMapSong) {
@@ -60,6 +60,27 @@ function buildFallbackCountry(code: string, name: string): MusicMapCountry {
 }
 
 export default function MusicMap() {
+  const [countries, setCountries] = useState<MusicMapCountry[]>([]);
+
+  useEffect(() => {
+    let canceled = false;
+    const load = async () => {
+      try {
+        const res = await fetch('/api/v1/music/mapcountries');
+        if (!res.ok) return;
+        const payload = await res.json();
+        if (canceled) return;
+        const data = payload?.data ?? [];
+        setCountries(data);
+      } catch (err) {
+        // ignore
+      } finally {
+        // done
+      }
+    };
+    void load();
+    return () => { canceled = true; };
+  }, []);
   const [selectedEra, setSelectedEra] = useState<MusicMapEra>('2020s');
   const [visibleEra, setVisibleEra] = useState<MusicMapEra>('2020s');
   const [isEraSwitching, setIsEraSwitching] = useState(false);
@@ -69,7 +90,7 @@ export default function MusicMap() {
   const [metaBySongId, setMetaBySongId] = useState<Record<string, { status: 'loading' | 'ready' | 'error'; coverUrl?: string | null }>>({});
 
   const selectedCountry = useMemo<MusicMapCountry | undefined>(() => {
-    const preset = MUSIC_MAP_COUNTRIES.find((country) => country.code === selectedCountryCode);
+    const preset = countries.find((country) => country.code === selectedCountryCode);
     if (preset) return preset;
     if (!selectedCountryCode || !selectedCountryName) return undefined;
     return buildFallbackCountry(selectedCountryCode, selectedCountryName);
@@ -182,7 +203,7 @@ export default function MusicMap() {
               <div className="music-map-board-title">World view</div>
               <div className="music-map-globe" aria-label="Selectable world map">
                 <GlobeMap
-                  countries={MUSIC_MAP_COUNTRIES}
+                  countries={countries}
                   selectedCountryCode={selectedCountry?.code}
                   selectedCountryName={selectedCountry?.name}
                   resetViewSignal={resetViewSignal}
