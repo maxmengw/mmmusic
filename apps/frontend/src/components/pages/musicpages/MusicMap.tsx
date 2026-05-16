@@ -61,9 +61,12 @@ function buildFallbackCountry(code: string, name: string): MusicMapCountry {
 
 export default function MusicMap() {
   const [selectedEra, setSelectedEra] = useState<MusicMapEra>('2020s');
+  const [visibleEra, setVisibleEra] = useState<MusicMapEra>('2020s');
+  const [isEraSwitching, setIsEraSwitching] = useState(false);
   const [selectedCountryCode, setSelectedCountryCode] = useState('');
   const [selectedCountryName, setSelectedCountryName] = useState('');
   const [resetViewSignal, setResetViewSignal] = useState(0);
+  const [metaBySongId, setMetaBySongId] = useState<Record<string, { status: 'loading' | 'ready' | 'error'; coverUrl?: string | null }>>({});
 
   const selectedCountry = useMemo<MusicMapCountry | undefined>(() => {
     const preset = MUSIC_MAP_COUNTRIES.find((country) => country.code === selectedCountryCode);
@@ -72,12 +75,46 @@ export default function MusicMap() {
     return buildFallbackCountry(selectedCountryCode, selectedCountryName);
   }, [selectedCountryCode, selectedCountryName]);
 
-  const songs = selectedCountry?.songs[selectedEra] ?? [];
+  useEffect(() => {
+    if (!selectedCountry) {
+      setVisibleEra(selectedEra);
+      setIsEraSwitching(false);
+      return;
+    }
 
-  const [metaBySongId, setMetaBySongId] = useState<Record<string, { coverUrl?: string | null }>>({});
+    if (selectedEra === visibleEra) return;
+
+    setIsEraSwitching(true);
+    const timer = window.setTimeout(() => {
+      setVisibleEra(selectedEra);
+      window.setTimeout(() => setIsEraSwitching(false), 20);
+    }, 160);
+
+    return () => {
+      window.clearTimeout(timer);
+    };
+  }, [selectedEra, selectedCountry, visibleEra]);
+
+  const songs = selectedCountry?.songs[visibleEra] ?? [];
 
   useEffect(() => {
     let canceled = false;
+    const missingSongs = songs.filter((song) => !metaBySongId[song.id]);
+
+    if (!missingSongs.length) {
+      return () => {
+        canceled = true;
+      };
+    }
+
+    setMetaBySongId((current) => {
+      const next = { ...current };
+      for (const song of missingSongs) {
+        next[song.id] = { status: 'loading', coverUrl: null };
+      }
+      return next;
+    });
+
     const fetchMetaForSong = async (song: MusicMapSong) => {
       try {
         const q = new URLSearchParams();
@@ -88,23 +125,30 @@ export default function MusicMap() {
         const payload = await res.json();
         if (canceled) return;
         const data = payload?.data;
-        setMetaBySongId((s) => ({ ...s, [song.id]: { coverUrl: data?.coverUrl ?? null } }));
+        setMetaBySongId((s) => ({
+          ...s,
+          [song.id]: {
+            status: data?.coverUrl ? 'ready' : 'error',
+            coverUrl: data?.coverUrl ?? null,
+          },
+        }));
       } catch (err) {
-        // ignore
+        if (canceled) return;
+        setMetaBySongId((s) => ({
+          ...s,
+          [song.id]: { status: 'error', coverUrl: null },
+        }));
       }
     };
 
-    // fetch metadata for songs that don't already have meta cached
-    for (const song of songs) {
-      if (!metaBySongId[song.id]) {
-        void fetchMetaForSong(song);
-      }
+    for (const song of missingSongs) {
+      void fetchMetaForSong(song);
     }
 
     return () => {
       canceled = true;
     };
-  }, [songs]);
+  }, [songs, metaBySongId]);
 
   const handleExplore = (song: MusicMapSong) => {
     window.open(buildYouTubeSearchUrl(song), '_blank', 'noopener,noreferrer');
@@ -121,20 +165,22 @@ export default function MusicMap() {
       <div className="music-map-shell">
         <section className="music-map-content">
           <div className="music-map-stage">
+            <section className="music-map-controls music-map-controls--floating" aria-label="Timeline selection">
+              {MUSIC_MAP_ERAS.map((era) => (
+                <button
+                  key={era}
+                  className={`timeline-chip ${selectedEra === era ? 'is-active' : ''}`}
+                  onClick={() => {
+                    setSelectedEra(era);
+                  }}
+                >
+                  {era}
+                </button>
+              ))}
+            </section>
             <div className="music-map-board">
               <div className="music-map-board-title">World view</div>
               <div className="music-map-globe" aria-label="Selectable world map">
-                <section className="music-map-controls" aria-label="Timeline selection">
-                  {MUSIC_MAP_ERAS.map((era) => (
-                    <button
-                      key={era}
-                      className={`timeline-chip ${selectedEra === era ? 'is-active' : ''}`}
-                      onClick={() => setSelectedEra(era)}
-                    >
-                      {era}
-                    </button>
-                  ))}
-                </section>
                 <GlobeMap
                   countries={MUSIC_MAP_COUNTRIES}
                   selectedCountryCode={selectedCountry?.code}
@@ -172,18 +218,24 @@ export default function MusicMap() {
                   <p>{selectedCountry.description}</p>
                 </div>
 
-                <div className="song-list">
+                <div className={`song-list ${isEraSwitching ? 'is-switching' : ''}`} aria-busy={isEraSwitching}>
                   {songs.map((song) => (
                     <article key={song.id} className="song-card">
                       <div className="song-card-meta">
                         <span>{song.year}</span>
                         <span>{song.genre}</span>
                       </div>
-                      <div className={`song-cover ${!metaBySongId[song.id] ? 'is-loading' : ''}`}>
-                        <img
-                          src={metaBySongId[song.id]?.coverUrl ?? '/assets/not-found-rose-GKTMwEyW.jpg'}
-                          alt={`${song.title} cover`}
-                        />
+                      <div className={`song-cover song-cover--${metaBySongId[song.id]?.status ?? 'loading'}`}>
+                        {metaBySongId[song.id]?.status === 'loading' && <div className="song-cover-skeleton" aria-hidden="true" />}
+                        {metaBySongId[song.id]?.status !== 'loading' && (
+                          <img
+                            src={metaBySongId[song.id]?.coverUrl ?? '/assets/not-found-rose-GKTMwEyW.jpg'}
+                            alt={`${song.title} cover`}
+                          />
+                        )}
+                        {metaBySongId[song.id]?.status === 'error' && (
+                          <span className="song-cover-fallback">Cover unavailable</span>
+                        )}
                       </div>
                       <h3>{song.title}</h3>
                       <p>{song.artist}</p>
