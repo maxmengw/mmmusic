@@ -3,7 +3,7 @@
 
 .back-button {
   position: fixed;
-  top: 20px;
+  bottom: 5px;
   left: 20px;
   z-index: $z-button;
   @include button-base;
@@ -15,7 +15,7 @@
   }
 
   @include mobile {
-    top: 10px;
+    bottom: 5px;
     left: 10px;
     padding: 0.6rem $spacing-md;
     font-size: 0.9rem;

@@ -7,11 +7,12 @@ import type { MusicMapCountry } from '@shared/types/musicMap';
 type GlobeMapProps = {
   countries: MusicMapCountry[];
   selectedCountryCode?: string;
-  onSelectCountry: (code: string, lat?: number, lng?: number) => void;
+  selectedCountryName?: string;
+  onSelectCountry: (code: string, lat?: number, lng?: number, name?: string) => void;
   resetViewSignal?: number;
 };
 
-export default function GlobeMap({ countries, selectedCountryCode, onSelectCountry, resetViewSignal }: GlobeMapProps) {
+export default function GlobeMap({ countries, selectedCountryCode, selectedCountryName, onSelectCountry, resetViewSignal }: GlobeMapProps) {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const globeRef = useRef<any>(null);
 
@@ -19,7 +20,8 @@ export default function GlobeMap({ countries, selectedCountryCode, onSelectCount
     if (globeRef.current) {
       const controls = globeRef.current.controls();
       if (controls) {
-        controls.autoRotate = false;
+        controls.autoRotate = true;
+        controls.autoRotateSpeed = 0.28;
         controls.enableZoom = true;
 
       }
@@ -30,17 +32,20 @@ export default function GlobeMap({ countries, selectedCountryCode, onSelectCount
       const loader = new THREE.TextureLoader();
       loader.load('https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg', (tex: THREE.Texture) => {
         mat.map = tex;
+        mat.color = new THREE.Color('#9ad4ff');
+        mat.emissive = new THREE.Color('#0c2b5a');
+        mat.emissiveIntensity = 0.35;
         mat.needsUpdate = true;
       });
       loader.load('https://unpkg.com/three-globe/example/img/earth-topology.png', (tex: THREE.Texture) => {
         mat.bumpMap = tex;
-        mat.bumpScale = 0.06;
+        mat.bumpScale = 0.1;
         mat.needsUpdate = true;
       });
       loader.load('https://unpkg.com/three-globe/example/img/earth-specular.gif', (tex: THREE.Texture) => {
         mat.specularMap = tex;
-        mat.specular = new THREE.Color('grey');
-        mat.shininess = 10;
+        mat.specular = new THREE.Color('#4cc9ff');
+        mat.shininess = 22;
         mat.needsUpdate = true;
       });
       loader.load('https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57730/land_ocean_ice_8192.png', (satTex: THREE.Texture) => {
@@ -54,6 +59,12 @@ export default function GlobeMap({ countries, selectedCountryCode, onSelectCount
   useEffect(() => {
     if (typeof resetViewSignal === 'undefined') return;
     try {
+      const controls = globeRef.current?.controls?.();
+      if (controls) {
+        controls.autoRotate = true;
+        controls.autoRotateSpeed = 0.28;
+      }
+
       if (prevPOVRef.current && globeRef.current?.pointOfView) {
         const prev = prevPOVRef.current;
         globeRef.current.pointOfView({ lat: prev.lat, lng: prev.lng, altitude: prev.altitude }, 800);
@@ -102,7 +113,31 @@ export default function GlobeMap({ countries, selectedCountryCode, onSelectCount
 
   const [polygons, setPolygons] = useState<any[]>([]);
 
-  const selectedCountryName = countries.find((c) => c.code === selectedCountryCode)?.name;
+  const resolvedSelectedCountryName = selectedCountryName ?? countries.find((c) => c.code === selectedCountryCode)?.name;
+
+  const estimateLatLngFromFeature = (feat: any): { lat: number; lng: number } | null => {
+    const geometry = feat?.geometry;
+    if (!geometry?.coordinates) return null;
+
+    let ring: number[][] = [];
+    if (geometry.type === 'Polygon') {
+      ring = geometry.coordinates?.[0] ?? [];
+    } else if (geometry.type === 'MultiPolygon') {
+      ring = geometry.coordinates?.[0]?.[0] ?? [];
+    }
+
+    if (!ring.length) return null;
+
+    let lngSum = 0;
+    let latSum = 0;
+    for (const point of ring) {
+      lngSum += Number(point?.[0] ?? 0);
+      latSum += Number(point?.[1] ?? 0);
+    }
+
+    const count = ring.length;
+    return { lat: latSum / count, lng: lngSum / count };
+  };
 
   useEffect(() => {
     let canceled = false;
@@ -134,10 +169,15 @@ export default function GlobeMap({ countries, selectedCountryCode, onSelectCount
     country: c,
   }));
 
-  const focusAndTransition = (lat: number, lng: number, code: string) => {
+  const focusAndTransition = (lat: number, lng: number, code: string, name?: string) => {
     const focusAltitude = 1.2;
     const animMs = 900;
     try {
+      const controls = globeRef.current?.controls?.();
+      if (controls) {
+        controls.autoRotate = false;
+      }
+
       if (globeRef.current?.pointOfView) {
         try {
           const current = globeRef.current.pointOfView();
@@ -285,22 +325,24 @@ export default function GlobeMap({ countries, selectedCountryCode, onSelectCount
             // ignore
           }
 
-          setTimeout(() => onSelectCountry(code, lat, lng), 250);
+          setTimeout(() => onSelectCountry(code, lat, lng, name), 250);
         }, animMs + animMs2);
         return;
       }
     } catch (err) {
       // ignore
     }
-    onSelectCountry(code, lat, lng);
+    onSelectCountry(code, lat, lng, name);
   };
 
   return (
-    <div style={{ width: '100%', height: '680px' }}>
+    <div className="globe-canvas-wrap">
       <Globe
         ref={globeRef}
         globeImageUrl="https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
         backgroundImageUrl="https://unpkg.com/three-globe/example/img/night-sky.png"
+        atmosphereColor="#40c9ff"
+        atmosphereAltitude={0.22}
         pointsData={points}
         pointLat="lat"
         pointLng="lng"
@@ -319,14 +361,14 @@ export default function GlobeMap({ countries, selectedCountryCode, onSelectCount
         polygonCapColor={(feat: any) => {
           const props = feat.properties || {};
           const name = props.name || props.ADMIN || props.admin || props.NAME;
-          return name === selectedCountryName ? 'rgba(98,210,162,0.95)' : 'rgba(255,255,255,0.03)';
+          return name === resolvedSelectedCountryName ? 'rgba(70,220,255,0.95)' : 'rgba(255,255,255,0.05)';
         }}
-        polygonSideColor={() => 'rgba(0,0,0,0.15)'}
-        polygonStrokeColor={() => 'rgba(0,0,0,0.25)'}
+        polygonSideColor={() => 'rgba(34,92,140,0.22)'}
+        polygonStrokeColor={() => 'rgba(118,219,255,0.34)'}
         polygonAltitude={(feat: any) => {
           const props = feat.properties || {};
           const name = props.name || props.ADMIN || props.admin || props.NAME;
-          return name === selectedCountryName ? 0.015 : 0.0005;
+          return name === resolvedSelectedCountryName ? 0.015 : 0.0005;
         }}
         polygonLabel={(feat: any) => {
           const props = feat.properties || {};
@@ -337,7 +379,15 @@ export default function GlobeMap({ countries, selectedCountryCode, onSelectCount
           const name = props.name || props.ADMIN || props.admin || props.NAME;
           if (!name) return;
           const match = countries.find((c) => c.name.toLowerCase() === String(name).toLowerCase());
-          if (match) focusAndTransition(match.lat ?? 0, match.lng ?? 0, match.code);
+          if (match) {
+            focusAndTransition(match.lat ?? 0, match.lng ?? 0, match.code);
+            return;
+          }
+
+          const centroid = estimateLatLngFromFeature(feat);
+          if (!centroid) return;
+          const generatedCode = String(name).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+          focusAndTransition(centroid.lat, centroid.lng, generatedCode || 'country', String(name));
         }}
       />
     </div>
