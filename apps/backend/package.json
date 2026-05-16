@@ -38,6 +38,7 @@
   "dependencies": {
     "@clerk/express": "^1.7.50",
     "@prisma/client": "^6.18.0",
+    "@types/node-fetch": "^2.6.13",
     "body-parser": "^2.2.0",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.2",
@@ -47,6 +48,7 @@
     "joi": "^18.0.1",
     "morgan": "^1.10.1",
     "multer": "^2.0.2",
+    "node-fetch": "^2.7.0",
     "reflect-metadata": "^0.2.2",
     "routing-controllers": "^0.11.3",
     "routing-controllers-openapi": "^5.0.0",
