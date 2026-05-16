@@ -2,6 +2,7 @@ import { Router, Request, Response } from "express";
 import { MusicController } from "../api/v1/controllers/musicController";
 import { requireBearerAuth } from "../api/v1/middleware/bearerAuth";
 import { validateAddMusic, validateDeleteMusic } from "../api/v1/middleware/musicValidation";
+import { fetchMusicMeta } from '../api/v1/services/musicMetaService';
 
 const router = Router();
 const controller = new MusicController();
@@ -16,6 +17,17 @@ router.post("/music/add", requireBearerAuth, validateAddMusic, async (req: Reque
 
 router.delete("/music/delete", requireBearerAuth, validateDeleteMusic, async (req: Request, res: Response) => {
     return controller.deleteMusic(req, res);
+});
+
+// Public proxy endpoint for MusicBrainz metadata + Cover Art Archive
+router.get('/music/meta', async (req: Request, res: Response) => {
+    try {
+        const { artist, title } = req.query as any;
+        const meta = await fetchMusicMeta(artist, title);
+        return res.status(200).json({ success: true, data: meta });
+    } catch (err: any) {
+        return res.status(500).json({ success: false, message: err?.message || 'Internal error' });
+    }
 });
 
 export default router;

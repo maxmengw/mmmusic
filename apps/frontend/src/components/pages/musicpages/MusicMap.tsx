@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 import HomeButton from '../../common/nav/HomeButton';
 import GlobeMap from './GlobeMap';
 import { MUSIC_MAP_COUNTRIES, MUSIC_MAP_ERAS } from '@shared/data/musicMapData';
@@ -74,6 +74,38 @@ export default function MusicMap() {
 
   const songs = selectedCountry?.songs[selectedEra] ?? [];
 
+  const [metaBySongId, setMetaBySongId] = useState<Record<string, { coverUrl?: string | null }>>({});
+
+  useEffect(() => {
+    let canceled = false;
+    const fetchMetaForSong = async (song: MusicMapSong) => {
+      try {
+        const q = new URLSearchParams();
+        if (song.artist) q.set('artist', song.artist);
+        if (song.title) q.set('title', song.title);
+        const res = await fetch(`/api/v1/music/meta?${q.toString()}`);
+        if (!res.ok) return;
+        const payload = await res.json();
+        if (canceled) return;
+        const data = payload?.data;
+        setMetaBySongId((s) => ({ ...s, [song.id]: { coverUrl: data?.coverUrl ?? null } }));
+      } catch (err) {
+        // ignore
+      }
+    };
+
+    // fetch metadata for songs that don't already have meta cached
+    for (const song of songs) {
+      if (!metaBySongId[song.id]) {
+        void fetchMetaForSong(song);
+      }
+    }
+
+    return () => {
+      canceled = true;
+    };
+  }, [songs]);
+
   const handleExplore = (song: MusicMapSong) => {
     window.open(buildYouTubeSearchUrl(song), '_blank', 'noopener,noreferrer');
   };
@@ -147,6 +179,11 @@ export default function MusicMap() {
                         <span>{song.year}</span>
                         <span>{song.genre}</span>
                       </div>
+                      {metaBySongId[song.id]?.coverUrl && (
+                        <div className="song-cover">
+                          <img src={metaBySongId[song.id].coverUrl!} alt={`${song.title} cover`} />
+                        </div>
+                      )}
                       <h3>{song.title}</h3>
                       <p>{song.artist}</p>
                       <p className="song-description">{song.description}</p>
