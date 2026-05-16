@@ -1,7 +1,7 @@
 import { useMemo, useState, useEffect } from 'react';
 import HomeButton from '../../common/nav/HomeButton';
 import GlobeMap from './GlobeMap';
-import { MUSIC_MAP_COUNTRIES, MUSIC_MAP_ERAS } from '@shared/data/musicMapData';
+import { MUSIC_MAP_COUNTRIES, MUSIC_MAP_ERAS } from '@shared/data/musicMapCountries';
 import type { MusicMapCountry, MusicMapEra, MusicMapSong } from '@shared/types/musicMap';
 
 function buildYouTubeSearchUrl(song: MusicMapSong) {
