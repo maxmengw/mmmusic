@@ -32,7 +32,7 @@ function centroidFromCoords(coords) {
 }
 
 async function main() {
-  console.log('Fetching countries geojson...');
+  // Fetching countries geojson...
   const res = await fetch(GEOJSON_URL);
   if (!res.ok) throw new Error('Failed to fetch geojson: ' + res.statusText);
   const geo = await res.json();
@@ -79,7 +79,7 @@ async function main() {
   const out = `import type { MusicMapCountry, MusicMapEra } from '@shared/types/musicMap';\n\nexport const MUSIC_MAP_ERAS: MusicMapEra[] = ${JSON.stringify(ERAS, null, 2)};\n\nexport const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = ${JSON.stringify(records, null, 2)};\n`;
 
   fs.writeFileSync(OUT_FILE, out, 'utf8');
-  console.log('Wrote', OUT_FILE, 'with', records.length, 'countries');
+  // Wrote OUT_FILE with records.length countries
 }
 
 main().catch((err) => {

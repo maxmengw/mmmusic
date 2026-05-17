@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useAuth } from '@clerk/clerk-react';
 import * as YouTubeMusicsListService from '../../services/music/youtubeMusicsListService';
+import logger from '../../utils/logger';
 import type { YouTubeMusic } from '@shared/types/youtubeData';
 
 export function useYouTubeMusicsList() {
@@ -28,7 +29,7 @@ export function useYouTubeMusicsList() {
             const playlistData = await YouTubeMusicsListService.getPlaylist(sessionToken);
             setPlaylist(playlistData);
         } catch (error) {
-            console.error('Failed to load YouTube musics/playlist', error);
+            logger.error('Failed to load YouTube musics/playlist', error);
             setMusics([]);
             setPlaylist([]);
         }

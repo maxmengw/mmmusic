@@ -1,6 +1,7 @@
 import type { YouTubeMusic } from '@shared/types/youtubeData';
 import prisma from '../../../../prisma/client';
 import { upsertUser } from '../utils/userHelper';
+import logger from '../../../utils/logger';
 
 function mapPlaylistItemsToYouTubeMusic(playlistItems: any[]): YouTubeMusic[] {
   return playlistItems.map((playlistItem: any) => {
@@ -301,7 +302,8 @@ export async function removeFromPlaylist(videoId: string, clerkUserId: string): 
           await transaction.youTubeMusic.delete({ where: { id: youtubeMusic.id } });
         } catch (delErr: any) {
           
-          console.warn(`Failed to delete orphaned youTubeMusic id=${youtubeMusic.id}:`, delErr.message || delErr);
+          // log warning about orphaned deletion failure
+          logger.warn({ id: youtubeMusic.id, err: delErr }, 'Failed to delete orphaned youTubeMusic');
         }
       }
     }

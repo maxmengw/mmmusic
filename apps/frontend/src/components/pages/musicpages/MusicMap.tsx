@@ -1,4 +1,5 @@
 import { useMemo, useState, useEffect } from 'react';
+import notFoundImg from '../../../assets/not-found-rose.jpg';
 import HomeButton from '../../common/nav/HomeButton';
 import GlobeMap from './GlobeMap';
 import { MUSIC_MAP_ERAS } from '@shared/data/musicMapCountries';
@@ -117,9 +118,36 @@ export default function MusicMap() {
   }, [selectedEra, selectedCountry, visibleEra]);
 
   const songs = selectedCountry?.songs[visibleEra] ?? [];
+  const [candidates, setCandidates] = useState<{ title: string; artist: string; coverUrl?: string | null; source: string; year?: number }[]>([]);
+  const [candidateIndex, setCandidateIndex] = useState(0);
 
   useEffect(() => {
     let canceled = false;
+    // when selectedCountry changes, fetch generated candidates for visibleEra
+    const loadCandidates = async () => {
+      if (!selectedCountry) {
+        setCandidates([]);
+        setCandidateIndex(0);
+        return;
+      }
+      try {
+        const q = new URLSearchParams();
+        q.set('country', selectedCountry.code ?? selectedCountry.name);
+        q.set('count', '8');
+        q.set('era', visibleEra);
+        const res = await fetch(`/api/v1/music/generate?${q.toString()}`);
+        if (!res.ok) return;
+        const payload = await res.json();
+        if (canceled) return;
+        const data = payload?.data ?? [];
+        setCandidates(data);
+        setCandidateIndex(0);
+      } catch (err) {
+        // ignore
+      }
+    };
+    void loadCandidates();
+
     const missingSongs = songs.filter((song) => !metaBySongId[song.id]);
 
     if (!missingSongs.length) {
@@ -142,7 +170,14 @@ export default function MusicMap() {
         if (song.artist) q.set('artist', song.artist);
         if (song.title) q.set('title', song.title);
         const res = await fetch(`/api/v1/music/meta?${q.toString()}`);
-        if (!res.ok) return;
+        if (!res.ok) {
+          // mark as error so UI shows fallback instead of indefinite skeleton
+          setMetaBySongId((s) => ({
+            ...s,
+            [song.id]: { status: 'error', coverUrl: null },
+          }));
+          return;
+        }
         const payload = await res.json();
         if (canceled) return;
         const data = payload?.data;
@@ -240,37 +275,69 @@ export default function MusicMap() {
                 </div>
 
                 <div className={`song-list ${isEraSwitching ? 'is-switching' : ''}`} aria-busy={isEraSwitching}>
-                  {songs.map((song) => (
-                    <article key={song.id} className="song-card">
-                      <div className="song-card-meta">
-                        <span>{song.year}</span>
-                        <span>{song.genre}</span>
-                      </div>
-                      <div className={`song-cover song-cover--${metaBySongId[song.id]?.status ?? 'loading'}`}>
-                        {metaBySongId[song.id]?.status === 'loading' && <div className="song-cover-skeleton" aria-hidden="true" />}
-                        {metaBySongId[song.id]?.status !== 'loading' && (
+                  {/* Show a single candidate (generated) with next button; fallback to local songs if candidates empty */}
+                  {candidates && candidates.length > 0 ? (
+                    (() => {
+                      const c = candidates[candidateIndex];
+                      return (
+                        <article key={`cand-${candidateIndex}`} className="song-card">
+                          <div className="song-card-meta">
+                            <span>{c.year ?? ''}</span>
+                            <span>{c.source}</span>
+                          </div>
+                          <div className={`song-cover song-cover--ready`}>
+                            <img src={c.coverUrl ?? notFoundImg} alt={`${c.title} cover`} onError={(e) => { (e.currentTarget as HTMLImageElement).src = notFoundImg; }} />
+                          </div>
+                          <h3>{c.title}</h3>
+                          <p>{c.artist}</p>
+                          <p className="song-description">{selectedCountry.description}</p>
+                          <div className="song-card-actions">
+                            <button className="song-action secondary" onClick={() => handleExplore({ id: `gen-${candidateIndex}`, title: c.title, artist: c.artist, videoId: '', year: c.year, genre: '', description: '' } as any)}>
+                              Open YouTube
+                            </button>
+                            <button className="song-action" onClick={() => void handleCopy({ id: `gen-${candidateIndex}`, title: c.title, artist: c.artist, videoId: '', year: c.year, genre: '', description: '' } as any)}>
+                              Copy info
+                            </button>
+                            <button className="song-action" onClick={() => setCandidateIndex((i) => (i + 1) % candidates.length)}>
+                              Next
+                            </button>
+                          </div>
+                        </article>
+                      );
+                    })()
+                  ) : (
+                    songs.map((song) => (
+                      <article key={song.id} className="song-card">
+                        <div className="song-card-meta">
+                          <span>{song.year}</span>
+                          <span>{song.genre}</span>
+                        </div>
+                        <div className={`song-cover song-cover--${metaBySongId[song.id]?.status ?? 'loading'}`}>
+                          {/* Always render the img so we can verify the fallback asset loads; show skeleton over it while loading */}
                           <img
-                            src={metaBySongId[song.id]?.coverUrl ?? '/assets/not-found-rose-GKTMwEyW.jpg'}
+                            src={metaBySongId[song.id]?.coverUrl ?? notFoundImg}
                             alt={`${song.title} cover`}
+                            onError={(e) => { (e.currentTarget as HTMLImageElement).src = notFoundImg; }}
                           />
-                        )}
-                        {metaBySongId[song.id]?.status === 'error' && (
-                          <span className="song-cover-fallback">Cover unavailable</span>
-                        )}
-                      </div>
-                      <h3>{song.title}</h3>
-                      <p>{song.artist}</p>
-                      <p className="song-description">{song.description}</p>
-                      <div className="song-card-actions">
-                        <button className="song-action secondary" onClick={() => handleExplore(song)}>
-                          Open YouTube
-                        </button>
-                        <button className="song-action" onClick={() => void handleCopy(song)}>
-                          Copy info
-                        </button>
-                      </div>
-                    </article>
-                  ))}
+                          {metaBySongId[song.id]?.status === 'loading' && <div className="song-cover-skeleton" aria-hidden="true" />}
+                          {metaBySongId[song.id]?.status === 'error' && (
+                            <span className="song-cover-fallback">Cover unavailable</span>
+                          )}
+                        </div>
+                        <h3>{song.title}</h3>
+                        <p>{song.artist}</p>
+                        <p className="song-description">{song.description}</p>
+                        <div className="song-card-actions">
+                          <button className="song-action secondary" onClick={() => handleExplore(song)}>
+                            Open YouTube
+                          </button>
+                          <button className="song-action" onClick={() => void handleCopy(song)}>
+                            Copy info
+                          </button>
+                        </div>
+                      </article>
+                    ))
+                  )}
                 </div>
               </aside>
                 </>

@@ -5,6 +5,7 @@ import { successResponse, errorResponse } from '../models/responseModel';
 import { Controller, Get, Post, Delete, Req, Res, Body, UseBefore, Param } from 'routing-controllers';
 import { requireBearerAuth, getBearerAuth } from '../middleware/bearerAuth';
 import type { YouTubeMusic } from '@shared/types/youtubeData';
+import logger from '../../../utils/logger';
 
 @Controller()
 export class YouTubeMusicController {
@@ -16,7 +17,7 @@ export class YouTubeMusicController {
       const list = await YouTubeService.getYouTubeMusicsList(userId || undefined);
       return res.status(200).json(successResponse(list, 'YouTube music list retrieved successfully'));
     } catch (error) {
-      console.error('YouTubeMusicController.getAll error:', error);
+      logger.error({ err: error }, 'YouTubeMusicController.getAll error');
       throw error;
     }
   }
@@ -29,7 +30,7 @@ export class YouTubeMusicController {
       const playlist = await YouTubeService.getPlaylist(userId || undefined);
       return res.status(200).json(successResponse(playlist, 'Playlist retrieved successfully'));
     } catch (error) {
-      console.error('YouTubeMusicController.getPlaylist error:', error);
+      logger.error({ err: error }, 'YouTubeMusicController.getPlaylist error');
       throw error;
     }
   }
@@ -42,7 +43,7 @@ export class YouTubeMusicController {
       const updated = await YouTubeService.addToPlaylist(body, userId!);
       return res.status(201).json(successResponse(updated, 'Added to playlist'));
     } catch (error: any) {
-      console.error('YouTubeMusicController.addToPlaylist error:', error);
+      logger.error({ err: error }, 'YouTubeMusicController.addToPlaylist error');
       const statusCode = error.statusCode || 500;
       const message = error.message;
       return res.status(statusCode).json(errorResponse(message, 'PLAYLIST_ERROR'));
@@ -57,7 +58,7 @@ export class YouTubeMusicController {
       const updated = await YouTubeService.removeFromPlaylist(videoId, userId!);
       return res.status(200).json(successResponse(updated, 'Removed from playlist'));
     } catch (error: any) {
-      console.error('YouTubeMusicController.deleteFromPlaylist error:', error);
+      logger.error({ err: error }, 'YouTubeMusicController.deleteFromPlaylist error');
       const statusCode = error.statusCode || 500;
       const message = error.message;
       return res.status(statusCode).json(errorResponse(message, 'PLAYLIST_ERROR'));

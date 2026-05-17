@@ -1,8 +1,8 @@
 import prisma from "./client";
+import logger from '../src/utils/logger';
 import musicData from "../../../shared/data/musicData.json";
 import youtubeMusicData from "../../../shared/data/youtubeMusicsList.json";
 import { MUSIC_MAP_COUNTRIES, MUSIC_MAP_ERAS } from "../../../shared/data/musicMapCountries";
-import { REAL_MUSIC_MAP_SEEDS, type MusicMapSongSeed } from "../../../shared/data/musicMapRealSeeds";
 
 const REAL_SEED_ALIASES: Record<string, string> = {
 	'united states': 'usa',
@@ -33,7 +33,7 @@ main()
 		await prisma.$disconnect();
 	})
 	.catch(async (e) => {
-		console.error(e);
+		logger.error(e);
 		await prisma.$disconnect();
 		process.exit(1);
 	});
@@ -42,7 +42,7 @@ async function seedData() {
 	await prisma.music.deleteMany();
 	await prisma.musicMapSong.deleteMany();
 	await prisma.musicMapCountry.deleteMany();
-	console.log("Seeding...");
+	// Seeding started
 
 	for (const name of musicData.categories) {
 		await prisma.music.create({
@@ -68,16 +68,8 @@ async function seedData() {
 	}
 
 	for (const country of MUSIC_MAP_COUNTRIES) {
-		const realSeedKey = getRealSeedKey(country.name, country.code);
-		const realSeed = REAL_MUSIC_MAP_SEEDS[realSeedKey];
-		const songsByEra = realSeed
-			? Object.fromEntries(
-				MUSIC_MAP_ERAS.map((era) => [
-					era,
-					(realSeed[era] ?? country.songs[era]).map((song: MusicMapSongSeed) => song),
-				]),
-			)
-			: country.songs;
+		// Use the bundled country songs directly (local real-seed dataset removed)
+		const songsByEra = country.songs;
 
 		await prisma.musicMapCountry.create({
 			data: {
@@ -109,5 +101,5 @@ async function seedData() {
 		});
 	}
 
-	console.log("Seeding completed!");
+	// Seeding completed
 }

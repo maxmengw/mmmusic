@@ -227,13 +227,15 @@ export const buildGlobePoints = (
 
   for (const country of countries) {
     const code = country.code;
+    // Prefer the capital coordinates when available (keeps preset points on capital cities)
+    const capital = resolveCapitalByName(country.name);
     result.push({
       id: `preset-${code}`,
       code,
       name: country.name,
       region: country.region,
-      lat: country.lat ?? 0,
-      lng: country.lng ?? 0,
+      lat: capital?.lat ?? country.lat ?? 0,
+      lng: capital?.lng ?? country.lng ?? 0,
       size: code === selectedCountryCode ? 0.9 : 0.6,
       color: code === selectedCountryCode ? 'rgba(98,210,162,0.95)' : 'rgba(255,209,102,0.95)',
       isPreset: true,

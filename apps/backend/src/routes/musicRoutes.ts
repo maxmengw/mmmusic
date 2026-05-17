@@ -3,11 +3,14 @@ import { MusicController } from "../api/v1/controllers/musicController";
 import { requireBearerAuth } from "../api/v1/middleware/bearerAuth";
 import { validateAddMusic, validateDeleteMusic } from "../api/v1/middleware/musicValidation";
 import { fetchMusicMeta } from '../api/v1/services/musicMetaService';
+import { generateCountryCandidates } from '../api/v1/services/musicGenerateService';
 import { MUSIC_MAP_COUNTRIES } from '../../../../shared/data/musicMapCountries';
 import { fetchMusicMapCountries } from '../api/v1/services/musicMapService';
 
 const router = Router();
 const controller = new MusicController();
+
+// NOTE: debug route and module-load logs removed for production cleanliness
 
 // Simple in-memory rate limiter per-client (IP) for the public metadata proxy
 const RATE_LIMIT_WINDOW_MS = 60_000; // 1 minute
@@ -58,6 +61,18 @@ router.get('/music/mapcountries', async (_req: Request, res: Response) => {
     try {
         const data = await fetchMusicMapCountries();
         return res.status(200).json({ success: true, data: data.length ? data : MUSIC_MAP_COUNTRIES });
+    } catch (err: any) {
+        return res.status(500).json({ success: false, message: err?.message || 'Internal error' });
+    }
+});
+
+// Generate candidate tracks + cover art for a country (uses MusicBrainz + iTunes)
+router.get('/music/generate', async (req: Request, res: Response) => {
+    try {
+        const { country, count = '6', era } = req.query as any;
+        if (!country) return res.status(400).json({ success: false, message: 'missing country' });
+        const items = await generateCountryCandidates(country, Number(count), era);
+        return res.status(200).json({ success: true, data: items });
     } catch (err: any) {
         return res.status(500).json({ success: false, message: err?.message || 'Internal error' });
     }

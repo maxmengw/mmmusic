@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useAuth } from '@clerk/clerk-react';
 import * as MusicService from '../../services/music/musicService';
+import logger from '../../utils/logger';
 import type { MusicData } from '@shared/types/MusicData';
 
 export function useMusic() {
@@ -22,7 +23,7 @@ export function useMusic() {
 			const result = await MusicService.getMusics(sessionToken);
 			setData(result);
 		} catch (error) {
-			console.error('Failed to load music data', error);
+			logger.error('Failed to load music data', error);
 			setData(null);
 		}
 	};
