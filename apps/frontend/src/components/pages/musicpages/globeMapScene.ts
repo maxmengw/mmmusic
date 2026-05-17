@@ -129,14 +129,21 @@ const createCountrySilhouette = (globeRef: MutableRefObject<any>, countries: Mus
 
     const ux = new THREE.Vector3().crossVectors(arbitrary, up).normalize();
     const uy = new THREE.Vector3().crossVectors(up, ux).normalize();
-    const coords = (geo.geometry && geo.geometry.coordinates && geo.geometry.coordinates[0]) || [];
-    const ring = Array.isArray(coords[0][0]) ? coords[0][0] : coords[0] || coords;
+    const geometry = geo.geometry;
+    const coords = geometry?.coordinates || [];
+    const ring = geometry?.type === 'MultiPolygon'
+      ? (coords?.[0]?.[0] ?? [])
+      : (coords?.[0] ?? []);
+
+    if (!Array.isArray(ring) || ring.length < 3) return;
+
     const shape = new THREE.Shape();
     let started = false;
 
     for (let index = 0; index < ring.length; index += 1) {
-      const lon = ring[index][0];
-      const latPoint = ring[index][1];
+      const lon = Number(ring[index]?.[0]);
+      const latPoint = Number(ring[index]?.[1]);
+      if (!Number.isFinite(lon) || !Number.isFinite(latPoint)) continue;
       const pointPhi = (90 - latPoint) * (Math.PI / 180);
       const pointTheta = (lon + 180) * (Math.PI / 180);
       const px = -radius * Math.sin(pointPhi) * Math.cos(pointTheta);
