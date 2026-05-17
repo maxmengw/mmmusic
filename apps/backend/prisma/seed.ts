@@ -1,6 +1,28 @@
 import prisma from "./client";
 import musicData from "../../../shared/data/musicData.json";
 import youtubeMusicData from "../../../shared/data/youtubeMusicsList.json";
+import { MUSIC_MAP_COUNTRIES, MUSIC_MAP_ERAS } from "../../../shared/data/musicMapCountries";
+import { REAL_MUSIC_MAP_SEEDS, type MusicMapSongSeed } from "../../../shared/data/musicMapRealSeeds";
+
+const REAL_SEED_ALIASES: Record<string, string> = {
+	'united states': 'usa',
+	'united kingdom': 'uk',
+	'south korea': 'southKorea',
+};
+
+const normalizeLookupKey = (value: string) =>
+	String(value || '')
+		.trim()
+		.toLowerCase()
+		.replace(/[^a-z0-9]+/g, ' ')
+		.replace(/\s+/g, ' ')
+		.trim();
+
+const getRealSeedKey = (countryName: string, code: string) => {
+	const nameKey = normalizeLookupKey(countryName);
+	const codeKey = normalizeLookupKey(code);
+	return REAL_SEED_ALIASES[nameKey] || REAL_SEED_ALIASES[codeKey] || codeKey.replace(/\s+/g, '') || nameKey.replace(/\s+/g, '');
+};
 
 async function main() {
 	await seedData();
@@ -18,6 +40,8 @@ main()
 
 async function seedData() {
 	await prisma.music.deleteMany();
+	await prisma.musicMapSong.deleteMany();
+	await prisma.musicMapCountry.deleteMany();
 	console.log("Seeding...");
 
 	for (const name of musicData.categories) {
@@ -39,6 +63,48 @@ async function seedData() {
 				title: m.title,
 				artist: m.artist,
 				videoId: m.videoId,
+			},
+		});
+	}
+
+	for (const country of MUSIC_MAP_COUNTRIES) {
+		const realSeedKey = getRealSeedKey(country.name, country.code);
+		const realSeed = REAL_MUSIC_MAP_SEEDS[realSeedKey];
+		const songsByEra = realSeed
+			? Object.fromEntries(
+				MUSIC_MAP_ERAS.map((era) => [
+					era,
+					(realSeed[era] ?? country.songs[era]).map((song: MusicMapSongSeed) => song),
+				]),
+			)
+			: country.songs;
+
+		await prisma.musicMapCountry.create({
+			data: {
+				code: country.code,
+				name: country.name,
+				region: country.region,
+				description: country.description,
+				positionTop: country.position.top,
+				positionLeft: country.position.left,
+				lat: country.lat ?? null,
+				lng: country.lng ?? null,
+				songs: {
+					createMany: {
+						data: MUSIC_MAP_ERAS.flatMap((era) =>
+							songsByEra[era].map((song, index) => ({
+								era,
+								title: song.title,
+								artist: song.artist,
+								videoId: song.videoId,
+								year: song.year,
+								genre: song.genre,
+								description: song.description,
+								sortOrder: index,
+							})),
+						),
+					},
+				},
 			},
 		});
 	}

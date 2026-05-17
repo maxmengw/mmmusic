@@ -37,7 +37,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "indonesia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Indonesia (1960s)."
+          "description": "Representative track for Indonesia (1960s)."
         }
       ],
       "1980s": [
@@ -57,7 +57,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "indonesia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Indonesia (1980s)."
+          "description": "Representative track for Indonesia (1980s)."
         }
       ],
       "2000s": [
@@ -77,7 +77,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "indonesia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Indonesia (2000s)."
+          "description": "Representative track for Indonesia (2000s)."
         }
       ],
       "2020s": [
@@ -97,7 +97,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "indonesia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Indonesia (2020s)."
+          "description": "Representative track for Indonesia (2020s)."
         }
       ]
     }
@@ -131,7 +131,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "malaysia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Malaysia (1960s)."
+          "description": "Representative track for Malaysia (1960s)."
         }
       ],
       "1980s": [
@@ -151,7 +151,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "malaysia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Malaysia (1980s)."
+          "description": "Representative track for Malaysia (1980s)."
         }
       ],
       "2000s": [
@@ -171,7 +171,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "malaysia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Malaysia (2000s)."
+          "description": "Representative track for Malaysia (2000s)."
         }
       ],
       "2020s": [
@@ -191,7 +191,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "malaysia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Malaysia (2020s)."
+          "description": "Representative track for Malaysia (2020s)."
         }
       ]
     }
@@ -225,7 +225,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "chile-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Chile (1960s)."
+          "description": "Representative track for Chile (1960s)."
         }
       ],
       "1980s": [
@@ -245,7 +245,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "chile-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Chile (1980s)."
+          "description": "Representative track for Chile (1980s)."
         }
       ],
       "2000s": [
@@ -265,7 +265,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "chile-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Chile (2000s)."
+          "description": "Representative track for Chile (2000s)."
         }
       ],
       "2020s": [
@@ -285,7 +285,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "chile-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Chile (2020s)."
+          "description": "Representative track for Chile (2020s)."
         }
       ]
     }
@@ -319,7 +319,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bolivia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Bolivia (1960s)."
+          "description": "Representative track for Bolivia (1960s)."
         }
       ],
       "1980s": [
@@ -339,7 +339,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bolivia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Bolivia (1980s)."
+          "description": "Representative track for Bolivia (1980s)."
         }
       ],
       "2000s": [
@@ -359,7 +359,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bolivia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Bolivia (2000s)."
+          "description": "Representative track for Bolivia (2000s)."
         }
       ],
       "2020s": [
@@ -379,7 +379,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bolivia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Bolivia (2020s)."
+          "description": "Representative track for Bolivia (2020s)."
         }
       ]
     }
@@ -413,7 +413,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "peru-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Peru (1960s)."
+          "description": "Representative track for Peru (1960s)."
         }
       ],
       "1980s": [
@@ -433,7 +433,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "peru-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Peru (1980s)."
+          "description": "Representative track for Peru (1980s)."
         }
       ],
       "2000s": [
@@ -453,7 +453,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "peru-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Peru (2000s)."
+          "description": "Representative track for Peru (2000s)."
         }
       ],
       "2020s": [
@@ -473,7 +473,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "peru-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Peru (2020s)."
+          "description": "Representative track for Peru (2020s)."
         }
       ]
     }
@@ -507,7 +507,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "argentina-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Argentina (1960s)."
+          "description": "Representative track for Argentina (1960s)."
         }
       ],
       "1980s": [
@@ -527,7 +527,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "argentina-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Argentina (1980s)."
+          "description": "Representative track for Argentina (1980s)."
         }
       ],
       "2000s": [
@@ -547,7 +547,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "argentina-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Argentina (2000s)."
+          "description": "Representative track for Argentina (2000s)."
         }
       ],
       "2020s": [
@@ -567,7 +567,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "argentina-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Argentina (2020s)."
+          "description": "Representative track for Argentina (2020s)."
         }
       ]
     }
@@ -601,7 +601,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "dhekelia-sovereign-base-area-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Dhekelia Sovereign Base Area (1960s)."
+          "description": "Representative track for Dhekelia Sovereign Base Area (1960s)."
         }
       ],
       "1980s": [
@@ -621,7 +621,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "dhekelia-sovereign-base-area-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Dhekelia Sovereign Base Area (1980s)."
+          "description": "Representative track for Dhekelia Sovereign Base Area (1980s)."
         }
       ],
       "2000s": [
@@ -641,7 +641,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "dhekelia-sovereign-base-area-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Dhekelia Sovereign Base Area (2000s)."
+          "description": "Representative track for Dhekelia Sovereign Base Area (2000s)."
         }
       ],
       "2020s": [
@@ -661,7 +661,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "dhekelia-sovereign-base-area-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Dhekelia Sovereign Base Area (2020s)."
+          "description": "Representative track for Dhekelia Sovereign Base Area (2020s)."
         }
       ]
     }
@@ -695,7 +695,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cyprus-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Cyprus (1960s)."
+          "description": "Representative track for Cyprus (1960s)."
         }
       ],
       "1980s": [
@@ -715,7 +715,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cyprus-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Cyprus (1980s)."
+          "description": "Representative track for Cyprus (1980s)."
         }
       ],
       "2000s": [
@@ -735,7 +735,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cyprus-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Cyprus (2000s)."
+          "description": "Representative track for Cyprus (2000s)."
         }
       ],
       "2020s": [
@@ -755,7 +755,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cyprus-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Cyprus (2020s)."
+          "description": "Representative track for Cyprus (2020s)."
         }
       ]
     }
@@ -789,7 +789,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "india-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for India (1960s)."
+          "description": "Representative track for India (1960s)."
         }
       ],
       "1980s": [
@@ -809,7 +809,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "india-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for India (1980s)."
+          "description": "Representative track for India (1980s)."
         }
       ],
       "2000s": [
@@ -829,7 +829,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "india-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for India (2000s)."
+          "description": "Representative track for India (2000s)."
         }
       ],
       "2020s": [
@@ -849,7 +849,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "india-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for India (2020s)."
+          "description": "Representative track for India (2020s)."
         }
       ]
     }
@@ -883,7 +883,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "china-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for China (1960s)."
+          "description": "Representative track for China (1960s)."
         }
       ],
       "1980s": [
@@ -903,7 +903,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "china-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for China (1980s)."
+          "description": "Representative track for China (1980s)."
         }
       ],
       "2000s": [
@@ -923,7 +923,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "china-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for China (2000s)."
+          "description": "Representative track for China (2000s)."
         }
       ],
       "2020s": [
@@ -943,7 +943,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "china-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for China (2020s)."
+          "description": "Representative track for China (2020s)."
         }
       ]
     }
@@ -977,7 +977,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "israel-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Israel (1960s)."
+          "description": "Representative track for Israel (1960s)."
         }
       ],
       "1980s": [
@@ -997,7 +997,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "israel-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Israel (1980s)."
+          "description": "Representative track for Israel (1980s)."
         }
       ],
       "2000s": [
@@ -1017,7 +1017,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "israel-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Israel (2000s)."
+          "description": "Representative track for Israel (2000s)."
         }
       ],
       "2020s": [
@@ -1037,7 +1037,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "israel-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Israel (2020s)."
+          "description": "Representative track for Israel (2020s)."
         }
       ]
     }
@@ -1071,7 +1071,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "palestine-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Palestine (1960s)."
+          "description": "Representative track for Palestine (1960s)."
         }
       ],
       "1980s": [
@@ -1091,7 +1091,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "palestine-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Palestine (1980s)."
+          "description": "Representative track for Palestine (1980s)."
         }
       ],
       "2000s": [
@@ -1111,7 +1111,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "palestine-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Palestine (2000s)."
+          "description": "Representative track for Palestine (2000s)."
         }
       ],
       "2020s": [
@@ -1131,7 +1131,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "palestine-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Palestine (2020s)."
+          "description": "Representative track for Palestine (2020s)."
         }
       ]
     }
@@ -1165,7 +1165,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "lebanon-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Lebanon (1960s)."
+          "description": "Representative track for Lebanon (1960s)."
         }
       ],
       "1980s": [
@@ -1185,7 +1185,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "lebanon-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Lebanon (1980s)."
+          "description": "Representative track for Lebanon (1980s)."
         }
       ],
       "2000s": [
@@ -1205,7 +1205,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "lebanon-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Lebanon (2000s)."
+          "description": "Representative track for Lebanon (2000s)."
         }
       ],
       "2020s": [
@@ -1225,7 +1225,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "lebanon-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Lebanon (2020s)."
+          "description": "Representative track for Lebanon (2020s)."
         }
       ]
     }
@@ -1259,7 +1259,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ethiopia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Ethiopia (1960s)."
+          "description": "Representative track for Ethiopia (1960s)."
         }
       ],
       "1980s": [
@@ -1279,7 +1279,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ethiopia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Ethiopia (1980s)."
+          "description": "Representative track for Ethiopia (1980s)."
         }
       ],
       "2000s": [
@@ -1299,7 +1299,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ethiopia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Ethiopia (2000s)."
+          "description": "Representative track for Ethiopia (2000s)."
         }
       ],
       "2020s": [
@@ -1319,7 +1319,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ethiopia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Ethiopia (2020s)."
+          "description": "Representative track for Ethiopia (2020s)."
         }
       ]
     }
@@ -1353,7 +1353,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "south-sudan-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for South Sudan (1960s)."
+          "description": "Representative track for South Sudan (1960s)."
         }
       ],
       "1980s": [
@@ -1373,7 +1373,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "south-sudan-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for South Sudan (1980s)."
+          "description": "Representative track for South Sudan (1980s)."
         }
       ],
       "2000s": [
@@ -1393,7 +1393,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "south-sudan-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for South Sudan (2000s)."
+          "description": "Representative track for South Sudan (2000s)."
         }
       ],
       "2020s": [
@@ -1413,7 +1413,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "south-sudan-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for South Sudan (2020s)."
+          "description": "Representative track for South Sudan (2020s)."
         }
       ]
     }
@@ -1447,7 +1447,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "somalia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Somalia (1960s)."
+          "description": "Representative track for Somalia (1960s)."
         }
       ],
       "1980s": [
@@ -1467,7 +1467,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "somalia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Somalia (1980s)."
+          "description": "Representative track for Somalia (1980s)."
         }
       ],
       "2000s": [
@@ -1487,7 +1487,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "somalia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Somalia (2000s)."
+          "description": "Representative track for Somalia (2000s)."
         }
       ],
       "2020s": [
@@ -1507,7 +1507,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "somalia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Somalia (2020s)."
+          "description": "Representative track for Somalia (2020s)."
         }
       ]
     }
@@ -1541,7 +1541,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kenya-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Kenya (1960s)."
+          "description": "Representative track for Kenya (1960s)."
         }
       ],
       "1980s": [
@@ -1561,7 +1561,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kenya-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Kenya (1980s)."
+          "description": "Representative track for Kenya (1980s)."
         }
       ],
       "2000s": [
@@ -1581,7 +1581,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kenya-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Kenya (2000s)."
+          "description": "Representative track for Kenya (2000s)."
         }
       ],
       "2020s": [
@@ -1601,7 +1601,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kenya-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Kenya (2020s)."
+          "description": "Representative track for Kenya (2020s)."
         }
       ]
     }
@@ -1635,7 +1635,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "malawi-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Malawi (1960s)."
+          "description": "Representative track for Malawi (1960s)."
         }
       ],
       "1980s": [
@@ -1655,7 +1655,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "malawi-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Malawi (1980s)."
+          "description": "Representative track for Malawi (1980s)."
         }
       ],
       "2000s": [
@@ -1675,7 +1675,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "malawi-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Malawi (2000s)."
+          "description": "Representative track for Malawi (2000s)."
         }
       ],
       "2020s": [
@@ -1695,7 +1695,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "malawi-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Malawi (2020s)."
+          "description": "Representative track for Malawi (2020s)."
         }
       ]
     }
@@ -1729,7 +1729,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-republic-of-tanzania-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for United Republic of Tanzania (1960s)."
+          "description": "Representative track for United Republic of Tanzania (1960s)."
         }
       ],
       "1980s": [
@@ -1749,7 +1749,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-republic-of-tanzania-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for United Republic of Tanzania (1980s)."
+          "description": "Representative track for United Republic of Tanzania (1980s)."
         }
       ],
       "2000s": [
@@ -1769,7 +1769,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-republic-of-tanzania-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for United Republic of Tanzania (2000s)."
+          "description": "Representative track for United Republic of Tanzania (2000s)."
         }
       ],
       "2020s": [
@@ -1789,7 +1789,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-republic-of-tanzania-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for United Republic of Tanzania (2020s)."
+          "description": "Representative track for United Republic of Tanzania (2020s)."
         }
       ]
     }
@@ -1823,7 +1823,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "syria-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Syria (1960s)."
+          "description": "Representative track for Syria (1960s)."
         }
       ],
       "1980s": [
@@ -1843,7 +1843,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "syria-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Syria (1980s)."
+          "description": "Representative track for Syria (1980s)."
         }
       ],
       "2000s": [
@@ -1863,7 +1863,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "syria-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Syria (2000s)."
+          "description": "Representative track for Syria (2000s)."
         }
       ],
       "2020s": [
@@ -1883,7 +1883,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "syria-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Syria (2020s)."
+          "description": "Representative track for Syria (2020s)."
         }
       ]
     }
@@ -1917,7 +1917,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "somaliland-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Somaliland (1960s)."
+          "description": "Representative track for Somaliland (1960s)."
         }
       ],
       "1980s": [
@@ -1937,7 +1937,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "somaliland-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Somaliland (1980s)."
+          "description": "Representative track for Somaliland (1980s)."
         }
       ],
       "2000s": [
@@ -1957,7 +1957,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "somaliland-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Somaliland (2000s)."
+          "description": "Representative track for Somaliland (2000s)."
         }
       ],
       "2020s": [
@@ -1977,7 +1977,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "somaliland-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Somaliland (2020s)."
+          "description": "Representative track for Somaliland (2020s)."
         }
       ]
     }
@@ -2011,7 +2011,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "france-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for France (1960s)."
+          "description": "Representative track for France (1960s)."
         }
       ],
       "1980s": [
@@ -2031,7 +2031,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "france-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for France (1980s)."
+          "description": "Representative track for France (1980s)."
         }
       ],
       "2000s": [
@@ -2051,7 +2051,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "france-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for France (2000s)."
+          "description": "Representative track for France (2000s)."
         }
       ],
       "2020s": [
@@ -2071,7 +2071,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "france-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for France (2020s)."
+          "description": "Representative track for France (2020s)."
         }
       ]
     }
@@ -2105,7 +2105,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "suriname-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Suriname (1960s)."
+          "description": "Representative track for Suriname (1960s)."
         }
       ],
       "1980s": [
@@ -2125,7 +2125,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "suriname-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Suriname (1980s)."
+          "description": "Representative track for Suriname (1980s)."
         }
       ],
       "2000s": [
@@ -2145,7 +2145,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "suriname-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Suriname (2000s)."
+          "description": "Representative track for Suriname (2000s)."
         }
       ],
       "2020s": [
@@ -2165,7 +2165,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "suriname-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Suriname (2020s)."
+          "description": "Representative track for Suriname (2020s)."
         }
       ]
     }
@@ -2199,7 +2199,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guyana-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Guyana (1960s)."
+          "description": "Representative track for Guyana (1960s)."
         }
       ],
       "1980s": [
@@ -2219,7 +2219,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guyana-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Guyana (1980s)."
+          "description": "Representative track for Guyana (1980s)."
         }
       ],
       "2000s": [
@@ -2239,7 +2239,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guyana-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Guyana (2000s)."
+          "description": "Representative track for Guyana (2000s)."
         }
       ],
       "2020s": [
@@ -2259,7 +2259,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guyana-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Guyana (2020s)."
+          "description": "Representative track for Guyana (2020s)."
         }
       ]
     }
@@ -2293,7 +2293,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "south-korea-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for South Korea (1960s)."
+          "description": "Representative track for South Korea (1960s)."
         }
       ],
       "1980s": [
@@ -2313,7 +2313,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "south-korea-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for South Korea (1980s)."
+          "description": "Representative track for South Korea (1980s)."
         }
       ],
       "2000s": [
@@ -2333,7 +2333,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "south-korea-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for South Korea (2000s)."
+          "description": "Representative track for South Korea (2000s)."
         }
       ],
       "2020s": [
@@ -2353,7 +2353,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "south-korea-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for South Korea (2020s)."
+          "description": "Representative track for South Korea (2020s)."
         }
       ]
     }
@@ -2387,7 +2387,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "north-korea-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for North Korea (1960s)."
+          "description": "Representative track for North Korea (1960s)."
         }
       ],
       "1980s": [
@@ -2407,7 +2407,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "north-korea-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for North Korea (1980s)."
+          "description": "Representative track for North Korea (1980s)."
         }
       ],
       "2000s": [
@@ -2427,7 +2427,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "north-korea-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for North Korea (2000s)."
+          "description": "Representative track for North Korea (2000s)."
         }
       ],
       "2020s": [
@@ -2447,7 +2447,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "north-korea-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for North Korea (2020s)."
+          "description": "Representative track for North Korea (2020s)."
         }
       ]
     }
@@ -2481,7 +2481,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "morocco-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Morocco (1960s)."
+          "description": "Representative track for Morocco (1960s)."
         }
       ],
       "1980s": [
@@ -2501,7 +2501,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "morocco-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Morocco (1980s)."
+          "description": "Representative track for Morocco (1980s)."
         }
       ],
       "2000s": [
@@ -2521,7 +2521,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "morocco-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Morocco (2000s)."
+          "description": "Representative track for Morocco (2000s)."
         }
       ],
       "2020s": [
@@ -2541,7 +2541,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "morocco-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Morocco (2020s)."
+          "description": "Representative track for Morocco (2020s)."
         }
       ]
     }
@@ -2575,7 +2575,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "western-sahara-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Western Sahara (1960s)."
+          "description": "Representative track for Western Sahara (1960s)."
         }
       ],
       "1980s": [
@@ -2595,7 +2595,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "western-sahara-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Western Sahara (1980s)."
+          "description": "Representative track for Western Sahara (1980s)."
         }
       ],
       "2000s": [
@@ -2615,7 +2615,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "western-sahara-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Western Sahara (2000s)."
+          "description": "Representative track for Western Sahara (2000s)."
         }
       ],
       "2020s": [
@@ -2635,7 +2635,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "western-sahara-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Western Sahara (2020s)."
+          "description": "Representative track for Western Sahara (2020s)."
         }
       ]
     }
@@ -2669,7 +2669,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "costa-rica-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Costa Rica (1960s)."
+          "description": "Representative track for Costa Rica (1960s)."
         }
       ],
       "1980s": [
@@ -2689,7 +2689,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "costa-rica-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Costa Rica (1980s)."
+          "description": "Representative track for Costa Rica (1980s)."
         }
       ],
       "2000s": [
@@ -2709,7 +2709,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "costa-rica-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Costa Rica (2000s)."
+          "description": "Representative track for Costa Rica (2000s)."
         }
       ],
       "2020s": [
@@ -2729,7 +2729,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "costa-rica-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Costa Rica (2020s)."
+          "description": "Representative track for Costa Rica (2020s)."
         }
       ]
     }
@@ -2763,7 +2763,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "nicaragua-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Nicaragua (1960s)."
+          "description": "Representative track for Nicaragua (1960s)."
         }
       ],
       "1980s": [
@@ -2783,7 +2783,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "nicaragua-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Nicaragua (1980s)."
+          "description": "Representative track for Nicaragua (1980s)."
         }
       ],
       "2000s": [
@@ -2803,7 +2803,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "nicaragua-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Nicaragua (2000s)."
+          "description": "Representative track for Nicaragua (2000s)."
         }
       ],
       "2020s": [
@@ -2823,7 +2823,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "nicaragua-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Nicaragua (2020s)."
+          "description": "Representative track for Nicaragua (2020s)."
         }
       ]
     }
@@ -2857,7 +2857,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "republic-of-the-congo-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Republic of the Congo (1960s)."
+          "description": "Representative track for Republic of the Congo (1960s)."
         }
       ],
       "1980s": [
@@ -2877,7 +2877,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "republic-of-the-congo-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Republic of the Congo (1980s)."
+          "description": "Representative track for Republic of the Congo (1980s)."
         }
       ],
       "2000s": [
@@ -2897,7 +2897,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "republic-of-the-congo-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Republic of the Congo (2000s)."
+          "description": "Representative track for Republic of the Congo (2000s)."
         }
       ],
       "2020s": [
@@ -2917,7 +2917,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "republic-of-the-congo-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Republic of the Congo (2020s)."
+          "description": "Representative track for Republic of the Congo (2020s)."
         }
       ]
     }
@@ -2951,7 +2951,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "democratic-republic-of-the-congo-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Democratic Republic of the Congo (1960s)."
+          "description": "Representative track for Democratic Republic of the Congo (1960s)."
         }
       ],
       "1980s": [
@@ -2971,7 +2971,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "democratic-republic-of-the-congo-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Democratic Republic of the Congo (1980s)."
+          "description": "Representative track for Democratic Republic of the Congo (1980s)."
         }
       ],
       "2000s": [
@@ -2991,7 +2991,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "democratic-republic-of-the-congo-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Democratic Republic of the Congo (2000s)."
+          "description": "Representative track for Democratic Republic of the Congo (2000s)."
         }
       ],
       "2020s": [
@@ -3011,7 +3011,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "democratic-republic-of-the-congo-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Democratic Republic of the Congo (2020s)."
+          "description": "Representative track for Democratic Republic of the Congo (2020s)."
         }
       ]
     }
@@ -3045,7 +3045,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bhutan-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Bhutan (1960s)."
+          "description": "Representative track for Bhutan (1960s)."
         }
       ],
       "1980s": [
@@ -3065,7 +3065,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bhutan-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Bhutan (1980s)."
+          "description": "Representative track for Bhutan (1980s)."
         }
       ],
       "2000s": [
@@ -3085,7 +3085,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bhutan-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Bhutan (2000s)."
+          "description": "Representative track for Bhutan (2000s)."
         }
       ],
       "2020s": [
@@ -3105,7 +3105,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bhutan-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Bhutan (2020s)."
+          "description": "Representative track for Bhutan (2020s)."
         }
       ]
     }
@@ -3139,7 +3139,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ukraine-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Ukraine (1960s)."
+          "description": "Representative track for Ukraine (1960s)."
         }
       ],
       "1980s": [
@@ -3159,7 +3159,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ukraine-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Ukraine (1980s)."
+          "description": "Representative track for Ukraine (1980s)."
         }
       ],
       "2000s": [
@@ -3179,7 +3179,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ukraine-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Ukraine (2000s)."
+          "description": "Representative track for Ukraine (2000s)."
         }
       ],
       "2020s": [
@@ -3199,7 +3199,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ukraine-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Ukraine (2020s)."
+          "description": "Representative track for Ukraine (2020s)."
         }
       ]
     }
@@ -3233,7 +3233,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "belarus-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Belarus (1960s)."
+          "description": "Representative track for Belarus (1960s)."
         }
       ],
       "1980s": [
@@ -3253,7 +3253,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "belarus-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Belarus (1980s)."
+          "description": "Representative track for Belarus (1980s)."
         }
       ],
       "2000s": [
@@ -3273,7 +3273,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "belarus-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Belarus (2000s)."
+          "description": "Representative track for Belarus (2000s)."
         }
       ],
       "2020s": [
@@ -3293,7 +3293,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "belarus-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Belarus (2020s)."
+          "description": "Representative track for Belarus (2020s)."
         }
       ]
     }
@@ -3327,7 +3327,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "namibia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Namibia (1960s)."
+          "description": "Representative track for Namibia (1960s)."
         }
       ],
       "1980s": [
@@ -3347,7 +3347,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "namibia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Namibia (1980s)."
+          "description": "Representative track for Namibia (1980s)."
         }
       ],
       "2000s": [
@@ -3367,7 +3367,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "namibia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Namibia (2000s)."
+          "description": "Representative track for Namibia (2000s)."
         }
       ],
       "2020s": [
@@ -3387,7 +3387,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "namibia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Namibia (2020s)."
+          "description": "Representative track for Namibia (2020s)."
         }
       ]
     }
@@ -3421,7 +3421,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "south-africa-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for South Africa (1960s)."
+          "description": "Representative track for South Africa (1960s)."
         }
       ],
       "1980s": [
@@ -3441,7 +3441,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "south-africa-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for South Africa (1980s)."
+          "description": "Representative track for South Africa (1980s)."
         }
       ],
       "2000s": [
@@ -3461,7 +3461,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "south-africa-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for South Africa (2000s)."
+          "description": "Representative track for South Africa (2000s)."
         }
       ],
       "2020s": [
@@ -3481,7 +3481,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "south-africa-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for South Africa (2020s)."
+          "description": "Representative track for South Africa (2020s)."
         }
       ]
     }
@@ -3515,7 +3515,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-martin-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Saint Martin (1960s)."
+          "description": "Representative track for Saint Martin (1960s)."
         }
       ],
       "1980s": [
@@ -3535,7 +3535,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-martin-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Saint Martin (1980s)."
+          "description": "Representative track for Saint Martin (1980s)."
         }
       ],
       "2000s": [
@@ -3555,7 +3555,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-martin-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Saint Martin (2000s)."
+          "description": "Representative track for Saint Martin (2000s)."
         }
       ],
       "2020s": [
@@ -3575,7 +3575,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-martin-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Saint Martin (2020s)."
+          "description": "Representative track for Saint Martin (2020s)."
         }
       ]
     }
@@ -3609,7 +3609,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "sint-maarten-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Sint Maarten (1960s)."
+          "description": "Representative track for Sint Maarten (1960s)."
         }
       ],
       "1980s": [
@@ -3629,7 +3629,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "sint-maarten-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Sint Maarten (1980s)."
+          "description": "Representative track for Sint Maarten (1980s)."
         }
       ],
       "2000s": [
@@ -3649,7 +3649,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "sint-maarten-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Sint Maarten (2000s)."
+          "description": "Representative track for Sint Maarten (2000s)."
         }
       ],
       "2020s": [
@@ -3669,7 +3669,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "sint-maarten-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Sint Maarten (2020s)."
+          "description": "Representative track for Sint Maarten (2020s)."
         }
       ]
     }
@@ -3703,7 +3703,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "oman-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Oman (1960s)."
+          "description": "Representative track for Oman (1960s)."
         }
       ],
       "1980s": [
@@ -3723,7 +3723,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "oman-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Oman (1980s)."
+          "description": "Representative track for Oman (1980s)."
         }
       ],
       "2000s": [
@@ -3743,7 +3743,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "oman-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Oman (2000s)."
+          "description": "Representative track for Oman (2000s)."
         }
       ],
       "2020s": [
@@ -3763,7 +3763,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "oman-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Oman (2020s)."
+          "description": "Representative track for Oman (2020s)."
         }
       ]
     }
@@ -3797,7 +3797,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "uzbekistan-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Uzbekistan (1960s)."
+          "description": "Representative track for Uzbekistan (1960s)."
         }
       ],
       "1980s": [
@@ -3817,7 +3817,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "uzbekistan-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Uzbekistan (1980s)."
+          "description": "Representative track for Uzbekistan (1980s)."
         }
       ],
       "2000s": [
@@ -3837,7 +3837,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "uzbekistan-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Uzbekistan (2000s)."
+          "description": "Representative track for Uzbekistan (2000s)."
         }
       ],
       "2020s": [
@@ -3857,7 +3857,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "uzbekistan-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Uzbekistan (2020s)."
+          "description": "Representative track for Uzbekistan (2020s)."
         }
       ]
     }
@@ -3891,7 +3891,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kazakhstan-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Kazakhstan (1960s)."
+          "description": "Representative track for Kazakhstan (1960s)."
         }
       ],
       "1980s": [
@@ -3911,7 +3911,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kazakhstan-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Kazakhstan (1980s)."
+          "description": "Representative track for Kazakhstan (1980s)."
         }
       ],
       "2000s": [
@@ -3931,7 +3931,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kazakhstan-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Kazakhstan (2000s)."
+          "description": "Representative track for Kazakhstan (2000s)."
         }
       ],
       "2020s": [
@@ -3951,7 +3951,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kazakhstan-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Kazakhstan (2020s)."
+          "description": "Representative track for Kazakhstan (2020s)."
         }
       ]
     }
@@ -3985,7 +3985,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "tajikistan-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Tajikistan (1960s)."
+          "description": "Representative track for Tajikistan (1960s)."
         }
       ],
       "1980s": [
@@ -4005,7 +4005,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "tajikistan-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Tajikistan (1980s)."
+          "description": "Representative track for Tajikistan (1980s)."
         }
       ],
       "2000s": [
@@ -4025,7 +4025,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "tajikistan-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Tajikistan (2000s)."
+          "description": "Representative track for Tajikistan (2000s)."
         }
       ],
       "2020s": [
@@ -4045,7 +4045,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "tajikistan-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Tajikistan (2020s)."
+          "description": "Representative track for Tajikistan (2020s)."
         }
       ]
     }
@@ -4079,7 +4079,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "lithuania-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Lithuania (1960s)."
+          "description": "Representative track for Lithuania (1960s)."
         }
       ],
       "1980s": [
@@ -4099,7 +4099,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "lithuania-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Lithuania (1980s)."
+          "description": "Representative track for Lithuania (1980s)."
         }
       ],
       "2000s": [
@@ -4119,7 +4119,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "lithuania-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Lithuania (2000s)."
+          "description": "Representative track for Lithuania (2000s)."
         }
       ],
       "2020s": [
@@ -4139,7 +4139,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "lithuania-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Lithuania (2020s)."
+          "description": "Representative track for Lithuania (2020s)."
         }
       ]
     }
@@ -4173,7 +4173,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "brazil-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Brazil (1960s)."
+          "description": "Representative track for Brazil (1960s)."
         }
       ],
       "1980s": [
@@ -4193,7 +4193,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "brazil-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Brazil (1980s)."
+          "description": "Representative track for Brazil (1980s)."
         }
       ],
       "2000s": [
@@ -4213,7 +4213,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "brazil-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Brazil (2000s)."
+          "description": "Representative track for Brazil (2000s)."
         }
       ],
       "2020s": [
@@ -4233,7 +4233,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "brazil-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Brazil (2020s)."
+          "description": "Representative track for Brazil (2020s)."
         }
       ]
     }
@@ -4267,7 +4267,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "uruguay-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Uruguay (1960s)."
+          "description": "Representative track for Uruguay (1960s)."
         }
       ],
       "1980s": [
@@ -4287,7 +4287,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "uruguay-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Uruguay (1980s)."
+          "description": "Representative track for Uruguay (1980s)."
         }
       ],
       "2000s": [
@@ -4307,7 +4307,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "uruguay-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Uruguay (2000s)."
+          "description": "Representative track for Uruguay (2000s)."
         }
       ],
       "2020s": [
@@ -4327,7 +4327,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "uruguay-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Uruguay (2020s)."
+          "description": "Representative track for Uruguay (2020s)."
         }
       ]
     }
@@ -4361,7 +4361,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mongolia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Mongolia (1960s)."
+          "description": "Representative track for Mongolia (1960s)."
         }
       ],
       "1980s": [
@@ -4381,7 +4381,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mongolia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Mongolia (1980s)."
+          "description": "Representative track for Mongolia (1980s)."
         }
       ],
       "2000s": [
@@ -4401,7 +4401,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mongolia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Mongolia (2000s)."
+          "description": "Representative track for Mongolia (2000s)."
         }
       ],
       "2020s": [
@@ -4421,7 +4421,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mongolia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Mongolia (2020s)."
+          "description": "Representative track for Mongolia (2020s)."
         }
       ]
     }
@@ -4455,7 +4455,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "russia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Russia (1960s)."
+          "description": "Representative track for Russia (1960s)."
         }
       ],
       "1980s": [
@@ -4475,7 +4475,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "russia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Russia (1980s)."
+          "description": "Representative track for Russia (1980s)."
         }
       ],
       "2000s": [
@@ -4495,7 +4495,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "russia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Russia (2000s)."
+          "description": "Representative track for Russia (2000s)."
         }
       ],
       "2020s": [
@@ -4515,7 +4515,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "russia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Russia (2020s)."
+          "description": "Representative track for Russia (2020s)."
         }
       ]
     }
@@ -4549,7 +4549,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "czechia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Czechia (1960s)."
+          "description": "Representative track for Czechia (1960s)."
         }
       ],
       "1980s": [
@@ -4569,7 +4569,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "czechia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Czechia (1980s)."
+          "description": "Representative track for Czechia (1980s)."
         }
       ],
       "2000s": [
@@ -4589,7 +4589,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "czechia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Czechia (2000s)."
+          "description": "Representative track for Czechia (2000s)."
         }
       ],
       "2020s": [
@@ -4609,7 +4609,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "czechia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Czechia (2020s)."
+          "description": "Representative track for Czechia (2020s)."
         }
       ]
     }
@@ -4643,7 +4643,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "germany-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Germany (1960s)."
+          "description": "Representative track for Germany (1960s)."
         }
       ],
       "1980s": [
@@ -4663,7 +4663,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "germany-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Germany (1980s)."
+          "description": "Representative track for Germany (1980s)."
         }
       ],
       "2000s": [
@@ -4683,7 +4683,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "germany-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Germany (2000s)."
+          "description": "Representative track for Germany (2000s)."
         }
       ],
       "2020s": [
@@ -4703,7 +4703,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "germany-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Germany (2020s)."
+          "description": "Representative track for Germany (2020s)."
         }
       ]
     }
@@ -4737,7 +4737,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "estonia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Estonia (1960s)."
+          "description": "Representative track for Estonia (1960s)."
         }
       ],
       "1980s": [
@@ -4757,7 +4757,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "estonia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Estonia (1980s)."
+          "description": "Representative track for Estonia (1980s)."
         }
       ],
       "2000s": [
@@ -4777,7 +4777,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "estonia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Estonia (2000s)."
+          "description": "Representative track for Estonia (2000s)."
         }
       ],
       "2020s": [
@@ -4797,7 +4797,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "estonia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Estonia (2020s)."
+          "description": "Representative track for Estonia (2020s)."
         }
       ]
     }
@@ -4831,7 +4831,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "latvia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Latvia (1960s)."
+          "description": "Representative track for Latvia (1960s)."
         }
       ],
       "1980s": [
@@ -4851,7 +4851,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "latvia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Latvia (1980s)."
+          "description": "Representative track for Latvia (1980s)."
         }
       ],
       "2000s": [
@@ -4871,7 +4871,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "latvia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Latvia (2000s)."
+          "description": "Representative track for Latvia (2000s)."
         }
       ],
       "2020s": [
@@ -4891,7 +4891,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "latvia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Latvia (2020s)."
+          "description": "Representative track for Latvia (2020s)."
         }
       ]
     }
@@ -4925,7 +4925,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "norway-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Norway (1960s)."
+          "description": "Representative track for Norway (1960s)."
         }
       ],
       "1980s": [
@@ -4945,7 +4945,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "norway-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Norway (1980s)."
+          "description": "Representative track for Norway (1980s)."
         }
       ],
       "2000s": [
@@ -4965,7 +4965,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "norway-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Norway (2000s)."
+          "description": "Representative track for Norway (2000s)."
         }
       ],
       "2020s": [
@@ -4985,7 +4985,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "norway-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Norway (2020s)."
+          "description": "Representative track for Norway (2020s)."
         }
       ]
     }
@@ -5019,7 +5019,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "sweden-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Sweden (1960s)."
+          "description": "Representative track for Sweden (1960s)."
         }
       ],
       "1980s": [
@@ -5039,7 +5039,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "sweden-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Sweden (1980s)."
+          "description": "Representative track for Sweden (1980s)."
         }
       ],
       "2000s": [
@@ -5059,7 +5059,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "sweden-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Sweden (2000s)."
+          "description": "Representative track for Sweden (2000s)."
         }
       ],
       "2020s": [
@@ -5079,7 +5079,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "sweden-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Sweden (2020s)."
+          "description": "Representative track for Sweden (2020s)."
         }
       ]
     }
@@ -5113,7 +5113,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "finland-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Finland (1960s)."
+          "description": "Representative track for Finland (1960s)."
         }
       ],
       "1980s": [
@@ -5133,7 +5133,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "finland-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Finland (1980s)."
+          "description": "Representative track for Finland (1980s)."
         }
       ],
       "2000s": [
@@ -5153,7 +5153,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "finland-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Finland (2000s)."
+          "description": "Representative track for Finland (2000s)."
         }
       ],
       "2020s": [
@@ -5173,7 +5173,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "finland-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Finland (2020s)."
+          "description": "Representative track for Finland (2020s)."
         }
       ]
     }
@@ -5207,7 +5207,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "vietnam-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Vietnam (1960s)."
+          "description": "Representative track for Vietnam (1960s)."
         }
       ],
       "1980s": [
@@ -5227,7 +5227,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "vietnam-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Vietnam (1980s)."
+          "description": "Representative track for Vietnam (1980s)."
         }
       ],
       "2000s": [
@@ -5247,7 +5247,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "vietnam-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Vietnam (2000s)."
+          "description": "Representative track for Vietnam (2000s)."
         }
       ],
       "2020s": [
@@ -5267,7 +5267,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "vietnam-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Vietnam (2020s)."
+          "description": "Representative track for Vietnam (2020s)."
         }
       ]
     }
@@ -5301,7 +5301,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cambodia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Cambodia (1960s)."
+          "description": "Representative track for Cambodia (1960s)."
         }
       ],
       "1980s": [
@@ -5321,7 +5321,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cambodia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Cambodia (1980s)."
+          "description": "Representative track for Cambodia (1980s)."
         }
       ],
       "2000s": [
@@ -5341,7 +5341,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cambodia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Cambodia (2000s)."
+          "description": "Representative track for Cambodia (2000s)."
         }
       ],
       "2020s": [
@@ -5361,7 +5361,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cambodia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Cambodia (2020s)."
+          "description": "Representative track for Cambodia (2020s)."
         }
       ]
     }
@@ -5395,7 +5395,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "luxembourg-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Luxembourg (1960s)."
+          "description": "Representative track for Luxembourg (1960s)."
         }
       ],
       "1980s": [
@@ -5415,7 +5415,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "luxembourg-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Luxembourg (1980s)."
+          "description": "Representative track for Luxembourg (1980s)."
         }
       ],
       "2000s": [
@@ -5435,7 +5435,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "luxembourg-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Luxembourg (2000s)."
+          "description": "Representative track for Luxembourg (2000s)."
         }
       ],
       "2020s": [
@@ -5455,7 +5455,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "luxembourg-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Luxembourg (2020s)."
+          "description": "Representative track for Luxembourg (2020s)."
         }
       ]
     }
@@ -5489,7 +5489,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-arab-emirates-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for United Arab Emirates (1960s)."
+          "description": "Representative track for United Arab Emirates (1960s)."
         }
       ],
       "1980s": [
@@ -5509,7 +5509,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-arab-emirates-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for United Arab Emirates (1980s)."
+          "description": "Representative track for United Arab Emirates (1980s)."
         }
       ],
       "2000s": [
@@ -5529,7 +5529,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-arab-emirates-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for United Arab Emirates (2000s)."
+          "description": "Representative track for United Arab Emirates (2000s)."
         }
       ],
       "2020s": [
@@ -5549,7 +5549,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-arab-emirates-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for United Arab Emirates (2020s)."
+          "description": "Representative track for United Arab Emirates (2020s)."
         }
       ]
     }
@@ -5583,7 +5583,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "belgium-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Belgium (1960s)."
+          "description": "Representative track for Belgium (1960s)."
         }
       ],
       "1980s": [
@@ -5603,7 +5603,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "belgium-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Belgium (1980s)."
+          "description": "Representative track for Belgium (1980s)."
         }
       ],
       "2000s": [
@@ -5623,7 +5623,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "belgium-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Belgium (2000s)."
+          "description": "Representative track for Belgium (2000s)."
         }
       ],
       "2020s": [
@@ -5643,7 +5643,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "belgium-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Belgium (2020s)."
+          "description": "Representative track for Belgium (2020s)."
         }
       ]
     }
@@ -5677,7 +5677,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "georgia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Georgia (1960s)."
+          "description": "Representative track for Georgia (1960s)."
         }
       ],
       "1980s": [
@@ -5697,7 +5697,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "georgia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Georgia (1980s)."
+          "description": "Representative track for Georgia (1980s)."
         }
       ],
       "2000s": [
@@ -5717,7 +5717,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "georgia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Georgia (2000s)."
+          "description": "Representative track for Georgia (2000s)."
         }
       ],
       "2020s": [
@@ -5737,7 +5737,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "georgia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Georgia (2020s)."
+          "description": "Representative track for Georgia (2020s)."
         }
       ]
     }
@@ -5771,7 +5771,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "north-macedonia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for North Macedonia (1960s)."
+          "description": "Representative track for North Macedonia (1960s)."
         }
       ],
       "1980s": [
@@ -5791,7 +5791,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "north-macedonia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for North Macedonia (1980s)."
+          "description": "Representative track for North Macedonia (1980s)."
         }
       ],
       "2000s": [
@@ -5811,7 +5811,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "north-macedonia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for North Macedonia (2000s)."
+          "description": "Representative track for North Macedonia (2000s)."
         }
       ],
       "2020s": [
@@ -5831,7 +5831,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "north-macedonia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for North Macedonia (2020s)."
+          "description": "Representative track for North Macedonia (2020s)."
         }
       ]
     }
@@ -5865,7 +5865,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "albania-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Albania (1960s)."
+          "description": "Representative track for Albania (1960s)."
         }
       ],
       "1980s": [
@@ -5885,7 +5885,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "albania-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Albania (1980s)."
+          "description": "Representative track for Albania (1980s)."
         }
       ],
       "2000s": [
@@ -5905,7 +5905,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "albania-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Albania (2000s)."
+          "description": "Representative track for Albania (2000s)."
         }
       ],
       "2020s": [
@@ -5925,7 +5925,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "albania-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Albania (2020s)."
+          "description": "Representative track for Albania (2020s)."
         }
       ]
     }
@@ -5959,7 +5959,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "azerbaijan-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Azerbaijan (1960s)."
+          "description": "Representative track for Azerbaijan (1960s)."
         }
       ],
       "1980s": [
@@ -5979,7 +5979,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "azerbaijan-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Azerbaijan (1980s)."
+          "description": "Representative track for Azerbaijan (1980s)."
         }
       ],
       "2000s": [
@@ -5999,7 +5999,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "azerbaijan-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Azerbaijan (2000s)."
+          "description": "Representative track for Azerbaijan (2000s)."
         }
       ],
       "2020s": [
@@ -6019,7 +6019,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "azerbaijan-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Azerbaijan (2020s)."
+          "description": "Representative track for Azerbaijan (2020s)."
         }
       ]
     }
@@ -6053,7 +6053,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kosovo-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Kosovo (1960s)."
+          "description": "Representative track for Kosovo (1960s)."
         }
       ],
       "1980s": [
@@ -6073,7 +6073,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kosovo-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Kosovo (1980s)."
+          "description": "Representative track for Kosovo (1980s)."
         }
       ],
       "2000s": [
@@ -6093,7 +6093,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kosovo-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Kosovo (2000s)."
+          "description": "Representative track for Kosovo (2000s)."
         }
       ],
       "2020s": [
@@ -6113,7 +6113,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kosovo-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Kosovo (2020s)."
+          "description": "Representative track for Kosovo (2020s)."
         }
       ]
     }
@@ -6147,7 +6147,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "turkey-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Turkey (1960s)."
+          "description": "Representative track for Turkey (1960s)."
         }
       ],
       "1980s": [
@@ -6167,7 +6167,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "turkey-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Turkey (1980s)."
+          "description": "Representative track for Turkey (1980s)."
         }
       ],
       "2000s": [
@@ -6187,7 +6187,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "turkey-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Turkey (2000s)."
+          "description": "Representative track for Turkey (2000s)."
         }
       ],
       "2020s": [
@@ -6207,7 +6207,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "turkey-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Turkey (2020s)."
+          "description": "Representative track for Turkey (2020s)."
         }
       ]
     }
@@ -6241,7 +6241,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "spain-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Spain (1960s)."
+          "description": "Representative track for Spain (1960s)."
         }
       ],
       "1980s": [
@@ -6261,7 +6261,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "spain-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Spain (1980s)."
+          "description": "Representative track for Spain (1980s)."
         }
       ],
       "2000s": [
@@ -6281,7 +6281,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "spain-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Spain (2000s)."
+          "description": "Representative track for Spain (2000s)."
         }
       ],
       "2020s": [
@@ -6301,7 +6301,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "spain-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Spain (2020s)."
+          "description": "Representative track for Spain (2020s)."
         }
       ]
     }
@@ -6335,7 +6335,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "laos-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Laos (1960s)."
+          "description": "Representative track for Laos (1960s)."
         }
       ],
       "1980s": [
@@ -6355,7 +6355,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "laos-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Laos (1980s)."
+          "description": "Representative track for Laos (1980s)."
         }
       ],
       "2000s": [
@@ -6375,7 +6375,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "laos-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Laos (2000s)."
+          "description": "Representative track for Laos (2000s)."
         }
       ],
       "2020s": [
@@ -6395,7 +6395,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "laos-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Laos (2020s)."
+          "description": "Representative track for Laos (2020s)."
         }
       ]
     }
@@ -6429,7 +6429,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kyrgyzstan-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Kyrgyzstan (1960s)."
+          "description": "Representative track for Kyrgyzstan (1960s)."
         }
       ],
       "1980s": [
@@ -6449,7 +6449,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kyrgyzstan-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Kyrgyzstan (1980s)."
+          "description": "Representative track for Kyrgyzstan (1980s)."
         }
       ],
       "2000s": [
@@ -6469,7 +6469,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kyrgyzstan-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Kyrgyzstan (2000s)."
+          "description": "Representative track for Kyrgyzstan (2000s)."
         }
       ],
       "2020s": [
@@ -6489,7 +6489,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kyrgyzstan-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Kyrgyzstan (2020s)."
+          "description": "Representative track for Kyrgyzstan (2020s)."
         }
       ]
     }
@@ -6523,7 +6523,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "armenia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Armenia (1960s)."
+          "description": "Representative track for Armenia (1960s)."
         }
       ],
       "1980s": [
@@ -6543,7 +6543,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "armenia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Armenia (1980s)."
+          "description": "Representative track for Armenia (1980s)."
         }
       ],
       "2000s": [
@@ -6563,7 +6563,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "armenia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Armenia (2000s)."
+          "description": "Representative track for Armenia (2000s)."
         }
       ],
       "2020s": [
@@ -6583,7 +6583,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "armenia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Armenia (2020s)."
+          "description": "Representative track for Armenia (2020s)."
         }
       ]
     }
@@ -6617,7 +6617,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "denmark-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Denmark (1960s)."
+          "description": "Representative track for Denmark (1960s)."
         }
       ],
       "1980s": [
@@ -6637,7 +6637,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "denmark-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Denmark (1980s)."
+          "description": "Representative track for Denmark (1980s)."
         }
       ],
       "2000s": [
@@ -6657,7 +6657,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "denmark-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Denmark (2000s)."
+          "description": "Representative track for Denmark (2000s)."
         }
       ],
       "2020s": [
@@ -6677,7 +6677,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "denmark-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Denmark (2020s)."
+          "description": "Representative track for Denmark (2020s)."
         }
       ]
     }
@@ -6711,7 +6711,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "libya-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Libya (1960s)."
+          "description": "Representative track for Libya (1960s)."
         }
       ],
       "1980s": [
@@ -6731,7 +6731,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "libya-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Libya (1980s)."
+          "description": "Representative track for Libya (1980s)."
         }
       ],
       "2000s": [
@@ -6751,7 +6751,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "libya-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Libya (2000s)."
+          "description": "Representative track for Libya (2000s)."
         }
       ],
       "2020s": [
@@ -6771,7 +6771,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "libya-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Libya (2020s)."
+          "description": "Representative track for Libya (2020s)."
         }
       ]
     }
@@ -6805,7 +6805,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "tunisia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Tunisia (1960s)."
+          "description": "Representative track for Tunisia (1960s)."
         }
       ],
       "1980s": [
@@ -6825,7 +6825,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "tunisia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Tunisia (1980s)."
+          "description": "Representative track for Tunisia (1980s)."
         }
       ],
       "2000s": [
@@ -6845,7 +6845,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "tunisia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Tunisia (2000s)."
+          "description": "Representative track for Tunisia (2000s)."
         }
       ],
       "2020s": [
@@ -6865,7 +6865,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "tunisia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Tunisia (2020s)."
+          "description": "Representative track for Tunisia (2020s)."
         }
       ]
     }
@@ -6899,7 +6899,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "romania-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Romania (1960s)."
+          "description": "Representative track for Romania (1960s)."
         }
       ],
       "1980s": [
@@ -6919,7 +6919,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "romania-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Romania (1980s)."
+          "description": "Representative track for Romania (1980s)."
         }
       ],
       "2000s": [
@@ -6939,7 +6939,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "romania-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Romania (2000s)."
+          "description": "Representative track for Romania (2000s)."
         }
       ],
       "2020s": [
@@ -6959,7 +6959,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "romania-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Romania (2020s)."
+          "description": "Representative track for Romania (2020s)."
         }
       ]
     }
@@ -6993,7 +6993,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "hungary-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Hungary (1960s)."
+          "description": "Representative track for Hungary (1960s)."
         }
       ],
       "1980s": [
@@ -7013,7 +7013,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "hungary-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Hungary (1980s)."
+          "description": "Representative track for Hungary (1980s)."
         }
       ],
       "2000s": [
@@ -7033,7 +7033,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "hungary-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Hungary (2000s)."
+          "description": "Representative track for Hungary (2000s)."
         }
       ],
       "2020s": [
@@ -7053,7 +7053,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "hungary-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Hungary (2020s)."
+          "description": "Representative track for Hungary (2020s)."
         }
       ]
     }
@@ -7087,7 +7087,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "slovakia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Slovakia (1960s)."
+          "description": "Representative track for Slovakia (1960s)."
         }
       ],
       "1980s": [
@@ -7107,7 +7107,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "slovakia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Slovakia (1980s)."
+          "description": "Representative track for Slovakia (1980s)."
         }
       ],
       "2000s": [
@@ -7127,7 +7127,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "slovakia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Slovakia (2000s)."
+          "description": "Representative track for Slovakia (2000s)."
         }
       ],
       "2020s": [
@@ -7147,7 +7147,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "slovakia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Slovakia (2020s)."
+          "description": "Representative track for Slovakia (2020s)."
         }
       ]
     }
@@ -7181,7 +7181,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "poland-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Poland (1960s)."
+          "description": "Representative track for Poland (1960s)."
         }
       ],
       "1980s": [
@@ -7201,7 +7201,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "poland-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Poland (1980s)."
+          "description": "Representative track for Poland (1980s)."
         }
       ],
       "2000s": [
@@ -7221,7 +7221,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "poland-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Poland (2000s)."
+          "description": "Representative track for Poland (2000s)."
         }
       ],
       "2020s": [
@@ -7241,7 +7241,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "poland-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Poland (2020s)."
+          "description": "Representative track for Poland (2020s)."
         }
       ]
     }
@@ -7275,7 +7275,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ireland-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Ireland (1960s)."
+          "description": "Representative track for Ireland (1960s)."
         }
       ],
       "1980s": [
@@ -7295,7 +7295,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ireland-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Ireland (1980s)."
+          "description": "Representative track for Ireland (1980s)."
         }
       ],
       "2000s": [
@@ -7315,7 +7315,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ireland-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Ireland (2000s)."
+          "description": "Representative track for Ireland (2000s)."
         }
       ],
       "2020s": [
@@ -7335,7 +7335,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ireland-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Ireland (2020s)."
+          "description": "Representative track for Ireland (2020s)."
         }
       ]
     }
@@ -7369,7 +7369,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-kingdom-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for United Kingdom (1960s)."
+          "description": "Representative track for United Kingdom (1960s)."
         }
       ],
       "1980s": [
@@ -7389,7 +7389,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-kingdom-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for United Kingdom (1980s)."
+          "description": "Representative track for United Kingdom (1980s)."
         }
       ],
       "2000s": [
@@ -7409,7 +7409,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-kingdom-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for United Kingdom (2000s)."
+          "description": "Representative track for United Kingdom (2000s)."
         }
       ],
       "2020s": [
@@ -7429,7 +7429,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-kingdom-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for United Kingdom (2020s)."
+          "description": "Representative track for United Kingdom (2020s)."
         }
       ]
     }
@@ -7463,7 +7463,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "greece-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Greece (1960s)."
+          "description": "Representative track for Greece (1960s)."
         }
       ],
       "1980s": [
@@ -7483,7 +7483,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "greece-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Greece (1980s)."
+          "description": "Representative track for Greece (1980s)."
         }
       ],
       "2000s": [
@@ -7503,7 +7503,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "greece-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Greece (2000s)."
+          "description": "Representative track for Greece (2000s)."
         }
       ],
       "2020s": [
@@ -7523,7 +7523,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "greece-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Greece (2020s)."
+          "description": "Representative track for Greece (2020s)."
         }
       ]
     }
@@ -7557,7 +7557,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "zambia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Zambia (1960s)."
+          "description": "Representative track for Zambia (1960s)."
         }
       ],
       "1980s": [
@@ -7577,7 +7577,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "zambia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Zambia (1980s)."
+          "description": "Representative track for Zambia (1980s)."
         }
       ],
       "2000s": [
@@ -7597,7 +7597,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "zambia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Zambia (2000s)."
+          "description": "Representative track for Zambia (2000s)."
         }
       ],
       "2020s": [
@@ -7617,7 +7617,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "zambia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Zambia (2020s)."
+          "description": "Representative track for Zambia (2020s)."
         }
       ]
     }
@@ -7651,7 +7651,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "sierra-leone-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Sierra Leone (1960s)."
+          "description": "Representative track for Sierra Leone (1960s)."
         }
       ],
       "1980s": [
@@ -7671,7 +7671,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "sierra-leone-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Sierra Leone (1980s)."
+          "description": "Representative track for Sierra Leone (1980s)."
         }
       ],
       "2000s": [
@@ -7691,7 +7691,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "sierra-leone-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Sierra Leone (2000s)."
+          "description": "Representative track for Sierra Leone (2000s)."
         }
       ],
       "2020s": [
@@ -7711,7 +7711,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "sierra-leone-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Sierra Leone (2020s)."
+          "description": "Representative track for Sierra Leone (2020s)."
         }
       ]
     }
@@ -7745,7 +7745,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guinea-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Guinea (1960s)."
+          "description": "Representative track for Guinea (1960s)."
         }
       ],
       "1980s": [
@@ -7765,7 +7765,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guinea-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Guinea (1980s)."
+          "description": "Representative track for Guinea (1980s)."
         }
       ],
       "2000s": [
@@ -7785,7 +7785,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guinea-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Guinea (2000s)."
+          "description": "Representative track for Guinea (2000s)."
         }
       ],
       "2020s": [
@@ -7805,7 +7805,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guinea-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Guinea (2020s)."
+          "description": "Representative track for Guinea (2020s)."
         }
       ]
     }
@@ -7839,7 +7839,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "liberia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Liberia (1960s)."
+          "description": "Representative track for Liberia (1960s)."
         }
       ],
       "1980s": [
@@ -7859,7 +7859,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "liberia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Liberia (1980s)."
+          "description": "Representative track for Liberia (1980s)."
         }
       ],
       "2000s": [
@@ -7879,7 +7879,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "liberia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Liberia (2000s)."
+          "description": "Representative track for Liberia (2000s)."
         }
       ],
       "2020s": [
@@ -7899,7 +7899,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "liberia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Liberia (2020s)."
+          "description": "Representative track for Liberia (2020s)."
         }
       ]
     }
@@ -7933,7 +7933,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "central-african-republic-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Central African Republic (1960s)."
+          "description": "Representative track for Central African Republic (1960s)."
         }
       ],
       "1980s": [
@@ -7953,7 +7953,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "central-african-republic-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Central African Republic (1980s)."
+          "description": "Representative track for Central African Republic (1980s)."
         }
       ],
       "2000s": [
@@ -7973,7 +7973,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "central-african-republic-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Central African Republic (2000s)."
+          "description": "Representative track for Central African Republic (2000s)."
         }
       ],
       "2020s": [
@@ -7993,7 +7993,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "central-african-republic-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Central African Republic (2020s)."
+          "description": "Representative track for Central African Republic (2020s)."
         }
       ]
     }
@@ -8027,7 +8027,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "sudan-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Sudan (1960s)."
+          "description": "Representative track for Sudan (1960s)."
         }
       ],
       "1980s": [
@@ -8047,7 +8047,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "sudan-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Sudan (1980s)."
+          "description": "Representative track for Sudan (1980s)."
         }
       ],
       "2000s": [
@@ -8067,7 +8067,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "sudan-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Sudan (2000s)."
+          "description": "Representative track for Sudan (2000s)."
         }
       ],
       "2020s": [
@@ -8087,7 +8087,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "sudan-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Sudan (2020s)."
+          "description": "Representative track for Sudan (2020s)."
         }
       ]
     }
@@ -8121,7 +8121,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "djibouti-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Djibouti (1960s)."
+          "description": "Representative track for Djibouti (1960s)."
         }
       ],
       "1980s": [
@@ -8141,7 +8141,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "djibouti-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Djibouti (1980s)."
+          "description": "Representative track for Djibouti (1980s)."
         }
       ],
       "2000s": [
@@ -8161,7 +8161,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "djibouti-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Djibouti (2000s)."
+          "description": "Representative track for Djibouti (2000s)."
         }
       ],
       "2020s": [
@@ -8181,7 +8181,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "djibouti-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Djibouti (2020s)."
+          "description": "Representative track for Djibouti (2020s)."
         }
       ]
     }
@@ -8215,7 +8215,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "eritrea-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Eritrea (1960s)."
+          "description": "Representative track for Eritrea (1960s)."
         }
       ],
       "1980s": [
@@ -8235,7 +8235,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "eritrea-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Eritrea (1980s)."
+          "description": "Representative track for Eritrea (1980s)."
         }
       ],
       "2000s": [
@@ -8255,7 +8255,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "eritrea-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Eritrea (2000s)."
+          "description": "Representative track for Eritrea (2000s)."
         }
       ],
       "2020s": [
@@ -8275,7 +8275,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "eritrea-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Eritrea (2020s)."
+          "description": "Representative track for Eritrea (2020s)."
         }
       ]
     }
@@ -8309,7 +8309,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "austria-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Austria (1960s)."
+          "description": "Representative track for Austria (1960s)."
         }
       ],
       "1980s": [
@@ -8329,7 +8329,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "austria-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Austria (1980s)."
+          "description": "Representative track for Austria (1980s)."
         }
       ],
       "2000s": [
@@ -8349,7 +8349,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "austria-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Austria (2000s)."
+          "description": "Representative track for Austria (2000s)."
         }
       ],
       "2020s": [
@@ -8369,7 +8369,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "austria-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Austria (2020s)."
+          "description": "Representative track for Austria (2020s)."
         }
       ]
     }
@@ -8403,7 +8403,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "iraq-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Iraq (1960s)."
+          "description": "Representative track for Iraq (1960s)."
         }
       ],
       "1980s": [
@@ -8423,7 +8423,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "iraq-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Iraq (1980s)."
+          "description": "Representative track for Iraq (1980s)."
         }
       ],
       "2000s": [
@@ -8443,7 +8443,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "iraq-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Iraq (2000s)."
+          "description": "Representative track for Iraq (2000s)."
         }
       ],
       "2020s": [
@@ -8463,7 +8463,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "iraq-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Iraq (2020s)."
+          "description": "Representative track for Iraq (2020s)."
         }
       ]
     }
@@ -8497,7 +8497,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "italy-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Italy (1960s)."
+          "description": "Representative track for Italy (1960s)."
         }
       ],
       "1980s": [
@@ -8517,7 +8517,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "italy-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Italy (1980s)."
+          "description": "Representative track for Italy (1980s)."
         }
       ],
       "2000s": [
@@ -8537,7 +8537,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "italy-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Italy (2000s)."
+          "description": "Representative track for Italy (2000s)."
         }
       ],
       "2020s": [
@@ -8557,7 +8557,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "italy-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Italy (2020s)."
+          "description": "Representative track for Italy (2020s)."
         }
       ]
     }
@@ -8591,7 +8591,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "switzerland-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Switzerland (1960s)."
+          "description": "Representative track for Switzerland (1960s)."
         }
       ],
       "1980s": [
@@ -8611,7 +8611,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "switzerland-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Switzerland (1980s)."
+          "description": "Representative track for Switzerland (1980s)."
         }
       ],
       "2000s": [
@@ -8631,7 +8631,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "switzerland-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Switzerland (2000s)."
+          "description": "Representative track for Switzerland (2000s)."
         }
       ],
       "2020s": [
@@ -8651,7 +8651,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "switzerland-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Switzerland (2020s)."
+          "description": "Representative track for Switzerland (2020s)."
         }
       ]
     }
@@ -8685,7 +8685,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "iran-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Iran (1960s)."
+          "description": "Representative track for Iran (1960s)."
         }
       ],
       "1980s": [
@@ -8705,7 +8705,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "iran-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Iran (1980s)."
+          "description": "Representative track for Iran (1980s)."
         }
       ],
       "2000s": [
@@ -8725,7 +8725,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "iran-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Iran (2000s)."
+          "description": "Representative track for Iran (2000s)."
         }
       ],
       "2020s": [
@@ -8745,7 +8745,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "iran-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Iran (2020s)."
+          "description": "Representative track for Iran (2020s)."
         }
       ]
     }
@@ -8779,7 +8779,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "netherlands-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Netherlands (1960s)."
+          "description": "Representative track for Netherlands (1960s)."
         }
       ],
       "1980s": [
@@ -8799,7 +8799,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "netherlands-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Netherlands (1980s)."
+          "description": "Representative track for Netherlands (1980s)."
         }
       ],
       "2000s": [
@@ -8819,7 +8819,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "netherlands-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Netherlands (2000s)."
+          "description": "Representative track for Netherlands (2000s)."
         }
       ],
       "2020s": [
@@ -8839,7 +8839,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "netherlands-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Netherlands (2020s)."
+          "description": "Representative track for Netherlands (2020s)."
         }
       ]
     }
@@ -8873,7 +8873,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "liechtenstein-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Liechtenstein (1960s)."
+          "description": "Representative track for Liechtenstein (1960s)."
         }
       ],
       "1980s": [
@@ -8893,7 +8893,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "liechtenstein-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Liechtenstein (1980s)."
+          "description": "Representative track for Liechtenstein (1980s)."
         }
       ],
       "2000s": [
@@ -8913,7 +8913,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "liechtenstein-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Liechtenstein (2000s)."
+          "description": "Representative track for Liechtenstein (2000s)."
         }
       ],
       "2020s": [
@@ -8933,7 +8933,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "liechtenstein-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Liechtenstein (2020s)."
+          "description": "Representative track for Liechtenstein (2020s)."
         }
       ]
     }
@@ -8967,7 +8967,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ivory-coast-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Ivory Coast (1960s)."
+          "description": "Representative track for Ivory Coast (1960s)."
         }
       ],
       "1980s": [
@@ -8987,7 +8987,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ivory-coast-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Ivory Coast (1980s)."
+          "description": "Representative track for Ivory Coast (1980s)."
         }
       ],
       "2000s": [
@@ -9007,7 +9007,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ivory-coast-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Ivory Coast (2000s)."
+          "description": "Representative track for Ivory Coast (2000s)."
         }
       ],
       "2020s": [
@@ -9027,7 +9027,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ivory-coast-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Ivory Coast (2020s)."
+          "description": "Representative track for Ivory Coast (2020s)."
         }
       ]
     }
@@ -9061,7 +9061,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "republic-of-serbia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Republic of Serbia (1960s)."
+          "description": "Representative track for Republic of Serbia (1960s)."
         }
       ],
       "1980s": [
@@ -9081,7 +9081,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "republic-of-serbia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Republic of Serbia (1980s)."
+          "description": "Representative track for Republic of Serbia (1980s)."
         }
       ],
       "2000s": [
@@ -9101,7 +9101,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "republic-of-serbia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Republic of Serbia (2000s)."
+          "description": "Representative track for Republic of Serbia (2000s)."
         }
       ],
       "2020s": [
@@ -9121,7 +9121,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "republic-of-serbia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Republic of Serbia (2020s)."
+          "description": "Representative track for Republic of Serbia (2020s)."
         }
       ]
     }
@@ -9155,7 +9155,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mali-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Mali (1960s)."
+          "description": "Representative track for Mali (1960s)."
         }
       ],
       "1980s": [
@@ -9175,7 +9175,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mali-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Mali (1980s)."
+          "description": "Representative track for Mali (1980s)."
         }
       ],
       "2000s": [
@@ -9195,7 +9195,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mali-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Mali (2000s)."
+          "description": "Representative track for Mali (2000s)."
         }
       ],
       "2020s": [
@@ -9215,7 +9215,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mali-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Mali (2020s)."
+          "description": "Representative track for Mali (2020s)."
         }
       ]
     }
@@ -9249,7 +9249,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "senegal-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Senegal (1960s)."
+          "description": "Representative track for Senegal (1960s)."
         }
       ],
       "1980s": [
@@ -9269,7 +9269,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "senegal-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Senegal (1980s)."
+          "description": "Representative track for Senegal (1980s)."
         }
       ],
       "2000s": [
@@ -9289,7 +9289,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "senegal-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Senegal (2000s)."
+          "description": "Representative track for Senegal (2000s)."
         }
       ],
       "2020s": [
@@ -9309,7 +9309,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "senegal-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Senegal (2020s)."
+          "description": "Representative track for Senegal (2020s)."
         }
       ]
     }
@@ -9343,7 +9343,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "nigeria-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Nigeria (1960s)."
+          "description": "Representative track for Nigeria (1960s)."
         }
       ],
       "1980s": [
@@ -9363,7 +9363,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "nigeria-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Nigeria (1980s)."
+          "description": "Representative track for Nigeria (1980s)."
         }
       ],
       "2000s": [
@@ -9383,7 +9383,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "nigeria-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Nigeria (2000s)."
+          "description": "Representative track for Nigeria (2000s)."
         }
       ],
       "2020s": [
@@ -9403,7 +9403,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "nigeria-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Nigeria (2020s)."
+          "description": "Representative track for Nigeria (2020s)."
         }
       ]
     }
@@ -9437,7 +9437,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "benin-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Benin (1960s)."
+          "description": "Representative track for Benin (1960s)."
         }
       ],
       "1980s": [
@@ -9457,7 +9457,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "benin-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Benin (1980s)."
+          "description": "Representative track for Benin (1980s)."
         }
       ],
       "2000s": [
@@ -9477,7 +9477,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "benin-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Benin (2000s)."
+          "description": "Representative track for Benin (2000s)."
         }
       ],
       "2020s": [
@@ -9497,7 +9497,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "benin-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Benin (2020s)."
+          "description": "Representative track for Benin (2020s)."
         }
       ]
     }
@@ -9531,7 +9531,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "angola-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Angola (1960s)."
+          "description": "Representative track for Angola (1960s)."
         }
       ],
       "1980s": [
@@ -9551,7 +9551,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "angola-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Angola (1980s)."
+          "description": "Representative track for Angola (1980s)."
         }
       ],
       "2000s": [
@@ -9571,7 +9571,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "angola-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Angola (2000s)."
+          "description": "Representative track for Angola (2000s)."
         }
       ],
       "2020s": [
@@ -9591,7 +9591,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "angola-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Angola (2020s)."
+          "description": "Representative track for Angola (2020s)."
         }
       ]
     }
@@ -9625,7 +9625,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "croatia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Croatia (1960s)."
+          "description": "Representative track for Croatia (1960s)."
         }
       ],
       "1980s": [
@@ -9645,7 +9645,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "croatia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Croatia (1980s)."
+          "description": "Representative track for Croatia (1980s)."
         }
       ],
       "2000s": [
@@ -9665,7 +9665,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "croatia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Croatia (2000s)."
+          "description": "Representative track for Croatia (2000s)."
         }
       ],
       "2020s": [
@@ -9685,7 +9685,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "croatia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Croatia (2020s)."
+          "description": "Representative track for Croatia (2020s)."
         }
       ]
     }
@@ -9719,7 +9719,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "slovenia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Slovenia (1960s)."
+          "description": "Representative track for Slovenia (1960s)."
         }
       ],
       "1980s": [
@@ -9739,7 +9739,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "slovenia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Slovenia (1980s)."
+          "description": "Representative track for Slovenia (1980s)."
         }
       ],
       "2000s": [
@@ -9759,7 +9759,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "slovenia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Slovenia (2000s)."
+          "description": "Representative track for Slovenia (2000s)."
         }
       ],
       "2020s": [
@@ -9779,7 +9779,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "slovenia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Slovenia (2020s)."
+          "description": "Representative track for Slovenia (2020s)."
         }
       ]
     }
@@ -9813,7 +9813,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "qatar-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Qatar (1960s)."
+          "description": "Representative track for Qatar (1960s)."
         }
       ],
       "1980s": [
@@ -9833,7 +9833,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "qatar-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Qatar (1980s)."
+          "description": "Representative track for Qatar (1980s)."
         }
       ],
       "2000s": [
@@ -9853,7 +9853,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "qatar-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Qatar (2000s)."
+          "description": "Representative track for Qatar (2000s)."
         }
       ],
       "2020s": [
@@ -9873,7 +9873,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "qatar-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Qatar (2020s)."
+          "description": "Representative track for Qatar (2020s)."
         }
       ]
     }
@@ -9907,7 +9907,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saudi-arabia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Saudi Arabia (1960s)."
+          "description": "Representative track for Saudi Arabia (1960s)."
         }
       ],
       "1980s": [
@@ -9927,7 +9927,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saudi-arabia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Saudi Arabia (1980s)."
+          "description": "Representative track for Saudi Arabia (1980s)."
         }
       ],
       "2000s": [
@@ -9947,7 +9947,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saudi-arabia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Saudi Arabia (2000s)."
+          "description": "Representative track for Saudi Arabia (2000s)."
         }
       ],
       "2020s": [
@@ -9967,7 +9967,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saudi-arabia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Saudi Arabia (2020s)."
+          "description": "Representative track for Saudi Arabia (2020s)."
         }
       ]
     }
@@ -10001,7 +10001,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "botswana-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Botswana (1960s)."
+          "description": "Representative track for Botswana (1960s)."
         }
       ],
       "1980s": [
@@ -10021,7 +10021,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "botswana-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Botswana (1980s)."
+          "description": "Representative track for Botswana (1980s)."
         }
       ],
       "2000s": [
@@ -10041,7 +10041,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "botswana-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Botswana (2000s)."
+          "description": "Representative track for Botswana (2000s)."
         }
       ],
       "2020s": [
@@ -10061,7 +10061,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "botswana-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Botswana (2020s)."
+          "description": "Representative track for Botswana (2020s)."
         }
       ]
     }
@@ -10095,7 +10095,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "zimbabwe-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Zimbabwe (1960s)."
+          "description": "Representative track for Zimbabwe (1960s)."
         }
       ],
       "1980s": [
@@ -10115,7 +10115,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "zimbabwe-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Zimbabwe (1980s)."
+          "description": "Representative track for Zimbabwe (1980s)."
         }
       ],
       "2000s": [
@@ -10135,7 +10135,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "zimbabwe-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Zimbabwe (2000s)."
+          "description": "Representative track for Zimbabwe (2000s)."
         }
       ],
       "2020s": [
@@ -10155,7 +10155,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "zimbabwe-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Zimbabwe (2020s)."
+          "description": "Representative track for Zimbabwe (2020s)."
         }
       ]
     }
@@ -10189,7 +10189,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "pakistan-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Pakistan (1960s)."
+          "description": "Representative track for Pakistan (1960s)."
         }
       ],
       "1980s": [
@@ -10209,7 +10209,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "pakistan-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Pakistan (1980s)."
+          "description": "Representative track for Pakistan (1980s)."
         }
       ],
       "2000s": [
@@ -10229,7 +10229,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "pakistan-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Pakistan (2000s)."
+          "description": "Representative track for Pakistan (2000s)."
         }
       ],
       "2020s": [
@@ -10249,7 +10249,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "pakistan-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Pakistan (2020s)."
+          "description": "Representative track for Pakistan (2020s)."
         }
       ]
     }
@@ -10283,7 +10283,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bulgaria-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Bulgaria (1960s)."
+          "description": "Representative track for Bulgaria (1960s)."
         }
       ],
       "1980s": [
@@ -10303,7 +10303,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bulgaria-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Bulgaria (1980s)."
+          "description": "Representative track for Bulgaria (1980s)."
         }
       ],
       "2000s": [
@@ -10323,7 +10323,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bulgaria-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Bulgaria (2000s)."
+          "description": "Representative track for Bulgaria (2000s)."
         }
       ],
       "2020s": [
@@ -10343,7 +10343,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bulgaria-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Bulgaria (2020s)."
+          "description": "Representative track for Bulgaria (2020s)."
         }
       ]
     }
@@ -10377,7 +10377,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "thailand-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Thailand (1960s)."
+          "description": "Representative track for Thailand (1960s)."
         }
       ],
       "1980s": [
@@ -10397,7 +10397,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "thailand-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Thailand (1980s)."
+          "description": "Representative track for Thailand (1980s)."
         }
       ],
       "2000s": [
@@ -10417,7 +10417,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "thailand-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Thailand (2000s)."
+          "description": "Representative track for Thailand (2000s)."
         }
       ],
       "2020s": [
@@ -10437,7 +10437,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "thailand-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Thailand (2020s)."
+          "description": "Representative track for Thailand (2020s)."
         }
       ]
     }
@@ -10471,7 +10471,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "san-marino-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for San Marino (1960s)."
+          "description": "Representative track for San Marino (1960s)."
         }
       ],
       "1980s": [
@@ -10491,7 +10491,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "san-marino-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for San Marino (1980s)."
+          "description": "Representative track for San Marino (1980s)."
         }
       ],
       "2000s": [
@@ -10511,7 +10511,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "san-marino-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for San Marino (2000s)."
+          "description": "Representative track for San Marino (2000s)."
         }
       ],
       "2020s": [
@@ -10531,7 +10531,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "san-marino-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for San Marino (2020s)."
+          "description": "Representative track for San Marino (2020s)."
         }
       ]
     }
@@ -10565,7 +10565,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "haiti-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Haiti (1960s)."
+          "description": "Representative track for Haiti (1960s)."
         }
       ],
       "1980s": [
@@ -10585,7 +10585,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "haiti-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Haiti (1980s)."
+          "description": "Representative track for Haiti (1980s)."
         }
       ],
       "2000s": [
@@ -10605,7 +10605,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "haiti-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Haiti (2000s)."
+          "description": "Representative track for Haiti (2000s)."
         }
       ],
       "2020s": [
@@ -10625,7 +10625,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "haiti-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Haiti (2020s)."
+          "description": "Representative track for Haiti (2020s)."
         }
       ]
     }
@@ -10659,7 +10659,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "dominican-republic-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Dominican Republic (1960s)."
+          "description": "Representative track for Dominican Republic (1960s)."
         }
       ],
       "1980s": [
@@ -10679,7 +10679,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "dominican-republic-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Dominican Republic (1980s)."
+          "description": "Representative track for Dominican Republic (1980s)."
         }
       ],
       "2000s": [
@@ -10699,7 +10699,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "dominican-republic-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Dominican Republic (2000s)."
+          "description": "Representative track for Dominican Republic (2000s)."
         }
       ],
       "2020s": [
@@ -10719,7 +10719,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "dominican-republic-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Dominican Republic (2020s)."
+          "description": "Representative track for Dominican Republic (2020s)."
         }
       ]
     }
@@ -10753,7 +10753,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "chad-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Chad (1960s)."
+          "description": "Representative track for Chad (1960s)."
         }
       ],
       "1980s": [
@@ -10773,7 +10773,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "chad-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Chad (1980s)."
+          "description": "Representative track for Chad (1980s)."
         }
       ],
       "2000s": [
@@ -10793,7 +10793,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "chad-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Chad (2000s)."
+          "description": "Representative track for Chad (2000s)."
         }
       ],
       "2020s": [
@@ -10813,7 +10813,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "chad-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Chad (2020s)."
+          "description": "Representative track for Chad (2020s)."
         }
       ]
     }
@@ -10847,7 +10847,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kuwait-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Kuwait (1960s)."
+          "description": "Representative track for Kuwait (1960s)."
         }
       ],
       "1980s": [
@@ -10867,7 +10867,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kuwait-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Kuwait (1980s)."
+          "description": "Representative track for Kuwait (1980s)."
         }
       ],
       "2000s": [
@@ -10887,7 +10887,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kuwait-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Kuwait (2000s)."
+          "description": "Representative track for Kuwait (2000s)."
         }
       ],
       "2020s": [
@@ -10907,7 +10907,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kuwait-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Kuwait (2020s)."
+          "description": "Representative track for Kuwait (2020s)."
         }
       ]
     }
@@ -10941,7 +10941,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "el-salvador-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for El Salvador (1960s)."
+          "description": "Representative track for El Salvador (1960s)."
         }
       ],
       "1980s": [
@@ -10961,7 +10961,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "el-salvador-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for El Salvador (1980s)."
+          "description": "Representative track for El Salvador (1980s)."
         }
       ],
       "2000s": [
@@ -10981,7 +10981,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "el-salvador-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for El Salvador (2000s)."
+          "description": "Representative track for El Salvador (2000s)."
         }
       ],
       "2020s": [
@@ -11001,7 +11001,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "el-salvador-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for El Salvador (2020s)."
+          "description": "Representative track for El Salvador (2020s)."
         }
       ]
     }
@@ -11035,7 +11035,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guatemala-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Guatemala (1960s)."
+          "description": "Representative track for Guatemala (1960s)."
         }
       ],
       "1980s": [
@@ -11055,7 +11055,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guatemala-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Guatemala (1980s)."
+          "description": "Representative track for Guatemala (1980s)."
         }
       ],
       "2000s": [
@@ -11075,7 +11075,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guatemala-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Guatemala (2000s)."
+          "description": "Representative track for Guatemala (2000s)."
         }
       ],
       "2020s": [
@@ -11095,7 +11095,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guatemala-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Guatemala (2020s)."
+          "description": "Representative track for Guatemala (2020s)."
         }
       ]
     }
@@ -11129,7 +11129,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "east-timor-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for East Timor (1960s)."
+          "description": "Representative track for East Timor (1960s)."
         }
       ],
       "1980s": [
@@ -11149,7 +11149,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "east-timor-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for East Timor (1980s)."
+          "description": "Representative track for East Timor (1980s)."
         }
       ],
       "2000s": [
@@ -11169,7 +11169,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "east-timor-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for East Timor (2000s)."
+          "description": "Representative track for East Timor (2000s)."
         }
       ],
       "2020s": [
@@ -11189,7 +11189,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "east-timor-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for East Timor (2020s)."
+          "description": "Representative track for East Timor (2020s)."
         }
       ]
     }
@@ -11223,7 +11223,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "brunei-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Brunei (1960s)."
+          "description": "Representative track for Brunei (1960s)."
         }
       ],
       "1980s": [
@@ -11243,7 +11243,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "brunei-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Brunei (1980s)."
+          "description": "Representative track for Brunei (1980s)."
         }
       ],
       "2000s": [
@@ -11263,7 +11263,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "brunei-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Brunei (2000s)."
+          "description": "Representative track for Brunei (2000s)."
         }
       ],
       "2020s": [
@@ -11283,7 +11283,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "brunei-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Brunei (2020s)."
+          "description": "Representative track for Brunei (2020s)."
         }
       ]
     }
@@ -11317,7 +11317,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "monaco-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Monaco (1960s)."
+          "description": "Representative track for Monaco (1960s)."
         }
       ],
       "1980s": [
@@ -11337,7 +11337,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "monaco-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Monaco (1980s)."
+          "description": "Representative track for Monaco (1980s)."
         }
       ],
       "2000s": [
@@ -11357,7 +11357,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "monaco-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Monaco (2000s)."
+          "description": "Representative track for Monaco (2000s)."
         }
       ],
       "2020s": [
@@ -11377,7 +11377,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "monaco-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Monaco (2020s)."
+          "description": "Representative track for Monaco (2020s)."
         }
       ]
     }
@@ -11411,7 +11411,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "algeria-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Algeria (1960s)."
+          "description": "Representative track for Algeria (1960s)."
         }
       ],
       "1980s": [
@@ -11431,7 +11431,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "algeria-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Algeria (1980s)."
+          "description": "Representative track for Algeria (1980s)."
         }
       ],
       "2000s": [
@@ -11451,7 +11451,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "algeria-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Algeria (2000s)."
+          "description": "Representative track for Algeria (2000s)."
         }
       ],
       "2020s": [
@@ -11471,7 +11471,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "algeria-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Algeria (2020s)."
+          "description": "Representative track for Algeria (2020s)."
         }
       ]
     }
@@ -11505,7 +11505,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mozambique-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Mozambique (1960s)."
+          "description": "Representative track for Mozambique (1960s)."
         }
       ],
       "1980s": [
@@ -11525,7 +11525,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mozambique-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Mozambique (1980s)."
+          "description": "Representative track for Mozambique (1980s)."
         }
       ],
       "2000s": [
@@ -11545,7 +11545,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mozambique-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Mozambique (2000s)."
+          "description": "Representative track for Mozambique (2000s)."
         }
       ],
       "2020s": [
@@ -11565,7 +11565,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mozambique-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Mozambique (2020s)."
+          "description": "Representative track for Mozambique (2020s)."
         }
       ]
     }
@@ -11599,7 +11599,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "eswatini-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for eSwatini (1960s)."
+          "description": "Representative track for eSwatini (1960s)."
         }
       ],
       "1980s": [
@@ -11619,7 +11619,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "eswatini-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for eSwatini (1980s)."
+          "description": "Representative track for eSwatini (1980s)."
         }
       ],
       "2000s": [
@@ -11639,7 +11639,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "eswatini-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for eSwatini (2000s)."
+          "description": "Representative track for eSwatini (2000s)."
         }
       ],
       "2020s": [
@@ -11659,7 +11659,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "eswatini-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for eSwatini (2020s)."
+          "description": "Representative track for eSwatini (2020s)."
         }
       ]
     }
@@ -11693,7 +11693,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "burundi-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Burundi (1960s)."
+          "description": "Representative track for Burundi (1960s)."
         }
       ],
       "1980s": [
@@ -11713,7 +11713,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "burundi-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Burundi (1980s)."
+          "description": "Representative track for Burundi (1980s)."
         }
       ],
       "2000s": [
@@ -11733,7 +11733,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "burundi-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Burundi (2000s)."
+          "description": "Representative track for Burundi (2000s)."
         }
       ],
       "2020s": [
@@ -11753,7 +11753,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "burundi-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Burundi (2020s)."
+          "description": "Representative track for Burundi (2020s)."
         }
       ]
     }
@@ -11787,7 +11787,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "rwanda-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Rwanda (1960s)."
+          "description": "Representative track for Rwanda (1960s)."
         }
       ],
       "1980s": [
@@ -11807,7 +11807,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "rwanda-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Rwanda (1980s)."
+          "description": "Representative track for Rwanda (1980s)."
         }
       ],
       "2000s": [
@@ -11827,7 +11827,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "rwanda-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Rwanda (2000s)."
+          "description": "Representative track for Rwanda (2000s)."
         }
       ],
       "2020s": [
@@ -11847,7 +11847,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "rwanda-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Rwanda (2020s)."
+          "description": "Representative track for Rwanda (2020s)."
         }
       ]
     }
@@ -11881,7 +11881,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "myanmar-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Myanmar (1960s)."
+          "description": "Representative track for Myanmar (1960s)."
         }
       ],
       "1980s": [
@@ -11901,7 +11901,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "myanmar-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Myanmar (1980s)."
+          "description": "Representative track for Myanmar (1980s)."
         }
       ],
       "2000s": [
@@ -11921,7 +11921,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "myanmar-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Myanmar (2000s)."
+          "description": "Representative track for Myanmar (2000s)."
         }
       ],
       "2020s": [
@@ -11941,7 +11941,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "myanmar-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Myanmar (2020s)."
+          "description": "Representative track for Myanmar (2020s)."
         }
       ]
     }
@@ -11975,7 +11975,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bangladesh-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Bangladesh (1960s)."
+          "description": "Representative track for Bangladesh (1960s)."
         }
       ],
       "1980s": [
@@ -11995,7 +11995,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bangladesh-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Bangladesh (1980s)."
+          "description": "Representative track for Bangladesh (1980s)."
         }
       ],
       "2000s": [
@@ -12015,7 +12015,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bangladesh-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Bangladesh (2000s)."
+          "description": "Representative track for Bangladesh (2000s)."
         }
       ],
       "2020s": [
@@ -12035,7 +12035,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bangladesh-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Bangladesh (2020s)."
+          "description": "Representative track for Bangladesh (2020s)."
         }
       ]
     }
@@ -12069,7 +12069,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "andorra-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Andorra (1960s)."
+          "description": "Representative track for Andorra (1960s)."
         }
       ],
       "1980s": [
@@ -12089,7 +12089,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "andorra-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Andorra (1980s)."
+          "description": "Representative track for Andorra (1980s)."
         }
       ],
       "2000s": [
@@ -12109,7 +12109,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "andorra-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Andorra (2000s)."
+          "description": "Representative track for Andorra (2000s)."
         }
       ],
       "2020s": [
@@ -12129,7 +12129,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "andorra-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Andorra (2020s)."
+          "description": "Representative track for Andorra (2020s)."
         }
       ]
     }
@@ -12163,7 +12163,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "afghanistan-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Afghanistan (1960s)."
+          "description": "Representative track for Afghanistan (1960s)."
         }
       ],
       "1980s": [
@@ -12183,7 +12183,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "afghanistan-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Afghanistan (1980s)."
+          "description": "Representative track for Afghanistan (1980s)."
         }
       ],
       "2000s": [
@@ -12203,7 +12203,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "afghanistan-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Afghanistan (2000s)."
+          "description": "Representative track for Afghanistan (2000s)."
         }
       ],
       "2020s": [
@@ -12223,7 +12223,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "afghanistan-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Afghanistan (2020s)."
+          "description": "Representative track for Afghanistan (2020s)."
         }
       ]
     }
@@ -12257,7 +12257,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "montenegro-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Montenegro (1960s)."
+          "description": "Representative track for Montenegro (1960s)."
         }
       ],
       "1980s": [
@@ -12277,7 +12277,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "montenegro-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Montenegro (1980s)."
+          "description": "Representative track for Montenegro (1980s)."
         }
       ],
       "2000s": [
@@ -12297,7 +12297,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "montenegro-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Montenegro (2000s)."
+          "description": "Representative track for Montenegro (2000s)."
         }
       ],
       "2020s": [
@@ -12317,7 +12317,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "montenegro-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Montenegro (2020s)."
+          "description": "Representative track for Montenegro (2020s)."
         }
       ]
     }
@@ -12351,7 +12351,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bosnia-and-herzegovina-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Bosnia and Herzegovina (1960s)."
+          "description": "Representative track for Bosnia and Herzegovina (1960s)."
         }
       ],
       "1980s": [
@@ -12371,7 +12371,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bosnia-and-herzegovina-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Bosnia and Herzegovina (1980s)."
+          "description": "Representative track for Bosnia and Herzegovina (1980s)."
         }
       ],
       "2000s": [
@@ -12391,7 +12391,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bosnia-and-herzegovina-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Bosnia and Herzegovina (2000s)."
+          "description": "Representative track for Bosnia and Herzegovina (2000s)."
         }
       ],
       "2020s": [
@@ -12411,7 +12411,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bosnia-and-herzegovina-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Bosnia and Herzegovina (2020s)."
+          "description": "Representative track for Bosnia and Herzegovina (2020s)."
         }
       ]
     }
@@ -12445,7 +12445,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "uganda-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Uganda (1960s)."
+          "description": "Representative track for Uganda (1960s)."
         }
       ],
       "1980s": [
@@ -12465,7 +12465,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "uganda-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Uganda (1980s)."
+          "description": "Representative track for Uganda (1980s)."
         }
       ],
       "2000s": [
@@ -12485,7 +12485,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "uganda-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Uganda (2000s)."
+          "description": "Representative track for Uganda (2000s)."
         }
       ],
       "2020s": [
@@ -12505,7 +12505,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "uganda-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Uganda (2020s)."
+          "description": "Representative track for Uganda (2020s)."
         }
       ]
     }
@@ -12539,7 +12539,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "us-naval-base-guantanamo-bay-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for US Naval Base Guantanamo Bay (1960s)."
+          "description": "Representative track for US Naval Base Guantanamo Bay (1960s)."
         }
       ],
       "1980s": [
@@ -12559,7 +12559,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "us-naval-base-guantanamo-bay-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for US Naval Base Guantanamo Bay (1980s)."
+          "description": "Representative track for US Naval Base Guantanamo Bay (1980s)."
         }
       ],
       "2000s": [
@@ -12579,7 +12579,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "us-naval-base-guantanamo-bay-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for US Naval Base Guantanamo Bay (2000s)."
+          "description": "Representative track for US Naval Base Guantanamo Bay (2000s)."
         }
       ],
       "2020s": [
@@ -12599,7 +12599,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "us-naval-base-guantanamo-bay-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for US Naval Base Guantanamo Bay (2020s)."
+          "description": "Representative track for US Naval Base Guantanamo Bay (2020s)."
         }
       ]
     }
@@ -12633,7 +12633,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cuba-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Cuba (1960s)."
+          "description": "Representative track for Cuba (1960s)."
         }
       ],
       "1980s": [
@@ -12653,7 +12653,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cuba-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Cuba (1980s)."
+          "description": "Representative track for Cuba (1980s)."
         }
       ],
       "2000s": [
@@ -12673,7 +12673,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cuba-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Cuba (2000s)."
+          "description": "Representative track for Cuba (2000s)."
         }
       ],
       "2020s": [
@@ -12693,7 +12693,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cuba-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Cuba (2020s)."
+          "description": "Representative track for Cuba (2020s)."
         }
       ]
     }
@@ -12727,7 +12727,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "honduras-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Honduras (1960s)."
+          "description": "Representative track for Honduras (1960s)."
         }
       ],
       "1980s": [
@@ -12747,7 +12747,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "honduras-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Honduras (1980s)."
+          "description": "Representative track for Honduras (1980s)."
         }
       ],
       "2000s": [
@@ -12767,7 +12767,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "honduras-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Honduras (2000s)."
+          "description": "Representative track for Honduras (2000s)."
         }
       ],
       "2020s": [
@@ -12787,7 +12787,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "honduras-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Honduras (2020s)."
+          "description": "Representative track for Honduras (2020s)."
         }
       ]
     }
@@ -12821,7 +12821,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ecuador-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Ecuador (1960s)."
+          "description": "Representative track for Ecuador (1960s)."
         }
       ],
       "1980s": [
@@ -12841,7 +12841,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ecuador-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Ecuador (1980s)."
+          "description": "Representative track for Ecuador (1980s)."
         }
       ],
       "2000s": [
@@ -12861,7 +12861,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ecuador-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Ecuador (2000s)."
+          "description": "Representative track for Ecuador (2000s)."
         }
       ],
       "2020s": [
@@ -12881,7 +12881,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ecuador-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Ecuador (2020s)."
+          "description": "Representative track for Ecuador (2020s)."
         }
       ]
     }
@@ -12915,7 +12915,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "colombia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Colombia (1960s)."
+          "description": "Representative track for Colombia (1960s)."
         }
       ],
       "1980s": [
@@ -12935,7 +12935,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "colombia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Colombia (1980s)."
+          "description": "Representative track for Colombia (1980s)."
         }
       ],
       "2000s": [
@@ -12955,7 +12955,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "colombia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Colombia (2000s)."
+          "description": "Representative track for Colombia (2000s)."
         }
       ],
       "2020s": [
@@ -12975,7 +12975,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "colombia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Colombia (2020s)."
+          "description": "Representative track for Colombia (2020s)."
         }
       ]
     }
@@ -13009,7 +13009,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "paraguay-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Paraguay (1960s)."
+          "description": "Representative track for Paraguay (1960s)."
         }
       ],
       "1980s": [
@@ -13029,7 +13029,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "paraguay-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Paraguay (1980s)."
+          "description": "Representative track for Paraguay (1980s)."
         }
       ],
       "2000s": [
@@ -13049,7 +13049,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "paraguay-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Paraguay (2000s)."
+          "description": "Representative track for Paraguay (2000s)."
         }
       ],
       "2020s": [
@@ -13069,7 +13069,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "paraguay-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Paraguay (2020s)."
+          "description": "Representative track for Paraguay (2020s)."
         }
       ]
     }
@@ -13103,7 +13103,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "brazilian-island-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Brazilian Island (1960s)."
+          "description": "Representative track for Brazilian Island (1960s)."
         }
       ],
       "1980s": [
@@ -13123,7 +13123,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "brazilian-island-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Brazilian Island (1980s)."
+          "description": "Representative track for Brazilian Island (1980s)."
         }
       ],
       "2000s": [
@@ -13143,7 +13143,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "brazilian-island-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Brazilian Island (2000s)."
+          "description": "Representative track for Brazilian Island (2000s)."
         }
       ],
       "2020s": [
@@ -13163,7 +13163,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "brazilian-island-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Brazilian Island (2020s)."
+          "description": "Representative track for Brazilian Island (2020s)."
         }
       ]
     }
@@ -13197,7 +13197,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "portugal-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Portugal (1960s)."
+          "description": "Representative track for Portugal (1960s)."
         }
       ],
       "1980s": [
@@ -13217,7 +13217,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "portugal-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Portugal (1980s)."
+          "description": "Representative track for Portugal (1980s)."
         }
       ],
       "2000s": [
@@ -13237,7 +13237,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "portugal-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Portugal (2000s)."
+          "description": "Representative track for Portugal (2000s)."
         }
       ],
       "2020s": [
@@ -13257,7 +13257,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "portugal-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Portugal (2020s)."
+          "description": "Representative track for Portugal (2020s)."
         }
       ]
     }
@@ -13291,7 +13291,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "moldova-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Moldova (1960s)."
+          "description": "Representative track for Moldova (1960s)."
         }
       ],
       "1980s": [
@@ -13311,7 +13311,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "moldova-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Moldova (1980s)."
+          "description": "Representative track for Moldova (1980s)."
         }
       ],
       "2000s": [
@@ -13331,7 +13331,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "moldova-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Moldova (2000s)."
+          "description": "Representative track for Moldova (2000s)."
         }
       ],
       "2020s": [
@@ -13351,7 +13351,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "moldova-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Moldova (2020s)."
+          "description": "Representative track for Moldova (2020s)."
         }
       ]
     }
@@ -13385,7 +13385,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "turkmenistan-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Turkmenistan (1960s)."
+          "description": "Representative track for Turkmenistan (1960s)."
         }
       ],
       "1980s": [
@@ -13405,7 +13405,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "turkmenistan-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Turkmenistan (1980s)."
+          "description": "Representative track for Turkmenistan (1980s)."
         }
       ],
       "2000s": [
@@ -13425,7 +13425,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "turkmenistan-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Turkmenistan (2000s)."
+          "description": "Representative track for Turkmenistan (2000s)."
         }
       ],
       "2020s": [
@@ -13445,7 +13445,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "turkmenistan-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Turkmenistan (2020s)."
+          "description": "Representative track for Turkmenistan (2020s)."
         }
       ]
     }
@@ -13479,7 +13479,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "jordan-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Jordan (1960s)."
+          "description": "Representative track for Jordan (1960s)."
         }
       ],
       "1980s": [
@@ -13499,7 +13499,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "jordan-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Jordan (1980s)."
+          "description": "Representative track for Jordan (1980s)."
         }
       ],
       "2000s": [
@@ -13519,7 +13519,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "jordan-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Jordan (2000s)."
+          "description": "Representative track for Jordan (2000s)."
         }
       ],
       "2020s": [
@@ -13539,7 +13539,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "jordan-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Jordan (2020s)."
+          "description": "Representative track for Jordan (2020s)."
         }
       ]
     }
@@ -13573,7 +13573,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "nepal-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Nepal (1960s)."
+          "description": "Representative track for Nepal (1960s)."
         }
       ],
       "1980s": [
@@ -13593,7 +13593,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "nepal-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Nepal (1980s)."
+          "description": "Representative track for Nepal (1980s)."
         }
       ],
       "2000s": [
@@ -13613,7 +13613,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "nepal-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Nepal (2000s)."
+          "description": "Representative track for Nepal (2000s)."
         }
       ],
       "2020s": [
@@ -13633,7 +13633,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "nepal-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Nepal (2020s)."
+          "description": "Representative track for Nepal (2020s)."
         }
       ]
     }
@@ -13667,7 +13667,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "lesotho-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Lesotho (1960s)."
+          "description": "Representative track for Lesotho (1960s)."
         }
       ],
       "1980s": [
@@ -13687,7 +13687,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "lesotho-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Lesotho (1980s)."
+          "description": "Representative track for Lesotho (1980s)."
         }
       ],
       "2000s": [
@@ -13707,7 +13707,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "lesotho-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Lesotho (2000s)."
+          "description": "Representative track for Lesotho (2000s)."
         }
       ],
       "2020s": [
@@ -13727,7 +13727,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "lesotho-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Lesotho (2020s)."
+          "description": "Representative track for Lesotho (2020s)."
         }
       ]
     }
@@ -13761,7 +13761,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cameroon-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Cameroon (1960s)."
+          "description": "Representative track for Cameroon (1960s)."
         }
       ],
       "1980s": [
@@ -13781,7 +13781,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cameroon-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Cameroon (1980s)."
+          "description": "Representative track for Cameroon (1980s)."
         }
       ],
       "2000s": [
@@ -13801,7 +13801,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cameroon-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Cameroon (2000s)."
+          "description": "Representative track for Cameroon (2000s)."
         }
       ],
       "2020s": [
@@ -13821,7 +13821,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cameroon-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Cameroon (2020s)."
+          "description": "Representative track for Cameroon (2020s)."
         }
       ]
     }
@@ -13855,7 +13855,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "gabon-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Gabon (1960s)."
+          "description": "Representative track for Gabon (1960s)."
         }
       ],
       "1980s": [
@@ -13875,7 +13875,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "gabon-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Gabon (1980s)."
+          "description": "Representative track for Gabon (1980s)."
         }
       ],
       "2000s": [
@@ -13895,7 +13895,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "gabon-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Gabon (2000s)."
+          "description": "Representative track for Gabon (2000s)."
         }
       ],
       "2020s": [
@@ -13915,7 +13915,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "gabon-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Gabon (2020s)."
+          "description": "Representative track for Gabon (2020s)."
         }
       ]
     }
@@ -13949,7 +13949,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "niger-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Niger (1960s)."
+          "description": "Representative track for Niger (1960s)."
         }
       ],
       "1980s": [
@@ -13969,7 +13969,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "niger-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Niger (1980s)."
+          "description": "Representative track for Niger (1980s)."
         }
       ],
       "2000s": [
@@ -13989,7 +13989,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "niger-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Niger (2000s)."
+          "description": "Representative track for Niger (2000s)."
         }
       ],
       "2020s": [
@@ -14009,7 +14009,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "niger-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Niger (2020s)."
+          "description": "Representative track for Niger (2020s)."
         }
       ]
     }
@@ -14043,7 +14043,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "burkina-faso-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Burkina Faso (1960s)."
+          "description": "Representative track for Burkina Faso (1960s)."
         }
       ],
       "1980s": [
@@ -14063,7 +14063,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "burkina-faso-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Burkina Faso (1980s)."
+          "description": "Representative track for Burkina Faso (1980s)."
         }
       ],
       "2000s": [
@@ -14083,7 +14083,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "burkina-faso-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Burkina Faso (2000s)."
+          "description": "Representative track for Burkina Faso (2000s)."
         }
       ],
       "2020s": [
@@ -14103,7 +14103,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "burkina-faso-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Burkina Faso (2020s)."
+          "description": "Representative track for Burkina Faso (2020s)."
         }
       ]
     }
@@ -14137,7 +14137,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "togo-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Togo (1960s)."
+          "description": "Representative track for Togo (1960s)."
         }
       ],
       "1980s": [
@@ -14157,7 +14157,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "togo-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Togo (1980s)."
+          "description": "Representative track for Togo (1980s)."
         }
       ],
       "2000s": [
@@ -14177,7 +14177,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "togo-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Togo (2000s)."
+          "description": "Representative track for Togo (2000s)."
         }
       ],
       "2020s": [
@@ -14197,7 +14197,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "togo-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Togo (2020s)."
+          "description": "Representative track for Togo (2020s)."
         }
       ]
     }
@@ -14231,7 +14231,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ghana-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Ghana (1960s)."
+          "description": "Representative track for Ghana (1960s)."
         }
       ],
       "1980s": [
@@ -14251,7 +14251,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ghana-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Ghana (1980s)."
+          "description": "Representative track for Ghana (1980s)."
         }
       ],
       "2000s": [
@@ -14271,7 +14271,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ghana-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Ghana (2000s)."
+          "description": "Representative track for Ghana (2000s)."
         }
       ],
       "2020s": [
@@ -14291,7 +14291,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ghana-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Ghana (2020s)."
+          "description": "Representative track for Ghana (2020s)."
         }
       ]
     }
@@ -14325,7 +14325,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guinea-bissau-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Guinea-Bissau (1960s)."
+          "description": "Representative track for Guinea-Bissau (1960s)."
         }
       ],
       "1980s": [
@@ -14345,7 +14345,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guinea-bissau-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Guinea-Bissau (1980s)."
+          "description": "Representative track for Guinea-Bissau (1980s)."
         }
       ],
       "2000s": [
@@ -14365,7 +14365,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guinea-bissau-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Guinea-Bissau (2000s)."
+          "description": "Representative track for Guinea-Bissau (2000s)."
         }
       ],
       "2020s": [
@@ -14385,7 +14385,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guinea-bissau-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Guinea-Bissau (2020s)."
+          "description": "Representative track for Guinea-Bissau (2020s)."
         }
       ]
     }
@@ -14419,7 +14419,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "gibraltar-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Gibraltar (1960s)."
+          "description": "Representative track for Gibraltar (1960s)."
         }
       ],
       "1980s": [
@@ -14439,7 +14439,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "gibraltar-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Gibraltar (1980s)."
+          "description": "Representative track for Gibraltar (1980s)."
         }
       ],
       "2000s": [
@@ -14459,7 +14459,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "gibraltar-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Gibraltar (2000s)."
+          "description": "Representative track for Gibraltar (2000s)."
         }
       ],
       "2020s": [
@@ -14479,7 +14479,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "gibraltar-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Gibraltar (2020s)."
+          "description": "Representative track for Gibraltar (2020s)."
         }
       ]
     }
@@ -14513,7 +14513,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-states-of-america-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for United States of America (1960s)."
+          "description": "Representative track for United States of America (1960s)."
         }
       ],
       "1980s": [
@@ -14533,7 +14533,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-states-of-america-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for United States of America (1980s)."
+          "description": "Representative track for United States of America (1980s)."
         }
       ],
       "2000s": [
@@ -14553,7 +14553,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-states-of-america-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for United States of America (2000s)."
+          "description": "Representative track for United States of America (2000s)."
         }
       ],
       "2020s": [
@@ -14573,7 +14573,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-states-of-america-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for United States of America (2020s)."
+          "description": "Representative track for United States of America (2020s)."
         }
       ]
     }
@@ -14607,7 +14607,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "canada-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Canada (1960s)."
+          "description": "Representative track for Canada (1960s)."
         }
       ],
       "1980s": [
@@ -14627,7 +14627,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "canada-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Canada (1980s)."
+          "description": "Representative track for Canada (1980s)."
         }
       ],
       "2000s": [
@@ -14647,7 +14647,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "canada-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Canada (2000s)."
+          "description": "Representative track for Canada (2000s)."
         }
       ],
       "2020s": [
@@ -14667,7 +14667,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "canada-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Canada (2020s)."
+          "description": "Representative track for Canada (2020s)."
         }
       ]
     }
@@ -14701,7 +14701,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mexico-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Mexico (1960s)."
+          "description": "Representative track for Mexico (1960s)."
         }
       ],
       "1980s": [
@@ -14721,7 +14721,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mexico-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Mexico (1980s)."
+          "description": "Representative track for Mexico (1980s)."
         }
       ],
       "2000s": [
@@ -14741,7 +14741,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mexico-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Mexico (2000s)."
+          "description": "Representative track for Mexico (2000s)."
         }
       ],
       "2020s": [
@@ -14761,7 +14761,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mexico-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Mexico (2020s)."
+          "description": "Representative track for Mexico (2020s)."
         }
       ]
     }
@@ -14795,7 +14795,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "belize-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Belize (1960s)."
+          "description": "Representative track for Belize (1960s)."
         }
       ],
       "1980s": [
@@ -14815,7 +14815,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "belize-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Belize (1980s)."
+          "description": "Representative track for Belize (1980s)."
         }
       ],
       "2000s": [
@@ -14835,7 +14835,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "belize-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Belize (2000s)."
+          "description": "Representative track for Belize (2000s)."
         }
       ],
       "2020s": [
@@ -14855,7 +14855,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "belize-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Belize (2020s)."
+          "description": "Representative track for Belize (2020s)."
         }
       ]
     }
@@ -14889,7 +14889,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "panama-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Panama (1960s)."
+          "description": "Representative track for Panama (1960s)."
         }
       ],
       "1980s": [
@@ -14909,7 +14909,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "panama-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Panama (1980s)."
+          "description": "Representative track for Panama (1980s)."
         }
       ],
       "2000s": [
@@ -14929,7 +14929,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "panama-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Panama (2000s)."
+          "description": "Representative track for Panama (2000s)."
         }
       ],
       "2020s": [
@@ -14949,7 +14949,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "panama-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Panama (2020s)."
+          "description": "Representative track for Panama (2020s)."
         }
       ]
     }
@@ -14983,7 +14983,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "venezuela-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Venezuela (1960s)."
+          "description": "Representative track for Venezuela (1960s)."
         }
       ],
       "1980s": [
@@ -15003,7 +15003,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "venezuela-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Venezuela (1980s)."
+          "description": "Representative track for Venezuela (1980s)."
         }
       ],
       "2000s": [
@@ -15023,7 +15023,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "venezuela-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Venezuela (2000s)."
+          "description": "Representative track for Venezuela (2000s)."
         }
       ],
       "2020s": [
@@ -15043,7 +15043,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "venezuela-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Venezuela (2020s)."
+          "description": "Representative track for Venezuela (2020s)."
         }
       ]
     }
@@ -15077,7 +15077,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "papua-new-guinea-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Papua New Guinea (1960s)."
+          "description": "Representative track for Papua New Guinea (1960s)."
         }
       ],
       "1980s": [
@@ -15097,7 +15097,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "papua-new-guinea-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Papua New Guinea (1980s)."
+          "description": "Representative track for Papua New Guinea (1980s)."
         }
       ],
       "2000s": [
@@ -15117,7 +15117,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "papua-new-guinea-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Papua New Guinea (2000s)."
+          "description": "Representative track for Papua New Guinea (2000s)."
         }
       ],
       "2020s": [
@@ -15137,7 +15137,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "papua-new-guinea-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Papua New Guinea (2020s)."
+          "description": "Representative track for Papua New Guinea (2020s)."
         }
       ]
     }
@@ -15171,7 +15171,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "egypt-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Egypt (1960s)."
+          "description": "Representative track for Egypt (1960s)."
         }
       ],
       "1980s": [
@@ -15191,7 +15191,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "egypt-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Egypt (1980s)."
+          "description": "Representative track for Egypt (1980s)."
         }
       ],
       "2000s": [
@@ -15211,7 +15211,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "egypt-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Egypt (2000s)."
+          "description": "Representative track for Egypt (2000s)."
         }
       ],
       "2020s": [
@@ -15231,7 +15231,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "egypt-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Egypt (2020s)."
+          "description": "Representative track for Egypt (2020s)."
         }
       ]
     }
@@ -15265,7 +15265,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "yemen-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Yemen (1960s)."
+          "description": "Representative track for Yemen (1960s)."
         }
       ],
       "1980s": [
@@ -15285,7 +15285,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "yemen-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Yemen (1980s)."
+          "description": "Representative track for Yemen (1980s)."
         }
       ],
       "2000s": [
@@ -15305,7 +15305,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "yemen-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Yemen (2000s)."
+          "description": "Representative track for Yemen (2000s)."
         }
       ],
       "2020s": [
@@ -15325,7 +15325,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "yemen-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Yemen (2020s)."
+          "description": "Representative track for Yemen (2020s)."
         }
       ]
     }
@@ -15359,7 +15359,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mauritania-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Mauritania (1960s)."
+          "description": "Representative track for Mauritania (1960s)."
         }
       ],
       "1980s": [
@@ -15379,7 +15379,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mauritania-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Mauritania (1980s)."
+          "description": "Representative track for Mauritania (1980s)."
         }
       ],
       "2000s": [
@@ -15399,7 +15399,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mauritania-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Mauritania (2000s)."
+          "description": "Representative track for Mauritania (2000s)."
         }
       ],
       "2020s": [
@@ -15419,7 +15419,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mauritania-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Mauritania (2020s)."
+          "description": "Representative track for Mauritania (2020s)."
         }
       ]
     }
@@ -15453,7 +15453,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "equatorial-guinea-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Equatorial Guinea (1960s)."
+          "description": "Representative track for Equatorial Guinea (1960s)."
         }
       ],
       "1980s": [
@@ -15473,7 +15473,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "equatorial-guinea-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Equatorial Guinea (1980s)."
+          "description": "Representative track for Equatorial Guinea (1980s)."
         }
       ],
       "2000s": [
@@ -15493,7 +15493,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "equatorial-guinea-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Equatorial Guinea (2000s)."
+          "description": "Representative track for Equatorial Guinea (2000s)."
         }
       ],
       "2020s": [
@@ -15513,7 +15513,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "equatorial-guinea-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Equatorial Guinea (2020s)."
+          "description": "Representative track for Equatorial Guinea (2020s)."
         }
       ]
     }
@@ -15547,7 +15547,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "gambia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Gambia (1960s)."
+          "description": "Representative track for Gambia (1960s)."
         }
       ],
       "1980s": [
@@ -15567,7 +15567,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "gambia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Gambia (1980s)."
+          "description": "Representative track for Gambia (1980s)."
         }
       ],
       "2000s": [
@@ -15587,7 +15587,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "gambia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Gambia (2000s)."
+          "description": "Representative track for Gambia (2000s)."
         }
       ],
       "2020s": [
@@ -15607,7 +15607,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "gambia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Gambia (2020s)."
+          "description": "Representative track for Gambia (2020s)."
         }
       ]
     }
@@ -15641,7 +15641,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "hong-kong-s-a-r-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Hong Kong S.A.R. (1960s)."
+          "description": "Representative track for Hong Kong S.A.R. (1960s)."
         }
       ],
       "1980s": [
@@ -15661,7 +15661,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "hong-kong-s-a-r-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Hong Kong S.A.R. (1980s)."
+          "description": "Representative track for Hong Kong S.A.R. (1980s)."
         }
       ],
       "2000s": [
@@ -15681,7 +15681,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "hong-kong-s-a-r-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Hong Kong S.A.R. (2000s)."
+          "description": "Representative track for Hong Kong S.A.R. (2000s)."
         }
       ],
       "2020s": [
@@ -15701,7 +15701,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "hong-kong-s-a-r-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Hong Kong S.A.R. (2020s)."
+          "description": "Representative track for Hong Kong S.A.R. (2020s)."
         }
       ]
     }
@@ -15735,7 +15735,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "vatican-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Vatican (1960s)."
+          "description": "Representative track for Vatican (1960s)."
         }
       ],
       "1980s": [
@@ -15755,7 +15755,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "vatican-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Vatican (1980s)."
+          "description": "Representative track for Vatican (1980s)."
         }
       ],
       "2000s": [
@@ -15775,7 +15775,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "vatican-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Vatican (2000s)."
+          "description": "Representative track for Vatican (2000s)."
         }
       ],
       "2020s": [
@@ -15795,7 +15795,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "vatican-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Vatican (2020s)."
+          "description": "Representative track for Vatican (2020s)."
         }
       ]
     }
@@ -15829,7 +15829,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "northern-cyprus-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Northern Cyprus (1960s)."
+          "description": "Representative track for Northern Cyprus (1960s)."
         }
       ],
       "1980s": [
@@ -15849,7 +15849,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "northern-cyprus-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Northern Cyprus (1980s)."
+          "description": "Representative track for Northern Cyprus (1980s)."
         }
       ],
       "2000s": [
@@ -15869,7 +15869,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "northern-cyprus-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Northern Cyprus (2000s)."
+          "description": "Representative track for Northern Cyprus (2000s)."
         }
       ],
       "2020s": [
@@ -15889,7 +15889,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "northern-cyprus-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Northern Cyprus (2020s)."
+          "description": "Representative track for Northern Cyprus (2020s)."
         }
       ]
     }
@@ -15923,7 +15923,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cyprus-no-mans-area-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Cyprus No Mans Area (1960s)."
+          "description": "Representative track for Cyprus No Mans Area (1960s)."
         }
       ],
       "1980s": [
@@ -15943,7 +15943,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cyprus-no-mans-area-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Cyprus No Mans Area (1980s)."
+          "description": "Representative track for Cyprus No Mans Area (1980s)."
         }
       ],
       "2000s": [
@@ -15963,7 +15963,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cyprus-no-mans-area-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Cyprus No Mans Area (2000s)."
+          "description": "Representative track for Cyprus No Mans Area (2000s)."
         }
       ],
       "2020s": [
@@ -15983,7 +15983,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cyprus-no-mans-area-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Cyprus No Mans Area (2020s)."
+          "description": "Representative track for Cyprus No Mans Area (2020s)."
         }
       ]
     }
@@ -16017,7 +16017,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "siachen-glacier-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Siachen Glacier (1960s)."
+          "description": "Representative track for Siachen Glacier (1960s)."
         }
       ],
       "1980s": [
@@ -16037,7 +16037,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "siachen-glacier-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Siachen Glacier (1980s)."
+          "description": "Representative track for Siachen Glacier (1980s)."
         }
       ],
       "2000s": [
@@ -16057,7 +16057,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "siachen-glacier-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Siachen Glacier (2000s)."
+          "description": "Representative track for Siachen Glacier (2000s)."
         }
       ],
       "2020s": [
@@ -16077,7 +16077,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "siachen-glacier-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Siachen Glacier (2020s)."
+          "description": "Representative track for Siachen Glacier (2020s)."
         }
       ]
     }
@@ -16111,7 +16111,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "baykonur-cosmodrome-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Baykonur Cosmodrome (1960s)."
+          "description": "Representative track for Baykonur Cosmodrome (1960s)."
         }
       ],
       "1980s": [
@@ -16131,7 +16131,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "baykonur-cosmodrome-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Baykonur Cosmodrome (1980s)."
+          "description": "Representative track for Baykonur Cosmodrome (1980s)."
         }
       ],
       "2000s": [
@@ -16151,7 +16151,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "baykonur-cosmodrome-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Baykonur Cosmodrome (2000s)."
+          "description": "Representative track for Baykonur Cosmodrome (2000s)."
         }
       ],
       "2020s": [
@@ -16171,7 +16171,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "baykonur-cosmodrome-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Baykonur Cosmodrome (2020s)."
+          "description": "Representative track for Baykonur Cosmodrome (2020s)."
         }
       ]
     }
@@ -16205,7 +16205,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "akrotiri-sovereign-base-area-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Akrotiri Sovereign Base Area (1960s)."
+          "description": "Representative track for Akrotiri Sovereign Base Area (1960s)."
         }
       ],
       "1980s": [
@@ -16225,7 +16225,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "akrotiri-sovereign-base-area-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Akrotiri Sovereign Base Area (1980s)."
+          "description": "Representative track for Akrotiri Sovereign Base Area (1980s)."
         }
       ],
       "2000s": [
@@ -16245,7 +16245,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "akrotiri-sovereign-base-area-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Akrotiri Sovereign Base Area (2000s)."
+          "description": "Representative track for Akrotiri Sovereign Base Area (2000s)."
         }
       ],
       "2020s": [
@@ -16265,7 +16265,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "akrotiri-sovereign-base-area-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Akrotiri Sovereign Base Area (2020s)."
+          "description": "Representative track for Akrotiri Sovereign Base Area (2020s)."
         }
       ]
     }
@@ -16299,7 +16299,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "southern-patagonian-ice-field-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Southern Patagonian Ice Field (1960s)."
+          "description": "Representative track for Southern Patagonian Ice Field (1960s)."
         }
       ],
       "1980s": [
@@ -16319,7 +16319,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "southern-patagonian-ice-field-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Southern Patagonian Ice Field (1980s)."
+          "description": "Representative track for Southern Patagonian Ice Field (1980s)."
         }
       ],
       "2000s": [
@@ -16339,7 +16339,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "southern-patagonian-ice-field-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Southern Patagonian Ice Field (2000s)."
+          "description": "Representative track for Southern Patagonian Ice Field (2000s)."
         }
       ],
       "2020s": [
@@ -16359,7 +16359,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "southern-patagonian-ice-field-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Southern Patagonian Ice Field (2020s)."
+          "description": "Representative track for Southern Patagonian Ice Field (2020s)."
         }
       ]
     }
@@ -16393,7 +16393,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bir-tawil-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Bir Tawil (1960s)."
+          "description": "Representative track for Bir Tawil (1960s)."
         }
       ],
       "1980s": [
@@ -16413,7 +16413,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bir-tawil-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Bir Tawil (1980s)."
+          "description": "Representative track for Bir Tawil (1980s)."
         }
       ],
       "2000s": [
@@ -16433,7 +16433,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bir-tawil-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Bir Tawil (2000s)."
+          "description": "Representative track for Bir Tawil (2000s)."
         }
       ],
       "2020s": [
@@ -16453,7 +16453,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bir-tawil-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Bir Tawil (2020s)."
+          "description": "Representative track for Bir Tawil (2020s)."
         }
       ]
     }
@@ -16487,7 +16487,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "antarctica-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Antarctica (1960s)."
+          "description": "Representative track for Antarctica (1960s)."
         }
       ],
       "1980s": [
@@ -16507,7 +16507,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "antarctica-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Antarctica (1980s)."
+          "description": "Representative track for Antarctica (1980s)."
         }
       ],
       "2000s": [
@@ -16527,7 +16527,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "antarctica-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Antarctica (2000s)."
+          "description": "Representative track for Antarctica (2000s)."
         }
       ],
       "2020s": [
@@ -16547,7 +16547,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "antarctica-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Antarctica (2020s)."
+          "description": "Representative track for Antarctica (2020s)."
         }
       ]
     }
@@ -16581,7 +16581,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "australia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Australia (1960s)."
+          "description": "Representative track for Australia (1960s)."
         }
       ],
       "1980s": [
@@ -16601,7 +16601,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "australia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Australia (1980s)."
+          "description": "Representative track for Australia (1980s)."
         }
       ],
       "2000s": [
@@ -16621,7 +16621,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "australia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Australia (2000s)."
+          "description": "Representative track for Australia (2000s)."
         }
       ],
       "2020s": [
@@ -16641,7 +16641,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "australia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Australia (2020s)."
+          "description": "Representative track for Australia (2020s)."
         }
       ]
     }
@@ -16675,7 +16675,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "greenland-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Greenland (1960s)."
+          "description": "Representative track for Greenland (1960s)."
         }
       ],
       "1980s": [
@@ -16695,7 +16695,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "greenland-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Greenland (1980s)."
+          "description": "Representative track for Greenland (1980s)."
         }
       ],
       "2000s": [
@@ -16715,7 +16715,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "greenland-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Greenland (2000s)."
+          "description": "Representative track for Greenland (2000s)."
         }
       ],
       "2020s": [
@@ -16735,7 +16735,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "greenland-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Greenland (2020s)."
+          "description": "Representative track for Greenland (2020s)."
         }
       ]
     }
@@ -16769,7 +16769,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "fiji-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Fiji (1960s)."
+          "description": "Representative track for Fiji (1960s)."
         }
       ],
       "1980s": [
@@ -16789,7 +16789,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "fiji-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Fiji (1980s)."
+          "description": "Representative track for Fiji (1980s)."
         }
       ],
       "2000s": [
@@ -16809,7 +16809,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "fiji-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Fiji (2000s)."
+          "description": "Representative track for Fiji (2000s)."
         }
       ],
       "2020s": [
@@ -16829,7 +16829,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "fiji-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Fiji (2020s)."
+          "description": "Representative track for Fiji (2020s)."
         }
       ]
     }
@@ -16863,7 +16863,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "new-zealand-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for New Zealand (1960s)."
+          "description": "Representative track for New Zealand (1960s)."
         }
       ],
       "1980s": [
@@ -16883,7 +16883,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "new-zealand-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for New Zealand (1980s)."
+          "description": "Representative track for New Zealand (1980s)."
         }
       ],
       "2000s": [
@@ -16903,7 +16903,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "new-zealand-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for New Zealand (2000s)."
+          "description": "Representative track for New Zealand (2000s)."
         }
       ],
       "2020s": [
@@ -16923,7 +16923,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "new-zealand-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for New Zealand (2020s)."
+          "description": "Representative track for New Zealand (2020s)."
         }
       ]
     }
@@ -16957,7 +16957,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "new-caledonia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for New Caledonia (1960s)."
+          "description": "Representative track for New Caledonia (1960s)."
         }
       ],
       "1980s": [
@@ -16977,7 +16977,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "new-caledonia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for New Caledonia (1980s)."
+          "description": "Representative track for New Caledonia (1980s)."
         }
       ],
       "2000s": [
@@ -16997,7 +16997,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "new-caledonia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for New Caledonia (2000s)."
+          "description": "Representative track for New Caledonia (2000s)."
         }
       ],
       "2020s": [
@@ -17017,7 +17017,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "new-caledonia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for New Caledonia (2020s)."
+          "description": "Representative track for New Caledonia (2020s)."
         }
       ]
     }
@@ -17051,7 +17051,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "madagascar-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Madagascar (1960s)."
+          "description": "Representative track for Madagascar (1960s)."
         }
       ],
       "1980s": [
@@ -17071,7 +17071,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "madagascar-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Madagascar (1980s)."
+          "description": "Representative track for Madagascar (1980s)."
         }
       ],
       "2000s": [
@@ -17091,7 +17091,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "madagascar-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Madagascar (2000s)."
+          "description": "Representative track for Madagascar (2000s)."
         }
       ],
       "2020s": [
@@ -17111,7 +17111,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "madagascar-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Madagascar (2020s)."
+          "description": "Representative track for Madagascar (2020s)."
         }
       ]
     }
@@ -17145,7 +17145,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "philippines-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Philippines (1960s)."
+          "description": "Representative track for Philippines (1960s)."
         }
       ],
       "1980s": [
@@ -17165,7 +17165,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "philippines-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Philippines (1980s)."
+          "description": "Representative track for Philippines (1980s)."
         }
       ],
       "2000s": [
@@ -17185,7 +17185,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "philippines-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Philippines (2000s)."
+          "description": "Representative track for Philippines (2000s)."
         }
       ],
       "2020s": [
@@ -17205,7 +17205,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "philippines-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Philippines (2020s)."
+          "description": "Representative track for Philippines (2020s)."
         }
       ]
     }
@@ -17239,7 +17239,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "sri-lanka-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Sri Lanka (1960s)."
+          "description": "Representative track for Sri Lanka (1960s)."
         }
       ],
       "1980s": [
@@ -17259,7 +17259,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "sri-lanka-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Sri Lanka (1980s)."
+          "description": "Representative track for Sri Lanka (1980s)."
         }
       ],
       "2000s": [
@@ -17279,7 +17279,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "sri-lanka-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Sri Lanka (2000s)."
+          "description": "Representative track for Sri Lanka (2000s)."
         }
       ],
       "2020s": [
@@ -17299,7 +17299,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "sri-lanka-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Sri Lanka (2020s)."
+          "description": "Representative track for Sri Lanka (2020s)."
         }
       ]
     }
@@ -17333,7 +17333,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cura-ao-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Curaçao (1960s)."
+          "description": "Representative track for Curaçao (1960s)."
         }
       ],
       "1980s": [
@@ -17353,7 +17353,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cura-ao-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Curaçao (1980s)."
+          "description": "Representative track for Curaçao (1980s)."
         }
       ],
       "2000s": [
@@ -17373,7 +17373,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cura-ao-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Curaçao (2000s)."
+          "description": "Representative track for Curaçao (2000s)."
         }
       ],
       "2020s": [
@@ -17393,7 +17393,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cura-ao-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Curaçao (2020s)."
+          "description": "Representative track for Curaçao (2020s)."
         }
       ]
     }
@@ -17427,7 +17427,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "aruba-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Aruba (1960s)."
+          "description": "Representative track for Aruba (1960s)."
         }
       ],
       "1980s": [
@@ -17447,7 +17447,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "aruba-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Aruba (1980s)."
+          "description": "Representative track for Aruba (1980s)."
         }
       ],
       "2000s": [
@@ -17467,7 +17467,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "aruba-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Aruba (2000s)."
+          "description": "Representative track for Aruba (2000s)."
         }
       ],
       "2020s": [
@@ -17487,7 +17487,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "aruba-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Aruba (2020s)."
+          "description": "Representative track for Aruba (2020s)."
         }
       ]
     }
@@ -17521,7 +17521,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "the-bahamas-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for The Bahamas (1960s)."
+          "description": "Representative track for The Bahamas (1960s)."
         }
       ],
       "1980s": [
@@ -17541,7 +17541,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "the-bahamas-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for The Bahamas (1980s)."
+          "description": "Representative track for The Bahamas (1980s)."
         }
       ],
       "2000s": [
@@ -17561,7 +17561,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "the-bahamas-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for The Bahamas (2000s)."
+          "description": "Representative track for The Bahamas (2000s)."
         }
       ],
       "2020s": [
@@ -17581,7 +17581,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "the-bahamas-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for The Bahamas (2020s)."
+          "description": "Representative track for The Bahamas (2020s)."
         }
       ]
     }
@@ -17615,7 +17615,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "turks-and-caicos-islands-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Turks and Caicos Islands (1960s)."
+          "description": "Representative track for Turks and Caicos Islands (1960s)."
         }
       ],
       "1980s": [
@@ -17635,7 +17635,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "turks-and-caicos-islands-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Turks and Caicos Islands (1980s)."
+          "description": "Representative track for Turks and Caicos Islands (1980s)."
         }
       ],
       "2000s": [
@@ -17655,7 +17655,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "turks-and-caicos-islands-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Turks and Caicos Islands (2000s)."
+          "description": "Representative track for Turks and Caicos Islands (2000s)."
         }
       ],
       "2020s": [
@@ -17675,7 +17675,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "turks-and-caicos-islands-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Turks and Caicos Islands (2020s)."
+          "description": "Representative track for Turks and Caicos Islands (2020s)."
         }
       ]
     }
@@ -17709,7 +17709,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "taiwan-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Taiwan (1960s)."
+          "description": "Representative track for Taiwan (1960s)."
         }
       ],
       "1980s": [
@@ -17729,7 +17729,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "taiwan-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Taiwan (1980s)."
+          "description": "Representative track for Taiwan (1980s)."
         }
       ],
       "2000s": [
@@ -17749,7 +17749,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "taiwan-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Taiwan (2000s)."
+          "description": "Representative track for Taiwan (2000s)."
         }
       ],
       "2020s": [
@@ -17769,7 +17769,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "taiwan-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Taiwan (2020s)."
+          "description": "Representative track for Taiwan (2020s)."
         }
       ]
     }
@@ -17803,7 +17803,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "japan-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Japan (1960s)."
+          "description": "Representative track for Japan (1960s)."
         }
       ],
       "1980s": [
@@ -17823,7 +17823,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "japan-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Japan (1980s)."
+          "description": "Representative track for Japan (1980s)."
         }
       ],
       "2000s": [
@@ -17843,7 +17843,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "japan-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Japan (2000s)."
+          "description": "Representative track for Japan (2000s)."
         }
       ],
       "2020s": [
@@ -17863,7 +17863,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "japan-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Japan (2020s)."
+          "description": "Representative track for Japan (2020s)."
         }
       ]
     }
@@ -17897,7 +17897,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-pierre-and-miquelon-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Saint Pierre and Miquelon (1960s)."
+          "description": "Representative track for Saint Pierre and Miquelon (1960s)."
         }
       ],
       "1980s": [
@@ -17917,7 +17917,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-pierre-and-miquelon-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Saint Pierre and Miquelon (1980s)."
+          "description": "Representative track for Saint Pierre and Miquelon (1980s)."
         }
       ],
       "2000s": [
@@ -17937,7 +17937,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-pierre-and-miquelon-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Saint Pierre and Miquelon (2000s)."
+          "description": "Representative track for Saint Pierre and Miquelon (2000s)."
         }
       ],
       "2020s": [
@@ -17957,7 +17957,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-pierre-and-miquelon-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Saint Pierre and Miquelon (2020s)."
+          "description": "Representative track for Saint Pierre and Miquelon (2020s)."
         }
       ]
     }
@@ -17991,7 +17991,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "iceland-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Iceland (1960s)."
+          "description": "Representative track for Iceland (1960s)."
         }
       ],
       "1980s": [
@@ -18011,7 +18011,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "iceland-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Iceland (1980s)."
+          "description": "Representative track for Iceland (1980s)."
         }
       ],
       "2000s": [
@@ -18031,7 +18031,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "iceland-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Iceland (2000s)."
+          "description": "Representative track for Iceland (2000s)."
         }
       ],
       "2020s": [
@@ -18051,7 +18051,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "iceland-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Iceland (2020s)."
+          "description": "Representative track for Iceland (2020s)."
         }
       ]
     }
@@ -18085,7 +18085,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "pitcairn-islands-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Pitcairn Islands (1960s)."
+          "description": "Representative track for Pitcairn Islands (1960s)."
         }
       ],
       "1980s": [
@@ -18105,7 +18105,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "pitcairn-islands-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Pitcairn Islands (1980s)."
+          "description": "Representative track for Pitcairn Islands (1980s)."
         }
       ],
       "2000s": [
@@ -18125,7 +18125,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "pitcairn-islands-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Pitcairn Islands (2000s)."
+          "description": "Representative track for Pitcairn Islands (2000s)."
         }
       ],
       "2020s": [
@@ -18145,7 +18145,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "pitcairn-islands-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Pitcairn Islands (2020s)."
+          "description": "Representative track for Pitcairn Islands (2020s)."
         }
       ]
     }
@@ -18179,7 +18179,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "french-polynesia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for French Polynesia (1960s)."
+          "description": "Representative track for French Polynesia (1960s)."
         }
       ],
       "1980s": [
@@ -18199,7 +18199,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "french-polynesia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for French Polynesia (1980s)."
+          "description": "Representative track for French Polynesia (1980s)."
         }
       ],
       "2000s": [
@@ -18219,7 +18219,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "french-polynesia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for French Polynesia (2000s)."
+          "description": "Representative track for French Polynesia (2000s)."
         }
       ],
       "2020s": [
@@ -18239,7 +18239,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "french-polynesia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for French Polynesia (2020s)."
+          "description": "Representative track for French Polynesia (2020s)."
         }
       ]
     }
@@ -18273,7 +18273,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "french-southern-and-antarctic-lands-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for French Southern and Antarctic Lands (1960s)."
+          "description": "Representative track for French Southern and Antarctic Lands (1960s)."
         }
       ],
       "1980s": [
@@ -18293,7 +18293,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "french-southern-and-antarctic-lands-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for French Southern and Antarctic Lands (1980s)."
+          "description": "Representative track for French Southern and Antarctic Lands (1980s)."
         }
       ],
       "2000s": [
@@ -18313,7 +18313,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "french-southern-and-antarctic-lands-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for French Southern and Antarctic Lands (2000s)."
+          "description": "Representative track for French Southern and Antarctic Lands (2000s)."
         }
       ],
       "2020s": [
@@ -18333,7 +18333,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "french-southern-and-antarctic-lands-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for French Southern and Antarctic Lands (2020s)."
+          "description": "Representative track for French Southern and Antarctic Lands (2020s)."
         }
       ]
     }
@@ -18367,7 +18367,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "seychelles-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Seychelles (1960s)."
+          "description": "Representative track for Seychelles (1960s)."
         }
       ],
       "1980s": [
@@ -18387,7 +18387,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "seychelles-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Seychelles (1980s)."
+          "description": "Representative track for Seychelles (1980s)."
         }
       ],
       "2000s": [
@@ -18407,7 +18407,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "seychelles-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Seychelles (2000s)."
+          "description": "Representative track for Seychelles (2000s)."
         }
       ],
       "2020s": [
@@ -18427,7 +18427,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "seychelles-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Seychelles (2020s)."
+          "description": "Representative track for Seychelles (2020s)."
         }
       ]
     }
@@ -18461,7 +18461,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kiribati-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Kiribati (1960s)."
+          "description": "Representative track for Kiribati (1960s)."
         }
       ],
       "1980s": [
@@ -18481,7 +18481,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kiribati-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Kiribati (1980s)."
+          "description": "Representative track for Kiribati (1980s)."
         }
       ],
       "2000s": [
@@ -18501,7 +18501,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kiribati-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Kiribati (2000s)."
+          "description": "Representative track for Kiribati (2000s)."
         }
       ],
       "2020s": [
@@ -18521,7 +18521,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "kiribati-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Kiribati (2020s)."
+          "description": "Representative track for Kiribati (2020s)."
         }
       ]
     }
@@ -18555,7 +18555,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "marshall-islands-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Marshall Islands (1960s)."
+          "description": "Representative track for Marshall Islands (1960s)."
         }
       ],
       "1980s": [
@@ -18575,7 +18575,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "marshall-islands-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Marshall Islands (1980s)."
+          "description": "Representative track for Marshall Islands (1980s)."
         }
       ],
       "2000s": [
@@ -18595,7 +18595,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "marshall-islands-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Marshall Islands (2000s)."
+          "description": "Representative track for Marshall Islands (2000s)."
         }
       ],
       "2020s": [
@@ -18615,7 +18615,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "marshall-islands-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Marshall Islands (2020s)."
+          "description": "Representative track for Marshall Islands (2020s)."
         }
       ]
     }
@@ -18649,7 +18649,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "trinidad-and-tobago-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Trinidad and Tobago (1960s)."
+          "description": "Representative track for Trinidad and Tobago (1960s)."
         }
       ],
       "1980s": [
@@ -18669,7 +18669,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "trinidad-and-tobago-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Trinidad and Tobago (1980s)."
+          "description": "Representative track for Trinidad and Tobago (1980s)."
         }
       ],
       "2000s": [
@@ -18689,7 +18689,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "trinidad-and-tobago-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Trinidad and Tobago (2000s)."
+          "description": "Representative track for Trinidad and Tobago (2000s)."
         }
       ],
       "2020s": [
@@ -18709,7 +18709,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "trinidad-and-tobago-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Trinidad and Tobago (2020s)."
+          "description": "Representative track for Trinidad and Tobago (2020s)."
         }
       ]
     }
@@ -18743,7 +18743,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "grenada-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Grenada (1960s)."
+          "description": "Representative track for Grenada (1960s)."
         }
       ],
       "1980s": [
@@ -18763,7 +18763,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "grenada-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Grenada (1980s)."
+          "description": "Representative track for Grenada (1980s)."
         }
       ],
       "2000s": [
@@ -18783,7 +18783,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "grenada-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Grenada (2000s)."
+          "description": "Representative track for Grenada (2000s)."
         }
       ],
       "2020s": [
@@ -18803,7 +18803,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "grenada-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Grenada (2020s)."
+          "description": "Representative track for Grenada (2020s)."
         }
       ]
     }
@@ -18837,7 +18837,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-vincent-and-the-grenadines-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Saint Vincent and the Grenadines (1960s)."
+          "description": "Representative track for Saint Vincent and the Grenadines (1960s)."
         }
       ],
       "1980s": [
@@ -18857,7 +18857,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-vincent-and-the-grenadines-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Saint Vincent and the Grenadines (1980s)."
+          "description": "Representative track for Saint Vincent and the Grenadines (1980s)."
         }
       ],
       "2000s": [
@@ -18877,7 +18877,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-vincent-and-the-grenadines-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Saint Vincent and the Grenadines (2000s)."
+          "description": "Representative track for Saint Vincent and the Grenadines (2000s)."
         }
       ],
       "2020s": [
@@ -18897,7 +18897,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-vincent-and-the-grenadines-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Saint Vincent and the Grenadines (2020s)."
+          "description": "Representative track for Saint Vincent and the Grenadines (2020s)."
         }
       ]
     }
@@ -18931,7 +18931,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "barbados-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Barbados (1960s)."
+          "description": "Representative track for Barbados (1960s)."
         }
       ],
       "1980s": [
@@ -18951,7 +18951,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "barbados-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Barbados (1980s)."
+          "description": "Representative track for Barbados (1980s)."
         }
       ],
       "2000s": [
@@ -18971,7 +18971,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "barbados-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Barbados (2000s)."
+          "description": "Representative track for Barbados (2000s)."
         }
       ],
       "2020s": [
@@ -18991,7 +18991,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "barbados-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Barbados (2020s)."
+          "description": "Representative track for Barbados (2020s)."
         }
       ]
     }
@@ -19025,7 +19025,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-lucia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Saint Lucia (1960s)."
+          "description": "Representative track for Saint Lucia (1960s)."
         }
       ],
       "1980s": [
@@ -19045,7 +19045,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-lucia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Saint Lucia (1980s)."
+          "description": "Representative track for Saint Lucia (1980s)."
         }
       ],
       "2000s": [
@@ -19065,7 +19065,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-lucia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Saint Lucia (2000s)."
+          "description": "Representative track for Saint Lucia (2000s)."
         }
       ],
       "2020s": [
@@ -19085,7 +19085,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-lucia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Saint Lucia (2020s)."
+          "description": "Representative track for Saint Lucia (2020s)."
         }
       ]
     }
@@ -19119,7 +19119,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "dominica-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Dominica (1960s)."
+          "description": "Representative track for Dominica (1960s)."
         }
       ],
       "1980s": [
@@ -19139,7 +19139,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "dominica-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Dominica (1980s)."
+          "description": "Representative track for Dominica (1980s)."
         }
       ],
       "2000s": [
@@ -19159,7 +19159,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "dominica-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Dominica (2000s)."
+          "description": "Representative track for Dominica (2000s)."
         }
       ],
       "2020s": [
@@ -19179,7 +19179,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "dominica-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Dominica (2020s)."
+          "description": "Representative track for Dominica (2020s)."
         }
       ]
     }
@@ -19213,7 +19213,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-states-minor-outlying-islands-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for United States Minor Outlying Islands (1960s)."
+          "description": "Representative track for United States Minor Outlying Islands (1960s)."
         }
       ],
       "1980s": [
@@ -19233,7 +19233,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-states-minor-outlying-islands-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for United States Minor Outlying Islands (1980s)."
+          "description": "Representative track for United States Minor Outlying Islands (1980s)."
         }
       ],
       "2000s": [
@@ -19253,7 +19253,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-states-minor-outlying-islands-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for United States Minor Outlying Islands (2000s)."
+          "description": "Representative track for United States Minor Outlying Islands (2000s)."
         }
       ],
       "2020s": [
@@ -19273,7 +19273,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-states-minor-outlying-islands-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for United States Minor Outlying Islands (2020s)."
+          "description": "Representative track for United States Minor Outlying Islands (2020s)."
         }
       ]
     }
@@ -19307,7 +19307,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "montserrat-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Montserrat (1960s)."
+          "description": "Representative track for Montserrat (1960s)."
         }
       ],
       "1980s": [
@@ -19327,7 +19327,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "montserrat-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Montserrat (1980s)."
+          "description": "Representative track for Montserrat (1980s)."
         }
       ],
       "2000s": [
@@ -19347,7 +19347,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "montserrat-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Montserrat (2000s)."
+          "description": "Representative track for Montserrat (2000s)."
         }
       ],
       "2020s": [
@@ -19367,7 +19367,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "montserrat-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Montserrat (2020s)."
+          "description": "Representative track for Montserrat (2020s)."
         }
       ]
     }
@@ -19401,7 +19401,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "antigua-and-barbuda-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Antigua and Barbuda (1960s)."
+          "description": "Representative track for Antigua and Barbuda (1960s)."
         }
       ],
       "1980s": [
@@ -19421,7 +19421,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "antigua-and-barbuda-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Antigua and Barbuda (1980s)."
+          "description": "Representative track for Antigua and Barbuda (1980s)."
         }
       ],
       "2000s": [
@@ -19441,7 +19441,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "antigua-and-barbuda-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Antigua and Barbuda (2000s)."
+          "description": "Representative track for Antigua and Barbuda (2000s)."
         }
       ],
       "2020s": [
@@ -19461,7 +19461,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "antigua-and-barbuda-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Antigua and Barbuda (2020s)."
+          "description": "Representative track for Antigua and Barbuda (2020s)."
         }
       ]
     }
@@ -19495,7 +19495,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-kitts-and-nevis-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Saint Kitts and Nevis (1960s)."
+          "description": "Representative track for Saint Kitts and Nevis (1960s)."
         }
       ],
       "1980s": [
@@ -19515,7 +19515,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-kitts-and-nevis-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Saint Kitts and Nevis (1980s)."
+          "description": "Representative track for Saint Kitts and Nevis (1980s)."
         }
       ],
       "2000s": [
@@ -19535,7 +19535,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-kitts-and-nevis-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Saint Kitts and Nevis (2000s)."
+          "description": "Representative track for Saint Kitts and Nevis (2000s)."
         }
       ],
       "2020s": [
@@ -19555,7 +19555,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-kitts-and-nevis-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Saint Kitts and Nevis (2020s)."
+          "description": "Representative track for Saint Kitts and Nevis (2020s)."
         }
       ]
     }
@@ -19589,7 +19589,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-states-virgin-islands-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for United States Virgin Islands (1960s)."
+          "description": "Representative track for United States Virgin Islands (1960s)."
         }
       ],
       "1980s": [
@@ -19609,7 +19609,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-states-virgin-islands-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for United States Virgin Islands (1980s)."
+          "description": "Representative track for United States Virgin Islands (1980s)."
         }
       ],
       "2000s": [
@@ -19629,7 +19629,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-states-virgin-islands-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for United States Virgin Islands (2000s)."
+          "description": "Representative track for United States Virgin Islands (2000s)."
         }
       ],
       "2020s": [
@@ -19649,7 +19649,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "united-states-virgin-islands-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for United States Virgin Islands (2020s)."
+          "description": "Representative track for United States Virgin Islands (2020s)."
         }
       ]
     }
@@ -19683,7 +19683,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-barthelemy-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Saint Barthelemy (1960s)."
+          "description": "Representative track for Saint Barthelemy (1960s)."
         }
       ],
       "1980s": [
@@ -19703,7 +19703,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-barthelemy-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Saint Barthelemy (1980s)."
+          "description": "Representative track for Saint Barthelemy (1980s)."
         }
       ],
       "2000s": [
@@ -19723,7 +19723,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-barthelemy-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Saint Barthelemy (2000s)."
+          "description": "Representative track for Saint Barthelemy (2000s)."
         }
       ],
       "2020s": [
@@ -19743,7 +19743,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-barthelemy-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Saint Barthelemy (2020s)."
+          "description": "Representative track for Saint Barthelemy (2020s)."
         }
       ]
     }
@@ -19777,7 +19777,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "puerto-rico-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Puerto Rico (1960s)."
+          "description": "Representative track for Puerto Rico (1960s)."
         }
       ],
       "1980s": [
@@ -19797,7 +19797,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "puerto-rico-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Puerto Rico (1980s)."
+          "description": "Representative track for Puerto Rico (1980s)."
         }
       ],
       "2000s": [
@@ -19817,7 +19817,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "puerto-rico-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Puerto Rico (2000s)."
+          "description": "Representative track for Puerto Rico (2000s)."
         }
       ],
       "2020s": [
@@ -19837,7 +19837,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "puerto-rico-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Puerto Rico (2020s)."
+          "description": "Representative track for Puerto Rico (2020s)."
         }
       ]
     }
@@ -19871,7 +19871,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "anguilla-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Anguilla (1960s)."
+          "description": "Representative track for Anguilla (1960s)."
         }
       ],
       "1980s": [
@@ -19891,7 +19891,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "anguilla-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Anguilla (1980s)."
+          "description": "Representative track for Anguilla (1980s)."
         }
       ],
       "2000s": [
@@ -19911,7 +19911,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "anguilla-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Anguilla (2000s)."
+          "description": "Representative track for Anguilla (2000s)."
         }
       ],
       "2020s": [
@@ -19931,7 +19931,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "anguilla-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Anguilla (2020s)."
+          "description": "Representative track for Anguilla (2020s)."
         }
       ]
     }
@@ -19965,7 +19965,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "british-virgin-islands-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for British Virgin Islands (1960s)."
+          "description": "Representative track for British Virgin Islands (1960s)."
         }
       ],
       "1980s": [
@@ -19985,7 +19985,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "british-virgin-islands-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for British Virgin Islands (1980s)."
+          "description": "Representative track for British Virgin Islands (1980s)."
         }
       ],
       "2000s": [
@@ -20005,7 +20005,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "british-virgin-islands-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for British Virgin Islands (2000s)."
+          "description": "Representative track for British Virgin Islands (2000s)."
         }
       ],
       "2020s": [
@@ -20025,7 +20025,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "british-virgin-islands-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for British Virgin Islands (2020s)."
+          "description": "Representative track for British Virgin Islands (2020s)."
         }
       ]
     }
@@ -20059,7 +20059,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "jamaica-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Jamaica (1960s)."
+          "description": "Representative track for Jamaica (1960s)."
         }
       ],
       "1980s": [
@@ -20079,7 +20079,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "jamaica-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Jamaica (1980s)."
+          "description": "Representative track for Jamaica (1980s)."
         }
       ],
       "2000s": [
@@ -20099,7 +20099,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "jamaica-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Jamaica (2000s)."
+          "description": "Representative track for Jamaica (2000s)."
         }
       ],
       "2020s": [
@@ -20119,7 +20119,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "jamaica-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Jamaica (2020s)."
+          "description": "Representative track for Jamaica (2020s)."
         }
       ]
     }
@@ -20153,7 +20153,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cayman-islands-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Cayman Islands (1960s)."
+          "description": "Representative track for Cayman Islands (1960s)."
         }
       ],
       "1980s": [
@@ -20173,7 +20173,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cayman-islands-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Cayman Islands (1980s)."
+          "description": "Representative track for Cayman Islands (1980s)."
         }
       ],
       "2000s": [
@@ -20193,7 +20193,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cayman-islands-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Cayman Islands (2000s)."
+          "description": "Representative track for Cayman Islands (2000s)."
         }
       ],
       "2020s": [
@@ -20213,7 +20213,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cayman-islands-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Cayman Islands (2020s)."
+          "description": "Representative track for Cayman Islands (2020s)."
         }
       ]
     }
@@ -20247,7 +20247,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bermuda-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Bermuda (1960s)."
+          "description": "Representative track for Bermuda (1960s)."
         }
       ],
       "1980s": [
@@ -20267,7 +20267,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bermuda-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Bermuda (1980s)."
+          "description": "Representative track for Bermuda (1980s)."
         }
       ],
       "2000s": [
@@ -20287,7 +20287,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bermuda-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Bermuda (2000s)."
+          "description": "Representative track for Bermuda (2000s)."
         }
       ],
       "2020s": [
@@ -20307,7 +20307,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bermuda-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Bermuda (2020s)."
+          "description": "Representative track for Bermuda (2020s)."
         }
       ]
     }
@@ -20341,7 +20341,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "heard-island-and-mcdonald-islands-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Heard Island and McDonald Islands (1960s)."
+          "description": "Representative track for Heard Island and McDonald Islands (1960s)."
         }
       ],
       "1980s": [
@@ -20361,7 +20361,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "heard-island-and-mcdonald-islands-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Heard Island and McDonald Islands (1980s)."
+          "description": "Representative track for Heard Island and McDonald Islands (1980s)."
         }
       ],
       "2000s": [
@@ -20381,7 +20381,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "heard-island-and-mcdonald-islands-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Heard Island and McDonald Islands (2000s)."
+          "description": "Representative track for Heard Island and McDonald Islands (2000s)."
         }
       ],
       "2020s": [
@@ -20401,7 +20401,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "heard-island-and-mcdonald-islands-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Heard Island and McDonald Islands (2020s)."
+          "description": "Representative track for Heard Island and McDonald Islands (2020s)."
         }
       ]
     }
@@ -20435,7 +20435,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-helena-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Saint Helena (1960s)."
+          "description": "Representative track for Saint Helena (1960s)."
         }
       ],
       "1980s": [
@@ -20455,7 +20455,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-helena-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Saint Helena (1980s)."
+          "description": "Representative track for Saint Helena (1980s)."
         }
       ],
       "2000s": [
@@ -20475,7 +20475,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-helena-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Saint Helena (2000s)."
+          "description": "Representative track for Saint Helena (2000s)."
         }
       ],
       "2020s": [
@@ -20495,7 +20495,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "saint-helena-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Saint Helena (2020s)."
+          "description": "Representative track for Saint Helena (2020s)."
         }
       ]
     }
@@ -20529,7 +20529,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mauritius-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Mauritius (1960s)."
+          "description": "Representative track for Mauritius (1960s)."
         }
       ],
       "1980s": [
@@ -20549,7 +20549,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mauritius-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Mauritius (1980s)."
+          "description": "Representative track for Mauritius (1980s)."
         }
       ],
       "2000s": [
@@ -20569,7 +20569,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mauritius-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Mauritius (2000s)."
+          "description": "Representative track for Mauritius (2000s)."
         }
       ],
       "2020s": [
@@ -20589,7 +20589,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "mauritius-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Mauritius (2020s)."
+          "description": "Representative track for Mauritius (2020s)."
         }
       ]
     }
@@ -20623,7 +20623,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "comoros-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Comoros (1960s)."
+          "description": "Representative track for Comoros (1960s)."
         }
       ],
       "1980s": [
@@ -20643,7 +20643,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "comoros-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Comoros (1980s)."
+          "description": "Representative track for Comoros (1980s)."
         }
       ],
       "2000s": [
@@ -20663,7 +20663,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "comoros-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Comoros (2000s)."
+          "description": "Representative track for Comoros (2000s)."
         }
       ],
       "2020s": [
@@ -20683,7 +20683,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "comoros-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Comoros (2020s)."
+          "description": "Representative track for Comoros (2020s)."
         }
       ]
     }
@@ -20717,7 +20717,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "s-o-tom-and-principe-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for São Tomé and Principe (1960s)."
+          "description": "Representative track for São Tomé and Principe (1960s)."
         }
       ],
       "1980s": [
@@ -20737,7 +20737,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "s-o-tom-and-principe-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for São Tomé and Principe (1980s)."
+          "description": "Representative track for São Tomé and Principe (1980s)."
         }
       ],
       "2000s": [
@@ -20757,7 +20757,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "s-o-tom-and-principe-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for São Tomé and Principe (2000s)."
+          "description": "Representative track for São Tomé and Principe (2000s)."
         }
       ],
       "2020s": [
@@ -20777,7 +20777,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "s-o-tom-and-principe-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for São Tomé and Principe (2020s)."
+          "description": "Representative track for São Tomé and Principe (2020s)."
         }
       ]
     }
@@ -20811,7 +20811,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cabo-verde-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Cabo Verde (1960s)."
+          "description": "Representative track for Cabo Verde (1960s)."
         }
       ],
       "1980s": [
@@ -20831,7 +20831,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cabo-verde-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Cabo Verde (1980s)."
+          "description": "Representative track for Cabo Verde (1980s)."
         }
       ],
       "2000s": [
@@ -20851,7 +20851,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cabo-verde-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Cabo Verde (2000s)."
+          "description": "Representative track for Cabo Verde (2000s)."
         }
       ],
       "2020s": [
@@ -20871,7 +20871,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cabo-verde-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Cabo Verde (2020s)."
+          "description": "Representative track for Cabo Verde (2020s)."
         }
       ]
     }
@@ -20905,7 +20905,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "malta-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Malta (1960s)."
+          "description": "Representative track for Malta (1960s)."
         }
       ],
       "1980s": [
@@ -20925,7 +20925,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "malta-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Malta (1980s)."
+          "description": "Representative track for Malta (1980s)."
         }
       ],
       "2000s": [
@@ -20945,7 +20945,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "malta-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Malta (2000s)."
+          "description": "Representative track for Malta (2000s)."
         }
       ],
       "2020s": [
@@ -20965,7 +20965,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "malta-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Malta (2020s)."
+          "description": "Representative track for Malta (2020s)."
         }
       ]
     }
@@ -20999,7 +20999,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "jersey-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Jersey (1960s)."
+          "description": "Representative track for Jersey (1960s)."
         }
       ],
       "1980s": [
@@ -21019,7 +21019,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "jersey-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Jersey (1980s)."
+          "description": "Representative track for Jersey (1980s)."
         }
       ],
       "2000s": [
@@ -21039,7 +21039,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "jersey-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Jersey (2000s)."
+          "description": "Representative track for Jersey (2000s)."
         }
       ],
       "2020s": [
@@ -21059,7 +21059,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "jersey-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Jersey (2020s)."
+          "description": "Representative track for Jersey (2020s)."
         }
       ]
     }
@@ -21093,7 +21093,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guernsey-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Guernsey (1960s)."
+          "description": "Representative track for Guernsey (1960s)."
         }
       ],
       "1980s": [
@@ -21113,7 +21113,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guernsey-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Guernsey (1980s)."
+          "description": "Representative track for Guernsey (1980s)."
         }
       ],
       "2000s": [
@@ -21133,7 +21133,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guernsey-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Guernsey (2000s)."
+          "description": "Representative track for Guernsey (2000s)."
         }
       ],
       "2020s": [
@@ -21153,7 +21153,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guernsey-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Guernsey (2020s)."
+          "description": "Representative track for Guernsey (2020s)."
         }
       ]
     }
@@ -21187,7 +21187,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "isle-of-man-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Isle of Man (1960s)."
+          "description": "Representative track for Isle of Man (1960s)."
         }
       ],
       "1980s": [
@@ -21207,7 +21207,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "isle-of-man-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Isle of Man (1980s)."
+          "description": "Representative track for Isle of Man (1980s)."
         }
       ],
       "2000s": [
@@ -21227,7 +21227,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "isle-of-man-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Isle of Man (2000s)."
+          "description": "Representative track for Isle of Man (2000s)."
         }
       ],
       "2020s": [
@@ -21247,7 +21247,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "isle-of-man-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Isle of Man (2020s)."
+          "description": "Representative track for Isle of Man (2020s)."
         }
       ]
     }
@@ -21281,7 +21281,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "aland-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Aland (1960s)."
+          "description": "Representative track for Aland (1960s)."
         }
       ],
       "1980s": [
@@ -21301,7 +21301,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "aland-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Aland (1980s)."
+          "description": "Representative track for Aland (1980s)."
         }
       ],
       "2000s": [
@@ -21321,7 +21321,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "aland-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Aland (2000s)."
+          "description": "Representative track for Aland (2000s)."
         }
       ],
       "2020s": [
@@ -21341,7 +21341,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "aland-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Aland (2020s)."
+          "description": "Representative track for Aland (2020s)."
         }
       ]
     }
@@ -21375,7 +21375,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "faroe-islands-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Faroe Islands (1960s)."
+          "description": "Representative track for Faroe Islands (1960s)."
         }
       ],
       "1980s": [
@@ -21395,7 +21395,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "faroe-islands-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Faroe Islands (1980s)."
+          "description": "Representative track for Faroe Islands (1980s)."
         }
       ],
       "2000s": [
@@ -21415,7 +21415,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "faroe-islands-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Faroe Islands (2000s)."
+          "description": "Representative track for Faroe Islands (2000s)."
         }
       ],
       "2020s": [
@@ -21435,7 +21435,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "faroe-islands-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Faroe Islands (2020s)."
+          "description": "Representative track for Faroe Islands (2020s)."
         }
       ]
     }
@@ -21469,7 +21469,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "indian-ocean-territories-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Indian Ocean Territories (1960s)."
+          "description": "Representative track for Indian Ocean Territories (1960s)."
         }
       ],
       "1980s": [
@@ -21489,7 +21489,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "indian-ocean-territories-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Indian Ocean Territories (1980s)."
+          "description": "Representative track for Indian Ocean Territories (1980s)."
         }
       ],
       "2000s": [
@@ -21509,7 +21509,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "indian-ocean-territories-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Indian Ocean Territories (2000s)."
+          "description": "Representative track for Indian Ocean Territories (2000s)."
         }
       ],
       "2020s": [
@@ -21529,7 +21529,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "indian-ocean-territories-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Indian Ocean Territories (2020s)."
+          "description": "Representative track for Indian Ocean Territories (2020s)."
         }
       ]
     }
@@ -21563,7 +21563,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "british-indian-ocean-territory-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for British Indian Ocean Territory (1960s)."
+          "description": "Representative track for British Indian Ocean Territory (1960s)."
         }
       ],
       "1980s": [
@@ -21583,7 +21583,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "british-indian-ocean-territory-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for British Indian Ocean Territory (1980s)."
+          "description": "Representative track for British Indian Ocean Territory (1980s)."
         }
       ],
       "2000s": [
@@ -21603,7 +21603,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "british-indian-ocean-territory-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for British Indian Ocean Territory (2000s)."
+          "description": "Representative track for British Indian Ocean Territory (2000s)."
         }
       ],
       "2020s": [
@@ -21623,7 +21623,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "british-indian-ocean-territory-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for British Indian Ocean Territory (2020s)."
+          "description": "Representative track for British Indian Ocean Territory (2020s)."
         }
       ]
     }
@@ -21657,7 +21657,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "singapore-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Singapore (1960s)."
+          "description": "Representative track for Singapore (1960s)."
         }
       ],
       "1980s": [
@@ -21677,7 +21677,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "singapore-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Singapore (1980s)."
+          "description": "Representative track for Singapore (1980s)."
         }
       ],
       "2000s": [
@@ -21697,7 +21697,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "singapore-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Singapore (2000s)."
+          "description": "Representative track for Singapore (2000s)."
         }
       ],
       "2020s": [
@@ -21717,7 +21717,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "singapore-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Singapore (2020s)."
+          "description": "Representative track for Singapore (2020s)."
         }
       ]
     }
@@ -21751,7 +21751,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "norfolk-island-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Norfolk Island (1960s)."
+          "description": "Representative track for Norfolk Island (1960s)."
         }
       ],
       "1980s": [
@@ -21771,7 +21771,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "norfolk-island-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Norfolk Island (1980s)."
+          "description": "Representative track for Norfolk Island (1980s)."
         }
       ],
       "2000s": [
@@ -21791,7 +21791,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "norfolk-island-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Norfolk Island (2000s)."
+          "description": "Representative track for Norfolk Island (2000s)."
         }
       ],
       "2020s": [
@@ -21811,7 +21811,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "norfolk-island-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Norfolk Island (2020s)."
+          "description": "Representative track for Norfolk Island (2020s)."
         }
       ]
     }
@@ -21845,7 +21845,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cook-islands-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Cook Islands (1960s)."
+          "description": "Representative track for Cook Islands (1960s)."
         }
       ],
       "1980s": [
@@ -21865,7 +21865,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cook-islands-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Cook Islands (1980s)."
+          "description": "Representative track for Cook Islands (1980s)."
         }
       ],
       "2000s": [
@@ -21885,7 +21885,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cook-islands-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Cook Islands (2000s)."
+          "description": "Representative track for Cook Islands (2000s)."
         }
       ],
       "2020s": [
@@ -21905,7 +21905,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "cook-islands-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Cook Islands (2020s)."
+          "description": "Representative track for Cook Islands (2020s)."
         }
       ]
     }
@@ -21939,7 +21939,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "tonga-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Tonga (1960s)."
+          "description": "Representative track for Tonga (1960s)."
         }
       ],
       "1980s": [
@@ -21959,7 +21959,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "tonga-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Tonga (1980s)."
+          "description": "Representative track for Tonga (1980s)."
         }
       ],
       "2000s": [
@@ -21979,7 +21979,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "tonga-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Tonga (2000s)."
+          "description": "Representative track for Tonga (2000s)."
         }
       ],
       "2020s": [
@@ -21999,7 +21999,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "tonga-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Tonga (2020s)."
+          "description": "Representative track for Tonga (2020s)."
         }
       ]
     }
@@ -22033,7 +22033,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "wallis-and-futuna-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Wallis and Futuna (1960s)."
+          "description": "Representative track for Wallis and Futuna (1960s)."
         }
       ],
       "1980s": [
@@ -22053,7 +22053,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "wallis-and-futuna-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Wallis and Futuna (1980s)."
+          "description": "Representative track for Wallis and Futuna (1980s)."
         }
       ],
       "2000s": [
@@ -22073,7 +22073,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "wallis-and-futuna-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Wallis and Futuna (2000s)."
+          "description": "Representative track for Wallis and Futuna (2000s)."
         }
       ],
       "2020s": [
@@ -22093,7 +22093,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "wallis-and-futuna-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Wallis and Futuna (2020s)."
+          "description": "Representative track for Wallis and Futuna (2020s)."
         }
       ]
     }
@@ -22127,7 +22127,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "samoa-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Samoa (1960s)."
+          "description": "Representative track for Samoa (1960s)."
         }
       ],
       "1980s": [
@@ -22147,7 +22147,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "samoa-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Samoa (1980s)."
+          "description": "Representative track for Samoa (1980s)."
         }
       ],
       "2000s": [
@@ -22167,7 +22167,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "samoa-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Samoa (2000s)."
+          "description": "Representative track for Samoa (2000s)."
         }
       ],
       "2020s": [
@@ -22187,7 +22187,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "samoa-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Samoa (2020s)."
+          "description": "Representative track for Samoa (2020s)."
         }
       ]
     }
@@ -22221,7 +22221,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "solomon-islands-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Solomon Islands (1960s)."
+          "description": "Representative track for Solomon Islands (1960s)."
         }
       ],
       "1980s": [
@@ -22241,7 +22241,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "solomon-islands-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Solomon Islands (1980s)."
+          "description": "Representative track for Solomon Islands (1980s)."
         }
       ],
       "2000s": [
@@ -22261,7 +22261,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "solomon-islands-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Solomon Islands (2000s)."
+          "description": "Representative track for Solomon Islands (2000s)."
         }
       ],
       "2020s": [
@@ -22281,7 +22281,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "solomon-islands-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Solomon Islands (2020s)."
+          "description": "Representative track for Solomon Islands (2020s)."
         }
       ]
     }
@@ -22315,7 +22315,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "tuvalu-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Tuvalu (1960s)."
+          "description": "Representative track for Tuvalu (1960s)."
         }
       ],
       "1980s": [
@@ -22335,7 +22335,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "tuvalu-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Tuvalu (1980s)."
+          "description": "Representative track for Tuvalu (1980s)."
         }
       ],
       "2000s": [
@@ -22355,7 +22355,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "tuvalu-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Tuvalu (2000s)."
+          "description": "Representative track for Tuvalu (2000s)."
         }
       ],
       "2020s": [
@@ -22375,7 +22375,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "tuvalu-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Tuvalu (2020s)."
+          "description": "Representative track for Tuvalu (2020s)."
         }
       ]
     }
@@ -22409,7 +22409,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "maldives-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Maldives (1960s)."
+          "description": "Representative track for Maldives (1960s)."
         }
       ],
       "1980s": [
@@ -22429,7 +22429,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "maldives-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Maldives (1980s)."
+          "description": "Representative track for Maldives (1980s)."
         }
       ],
       "2000s": [
@@ -22449,7 +22449,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "maldives-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Maldives (2000s)."
+          "description": "Representative track for Maldives (2000s)."
         }
       ],
       "2020s": [
@@ -22469,7 +22469,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "maldives-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Maldives (2020s)."
+          "description": "Representative track for Maldives (2020s)."
         }
       ]
     }
@@ -22503,7 +22503,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "nauru-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Nauru (1960s)."
+          "description": "Representative track for Nauru (1960s)."
         }
       ],
       "1980s": [
@@ -22523,7 +22523,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "nauru-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Nauru (1980s)."
+          "description": "Representative track for Nauru (1980s)."
         }
       ],
       "2000s": [
@@ -22543,7 +22543,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "nauru-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Nauru (2000s)."
+          "description": "Representative track for Nauru (2000s)."
         }
       ],
       "2020s": [
@@ -22563,7 +22563,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "nauru-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Nauru (2020s)."
+          "description": "Representative track for Nauru (2020s)."
         }
       ]
     }
@@ -22597,7 +22597,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "federated-states-of-micronesia-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Federated States of Micronesia (1960s)."
+          "description": "Representative track for Federated States of Micronesia (1960s)."
         }
       ],
       "1980s": [
@@ -22617,7 +22617,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "federated-states-of-micronesia-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Federated States of Micronesia (1980s)."
+          "description": "Representative track for Federated States of Micronesia (1980s)."
         }
       ],
       "2000s": [
@@ -22637,7 +22637,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "federated-states-of-micronesia-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Federated States of Micronesia (2000s)."
+          "description": "Representative track for Federated States of Micronesia (2000s)."
         }
       ],
       "2020s": [
@@ -22657,7 +22657,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "federated-states-of-micronesia-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Federated States of Micronesia (2020s)."
+          "description": "Representative track for Federated States of Micronesia (2020s)."
         }
       ]
     }
@@ -22691,7 +22691,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "south-georgia-and-the-islands-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for South Georgia and the Islands (1960s)."
+          "description": "Representative track for South Georgia and the Islands (1960s)."
         }
       ],
       "1980s": [
@@ -22711,7 +22711,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "south-georgia-and-the-islands-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for South Georgia and the Islands (1980s)."
+          "description": "Representative track for South Georgia and the Islands (1980s)."
         }
       ],
       "2000s": [
@@ -22731,7 +22731,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "south-georgia-and-the-islands-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for South Georgia and the Islands (2000s)."
+          "description": "Representative track for South Georgia and the Islands (2000s)."
         }
       ],
       "2020s": [
@@ -22751,7 +22751,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "south-georgia-and-the-islands-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for South Georgia and the Islands (2020s)."
+          "description": "Representative track for South Georgia and the Islands (2020s)."
         }
       ]
     }
@@ -22785,7 +22785,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "falkland-islands-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Falkland Islands (1960s)."
+          "description": "Representative track for Falkland Islands (1960s)."
         }
       ],
       "1980s": [
@@ -22805,7 +22805,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "falkland-islands-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Falkland Islands (1980s)."
+          "description": "Representative track for Falkland Islands (1980s)."
         }
       ],
       "2000s": [
@@ -22825,7 +22825,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "falkland-islands-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Falkland Islands (2000s)."
+          "description": "Representative track for Falkland Islands (2000s)."
         }
       ],
       "2020s": [
@@ -22845,7 +22845,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "falkland-islands-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Falkland Islands (2020s)."
+          "description": "Representative track for Falkland Islands (2020s)."
         }
       ]
     }
@@ -22879,7 +22879,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "vanuatu-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Vanuatu (1960s)."
+          "description": "Representative track for Vanuatu (1960s)."
         }
       ],
       "1980s": [
@@ -22899,7 +22899,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "vanuatu-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Vanuatu (1980s)."
+          "description": "Representative track for Vanuatu (1980s)."
         }
       ],
       "2000s": [
@@ -22919,7 +22919,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "vanuatu-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Vanuatu (2000s)."
+          "description": "Representative track for Vanuatu (2000s)."
         }
       ],
       "2020s": [
@@ -22939,7 +22939,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "vanuatu-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Vanuatu (2020s)."
+          "description": "Representative track for Vanuatu (2020s)."
         }
       ]
     }
@@ -22973,7 +22973,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "niue-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Niue (1960s)."
+          "description": "Representative track for Niue (1960s)."
         }
       ],
       "1980s": [
@@ -22993,7 +22993,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "niue-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Niue (1980s)."
+          "description": "Representative track for Niue (1980s)."
         }
       ],
       "2000s": [
@@ -23013,7 +23013,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "niue-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Niue (2000s)."
+          "description": "Representative track for Niue (2000s)."
         }
       ],
       "2020s": [
@@ -23033,7 +23033,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "niue-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Niue (2020s)."
+          "description": "Representative track for Niue (2020s)."
         }
       ]
     }
@@ -23067,7 +23067,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "american-samoa-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for American Samoa (1960s)."
+          "description": "Representative track for American Samoa (1960s)."
         }
       ],
       "1980s": [
@@ -23087,7 +23087,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "american-samoa-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for American Samoa (1980s)."
+          "description": "Representative track for American Samoa (1980s)."
         }
       ],
       "2000s": [
@@ -23107,7 +23107,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "american-samoa-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for American Samoa (2000s)."
+          "description": "Representative track for American Samoa (2000s)."
         }
       ],
       "2020s": [
@@ -23127,7 +23127,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "american-samoa-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for American Samoa (2020s)."
+          "description": "Representative track for American Samoa (2020s)."
         }
       ]
     }
@@ -23161,7 +23161,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "palau-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Palau (1960s)."
+          "description": "Representative track for Palau (1960s)."
         }
       ],
       "1980s": [
@@ -23181,7 +23181,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "palau-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Palau (1980s)."
+          "description": "Representative track for Palau (1980s)."
         }
       ],
       "2000s": [
@@ -23201,7 +23201,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "palau-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Palau (2000s)."
+          "description": "Representative track for Palau (2000s)."
         }
       ],
       "2020s": [
@@ -23221,7 +23221,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "palau-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Palau (2020s)."
+          "description": "Representative track for Palau (2020s)."
         }
       ]
     }
@@ -23255,7 +23255,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guam-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Guam (1960s)."
+          "description": "Representative track for Guam (1960s)."
         }
       ],
       "1980s": [
@@ -23275,7 +23275,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guam-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Guam (1980s)."
+          "description": "Representative track for Guam (1980s)."
         }
       ],
       "2000s": [
@@ -23295,7 +23295,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guam-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Guam (2000s)."
+          "description": "Representative track for Guam (2000s)."
         }
       ],
       "2020s": [
@@ -23315,7 +23315,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "guam-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Guam (2020s)."
+          "description": "Representative track for Guam (2020s)."
         }
       ]
     }
@@ -23349,7 +23349,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "northern-mariana-islands-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Northern Mariana Islands (1960s)."
+          "description": "Representative track for Northern Mariana Islands (1960s)."
         }
       ],
       "1980s": [
@@ -23369,7 +23369,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "northern-mariana-islands-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Northern Mariana Islands (1980s)."
+          "description": "Representative track for Northern Mariana Islands (1980s)."
         }
       ],
       "2000s": [
@@ -23389,7 +23389,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "northern-mariana-islands-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Northern Mariana Islands (2000s)."
+          "description": "Representative track for Northern Mariana Islands (2000s)."
         }
       ],
       "2020s": [
@@ -23409,7 +23409,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "northern-mariana-islands-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Northern Mariana Islands (2020s)."
+          "description": "Representative track for Northern Mariana Islands (2020s)."
         }
       ]
     }
@@ -23443,7 +23443,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bahrain-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Bahrain (1960s)."
+          "description": "Representative track for Bahrain (1960s)."
         }
       ],
       "1980s": [
@@ -23463,7 +23463,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bahrain-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Bahrain (1980s)."
+          "description": "Representative track for Bahrain (1980s)."
         }
       ],
       "2000s": [
@@ -23483,7 +23483,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bahrain-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Bahrain (2000s)."
+          "description": "Representative track for Bahrain (2000s)."
         }
       ],
       "2020s": [
@@ -23503,7 +23503,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bahrain-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Bahrain (2020s)."
+          "description": "Representative track for Bahrain (2020s)."
         }
       ]
     }
@@ -23537,7 +23537,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "coral-sea-islands-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Coral Sea Islands (1960s)."
+          "description": "Representative track for Coral Sea Islands (1960s)."
         }
       ],
       "1980s": [
@@ -23557,7 +23557,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "coral-sea-islands-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Coral Sea Islands (1980s)."
+          "description": "Representative track for Coral Sea Islands (1980s)."
         }
       ],
       "2000s": [
@@ -23577,7 +23577,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "coral-sea-islands-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Coral Sea Islands (2000s)."
+          "description": "Representative track for Coral Sea Islands (2000s)."
         }
       ],
       "2020s": [
@@ -23597,7 +23597,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "coral-sea-islands-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Coral Sea Islands (2020s)."
+          "description": "Representative track for Coral Sea Islands (2020s)."
         }
       ]
     }
@@ -23631,7 +23631,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "spratly-islands-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Spratly Islands (1960s)."
+          "description": "Representative track for Spratly Islands (1960s)."
         }
       ],
       "1980s": [
@@ -23651,7 +23651,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "spratly-islands-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Spratly Islands (1980s)."
+          "description": "Representative track for Spratly Islands (1980s)."
         }
       ],
       "2000s": [
@@ -23671,7 +23671,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "spratly-islands-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Spratly Islands (2000s)."
+          "description": "Representative track for Spratly Islands (2000s)."
         }
       ],
       "2020s": [
@@ -23691,7 +23691,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "spratly-islands-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Spratly Islands (2020s)."
+          "description": "Representative track for Spratly Islands (2020s)."
         }
       ]
     }
@@ -23725,7 +23725,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "clipperton-island-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Clipperton Island (1960s)."
+          "description": "Representative track for Clipperton Island (1960s)."
         }
       ],
       "1980s": [
@@ -23745,7 +23745,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "clipperton-island-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Clipperton Island (1980s)."
+          "description": "Representative track for Clipperton Island (1980s)."
         }
       ],
       "2000s": [
@@ -23765,7 +23765,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "clipperton-island-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Clipperton Island (2000s)."
+          "description": "Representative track for Clipperton Island (2000s)."
         }
       ],
       "2020s": [
@@ -23785,7 +23785,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "clipperton-island-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Clipperton Island (2020s)."
+          "description": "Representative track for Clipperton Island (2020s)."
         }
       ]
     }
@@ -23819,7 +23819,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "macao-s-a-r-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Macao S.A.R (1960s)."
+          "description": "Representative track for Macao S.A.R (1960s)."
         }
       ],
       "1980s": [
@@ -23839,7 +23839,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "macao-s-a-r-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Macao S.A.R (1980s)."
+          "description": "Representative track for Macao S.A.R (1980s)."
         }
       ],
       "2000s": [
@@ -23859,7 +23859,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "macao-s-a-r-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Macao S.A.R (2000s)."
+          "description": "Representative track for Macao S.A.R (2000s)."
         }
       ],
       "2020s": [
@@ -23879,7 +23879,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "macao-s-a-r-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Macao S.A.R (2020s)."
+          "description": "Representative track for Macao S.A.R (2020s)."
         }
       ]
     }
@@ -23913,7 +23913,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ashmore-and-cartier-islands-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Ashmore and Cartier Islands (1960s)."
+          "description": "Representative track for Ashmore and Cartier Islands (1960s)."
         }
       ],
       "1980s": [
@@ -23933,7 +23933,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ashmore-and-cartier-islands-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Ashmore and Cartier Islands (1980s)."
+          "description": "Representative track for Ashmore and Cartier Islands (1980s)."
         }
       ],
       "2000s": [
@@ -23953,7 +23953,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ashmore-and-cartier-islands-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Ashmore and Cartier Islands (2000s)."
+          "description": "Representative track for Ashmore and Cartier Islands (2000s)."
         }
       ],
       "2020s": [
@@ -23973,7 +23973,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "ashmore-and-cartier-islands-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Ashmore and Cartier Islands (2020s)."
+          "description": "Representative track for Ashmore and Cartier Islands (2020s)."
         }
       ]
     }
@@ -24007,7 +24007,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bajo-nuevo-bank-petrel-is-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Bajo Nuevo Bank (Petrel Is.) (1960s)."
+          "description": "Representative track for Bajo Nuevo Bank (Petrel Is.) (1960s)."
         }
       ],
       "1980s": [
@@ -24027,7 +24027,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bajo-nuevo-bank-petrel-is-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Bajo Nuevo Bank (Petrel Is.) (1980s)."
+          "description": "Representative track for Bajo Nuevo Bank (Petrel Is.) (1980s)."
         }
       ],
       "2000s": [
@@ -24047,7 +24047,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bajo-nuevo-bank-petrel-is-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Bajo Nuevo Bank (Petrel Is.) (2000s)."
+          "description": "Representative track for Bajo Nuevo Bank (Petrel Is.) (2000s)."
         }
       ],
       "2020s": [
@@ -24067,7 +24067,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "bajo-nuevo-bank-petrel-is-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Bajo Nuevo Bank (Petrel Is.) (2020s)."
+          "description": "Representative track for Bajo Nuevo Bank (Petrel Is.) (2020s)."
         }
       ]
     }
@@ -24101,7 +24101,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "serranilla-bank-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Serranilla Bank (1960s)."
+          "description": "Representative track for Serranilla Bank (1960s)."
         }
       ],
       "1980s": [
@@ -24121,7 +24121,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "serranilla-bank-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Serranilla Bank (1980s)."
+          "description": "Representative track for Serranilla Bank (1980s)."
         }
       ],
       "2000s": [
@@ -24141,7 +24141,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "serranilla-bank-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Serranilla Bank (2000s)."
+          "description": "Representative track for Serranilla Bank (2000s)."
         }
       ],
       "2020s": [
@@ -24161,7 +24161,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "serranilla-bank-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Serranilla Bank (2020s)."
+          "description": "Representative track for Serranilla Bank (2020s)."
         }
       ]
     }
@@ -24195,7 +24195,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "scarborough-reef-1960s-sample-2",
           "year": 1968,
           "genre": "Soul Folk",
-          "description": "Curated placeholder track for Scarborough Reef (1960s)."
+          "description": "Representative track for Scarborough Reef (1960s)."
         }
       ],
       "1980s": [
@@ -24215,7 +24215,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "scarborough-reef-1980s-sample-2",
           "year": 1988,
           "genre": "New Wave",
-          "description": "Curated placeholder track for Scarborough Reef (1980s)."
+          "description": "Representative track for Scarborough Reef (1980s)."
         }
       ],
       "2000s": [
@@ -24235,7 +24235,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "scarborough-reef-2000s-sample-2",
           "year": 2009,
           "genre": "Indie Electronic",
-          "description": "Curated placeholder track for Scarborough Reef (2000s)."
+          "description": "Representative track for Scarborough Reef (2000s)."
         }
       ],
       "2020s": [
@@ -24255,7 +24255,7 @@ export const MUSIC_MAP_COUNTRIES: MusicMapCountry[] = [
           "videoId": "scarborough-reef-2020s-sample-2",
           "year": 2025,
           "genre": "Global Electronic",
-          "description": "Curated placeholder track for Scarborough Reef (2020s)."
+          "description": "Representative track for Scarborough Reef (2020s)."
         }
       ]
     }

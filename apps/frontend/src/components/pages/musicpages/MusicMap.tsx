@@ -44,7 +44,7 @@ function buildFallbackCountry(code: string, name: string): MusicMapCountry {
         videoId: `${code}-${era}-sample-2`,
         year: yearB,
         genre: genreB,
-        description: `Curated placeholder track for ${name} (${era}). You can replace with real songs later.`
+        description: `Representative track for ${name} (${era}). You can replace with real songs later.`
       },
     ];
   }

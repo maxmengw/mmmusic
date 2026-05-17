@@ -17,6 +17,35 @@ model User {
   playlistItems PlaylistItem[]
 }
 
+model MusicMapCountry {
+  code          String          @id
+  name          String
+  region        String
+  description   String
+  positionTop   String
+  positionLeft  String
+  lat           Float?
+  lng           Float?
+  songs         MusicMapSong[]
+}
+
+model MusicMapSong {
+  id            String        @id @default(cuid())
+  countryCode   String
+  country       MusicMapCountry @relation(fields: [countryCode], references: [code], onDelete: Cascade)
+  era           String
+  title         String
+  artist        String
+  videoId       String
+  year          Int
+  genre         String
+  description   String
+  sortOrder     Int           @default(0)
+
+  @@index([countryCode, era])
+  @@unique([countryCode, era, sortOrder])
+}
+
 model Music {
   id          String   @id @default(uuid())
   name        String

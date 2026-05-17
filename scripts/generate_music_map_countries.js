@@ -69,7 +69,7 @@ async function main() {
       const genrePairs = era === '1960s' ? ['Vintage Pop','Soul Folk'] : era === '1980s' ? ['Synth Pop','New Wave'] : era === '2000s' ? ['Electro Pop','Indie Electronic'] : ['Alt Pop','Global Electronic'];
       songs[era] = [
         { id: `${code}-${era}-1`, title: `${name} Soundscape I`, artist: `${name} Collective`, videoId: `${code}-${era}-sample-1`, year: yearBase[0], genre: genrePairs[0], description: `Representative ${era} style inspired by ${name}'s regional sound.` },
-        { id: `${code}-${era}-2`, title: `${name} Soundscape II`, artist: `${name} Studio`, videoId: `${code}-${era}-sample-2`, year: yearBase[1], genre: genrePairs[1], description: `Curated placeholder track for ${name} (${era}).` },
+        { id: `${code}-${era}-2`, title: `${name} Soundscape II`, artist: `${name} Studio`, videoId: `${code}-${era}-sample-2`, year: yearBase[1], genre: genrePairs[1], description: `Representative track for ${name} (${era}).` },
       ];
     }
 
