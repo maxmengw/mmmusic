@@ -70,3 +70,53 @@
     background: $glass-highlight;
   }
 }
+
+/* Expanded player panel styles */
+.player-expanded {
+  max-width: 900px;
+  width: calc(100vw - 64px);
+  background: $glass-bg;
+  border: 1px solid $glass-border;
+  border-radius: 18px;
+  padding: 1rem;
+  color: $color-white;
+}
+
+.player-expanded-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: $spacing-md;
+}
+
+.player-expanded-body {
+  display: flex;
+  gap: $spacing-md;
+}
+
+.player-expanded-media {
+  flex: 0 0 480px;
+}
+
+.player-expanded-meta {
+  flex: 1;
+}
+
+.player-expanded-close {
+  background: transparent;
+  border: none;
+  color: $color-white;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+@include mobile {
+  .player-expanded {
+    width: calc(100vw - 32px);
+    padding: 0.75rem;
+  }
+  .player-expanded-body {
+    flex-direction: column;
+  }
+  .player-expanded-media { flex: 1 1 auto; }
+}

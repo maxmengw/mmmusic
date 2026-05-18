@@ -19,10 +19,12 @@ import { useYouTube } from '../../hooks/music/useYoutube';
 import { useYouTubeMusicsList } from '../../hooks/music/useYouTubeMusicsList';
 import { useState } from 'react';
 import PlaylistModal from './PlaylistModal';
+import PlayerExpanded from './PlayerExpanded';
 
 export default function MusicPlayerBar() {
 	const { musics, deleteFromPlaylist } = useYouTubeMusicsList();
 	const [playlistOpen, setPlaylistOpen] = useState(false);
+	const [expanded, setExpanded] = useState(false);
 	
 	const {
 		currentSong,
@@ -74,7 +76,7 @@ export default function MusicPlayerBar() {
 					/>
 				</div>
 				<div className="player-song-info">
-					<div className="song-title">{currentSong.title}</div>
+					<div className="song-title" role="button" tabIndex={0} onClick={() => setExpanded(true)} onKeyDown={(e) => { if (e.key === 'Enter') setExpanded(true); }}>{currentSong.title}</div>
 					<div className="song-artist">{currentSong.artist}</div>
 				</div>
 				   <div className="player-controls">
@@ -102,6 +104,8 @@ export default function MusicPlayerBar() {
 					   }))}
 					   onDelete={(id) => { void deleteFromPlaylist(String(id)); }}
 				   />
+
+				<PlayerExpanded open={expanded} onClose={() => setExpanded(false)} song={currentSong} />
 			</div>
 		</div>
 	);
