@@ -26,6 +26,16 @@ export default function PlayerExpanded({ open, onClose, song }: Props) {
               <YouTube
                 videoId={song.videoId}
                 opts={{ width: '480', height: '270', playerVars: { autoplay: 1 } }}
+                onStateChange={(e) => {
+                  // when expanded player starts playing, pause background player to avoid duplicate audio
+                  const state = e.data;
+                  if (state === 1) {
+                    window.dispatchEvent(new CustomEvent('mms-background-player-control', { detail: { action: 'pause' } }));
+                  } else if (state === 2 || state === 0) {
+                    // paused or ended -> resume background player
+                    window.dispatchEvent(new CustomEvent('mms-background-player-control', { detail: { action: 'play' } }));
+                  }
+                }}
               />
             ) : (
               <div className="player-expanded-placeholder">No video available</div>

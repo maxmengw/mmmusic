@@ -26,6 +26,29 @@ export const useYouTube = (playlist: YouTubeMusic[]) => {
 		YouTubePlayerService.handleStateChange(event.data, setIsPlaying);
 	};
 
+	// Listen for global requests to pause/resume the background player (e.g., when expanded player plays)
+	useEffect(() => {
+		const handler = (e: Event) => {
+			const custom = e as CustomEvent;
+			const action = custom?.detail?.action;
+			if (!playerRef.current || !action) return;
+			try {
+				if (action === 'pause') {
+					playerRef.current.pauseVideo();
+					setIsPlaying(false);
+				} else if (action === 'play') {
+					playerRef.current.playVideo();
+					setIsPlaying(true);
+				}
+			} catch (err) {
+				// ignore errors calling player API
+			}
+		};
+
+		window.addEventListener('mms-background-player-control', handler as EventListener);
+		return () => window.removeEventListener('mms-background-player-control', handler as EventListener);
+	}, []);
+
 	const togglePlayPause = () => {
 		if (playerRef.current) {
 			YouTubePlayerService.togglePlayPause(playerRef.current, isPlaying);
