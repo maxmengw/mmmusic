@@ -12,6 +12,24 @@ interface Props {
 export default function PlayerExpanded({ open, onClose, song }: Props) {
   if (!open || !song) return null;
 
+  const dispatchBackgroundControl = (action: 'pause' | 'play') => {
+    try {
+      const ev = new CustomEvent('mms-background-player-control', { detail: { action } });
+      window.dispatchEvent(ev);
+    } catch (_err) {
+      // fallback for environments that may not support CustomEvent constructor
+      try {
+        // @ts-ignore - legacy API fallback
+        const ev = document.createEvent('CustomEvent');
+        // @ts-ignore
+        ev.initCustomEvent('mms-background-player-control', true, true, { action });
+        window.dispatchEvent(ev);
+      } catch (e) {
+        // give up silently
+      }
+    }
+  };
+
   return (
     <Modal isOpen={open} onClose={onClose}>
       <div className="player-expanded" onClick={(e) => e.stopPropagation()}>
@@ -26,14 +44,14 @@ export default function PlayerExpanded({ open, onClose, song }: Props) {
               <YouTube
                 videoId={song.videoId}
                 opts={{ width: '480', height: '270', playerVars: { autoplay: 1 } }}
-                onStateChange={(e) => {
+                onStateChange={(e: any) => {
                   // when expanded player starts playing, pause background player to avoid duplicate audio
-                  const state = e.data;
+                  const state = e?.data;
                   if (state === 1) {
-                    window.dispatchEvent(new CustomEvent('mms-background-player-control', { detail: { action: 'pause' } }));
+                    dispatchBackgroundControl('pause');
                   } else if (state === 2 || state === 0) {
                     // paused or ended -> resume background player
-                    window.dispatchEvent(new CustomEvent('mms-background-player-control', { detail: { action: 'play' } }));
+                    dispatchBackgroundControl('play');
                   }
                 }}
               />
