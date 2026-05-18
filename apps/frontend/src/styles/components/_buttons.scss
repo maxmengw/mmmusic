@@ -62,3 +62,25 @@
   z-index: $z-button;
   @include button-circle;
 }
+
+.link-button {
+  background: none;
+  border: none;
+  color: $color-white;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  transition: color 0.16s ease, transform 0.08s ease;
+
+  &:hover {
+    color: $glass-hover;
+    transform: translateX(2px);
+  }
+
+  &:focus {
+    outline: 2px dashed rgba(98,210,162,0.35);
+    outline-offset: 4px;
+  }
+}

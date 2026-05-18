@@ -40,7 +40,7 @@ export default function Music() {
                 <AddForm 
                     className='music-form'
                     field1Label='name'
-                    field2Label='example'
+                    field2Label='reference track'
                     field1Options={nameOptions}
                     onSubmit={handleAddMusic}
                     onClose={() => setShowAddModal(false)}
@@ -54,7 +54,7 @@ export default function Music() {
                 <DeleteForm
                     className="music-form"
                     categoryLabel="Category"
-                    exampleLabel="Example"
+                    exampleLabel="Reference Track"
                     categories={data.categories}
                     onSubmit={handleDeleteMusic}
                     onClose={() => setShowDeleteModal(false)}

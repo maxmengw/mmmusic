@@ -213,3 +213,84 @@
   border-radius: 3px;
   font-weight: 500;
 }
+
+/* Add Playlist modal styles */
+.add-playlist-modal {
+  max-width: 720px;
+  width: calc(100vw - 64px);
+  background: $glass-bg;
+  border: 1px solid $glass-border;
+  border-radius: 12px;
+  padding: 1.25rem;
+  color: $color-white;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.45);
+}
+
+.add-playlist-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: $spacing-md;
+}
+
+.add-playlist-header h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.playlist-modal-close {
+  background: transparent;
+  border: none;
+  color: $color-white;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.add-playlist-body {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+}
+
+.add-playlist-body label {
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.92);
+  margin-bottom: 0.25rem;
+}
+
+.add-playlist-body input,
+.add-playlist-body select {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid $glass-border;
+  background: $glass-highlight;
+  color: $color-white;
+  font-size: 0.95rem;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.add-playlist-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: $spacing-sm;
+}
+
+.add-playlist-actions .btn-open,
+.add-playlist-actions .btn-add {
+  padding: 0.65rem 1rem;
+  border-radius: 8px;
+}
+
+@include mobile {
+  .add-playlist-modal {
+    width: calc(100vw - 32px);
+    padding: 1rem;
+  }
+  .add-playlist-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

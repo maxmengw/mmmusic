@@ -47,9 +47,9 @@ async function seedData() {
 	for (const name of musicData.categories) {
 		await prisma.music.create({
 			data: {
-				name: name.name,
-				description: name.description,
-				examples: name.examples,
+				name: String(name?.name ?? ''),
+				description: String(name?.description ?? ''),
+				examples: name?.examples ?? [],
 			},
 		});
 	}

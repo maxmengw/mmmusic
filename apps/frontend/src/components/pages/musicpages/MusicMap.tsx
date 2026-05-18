@@ -63,6 +63,13 @@ function buildFallbackCountry(code: string, name: string): MusicMapCountry {
 export default function MusicMap() {
   const [countries, setCountries] = useState<MusicMapCountry[]>([]);
 
+  const normalizeCode = (value: string) =>
+    String(value || '')
+      .trim()
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '_')
+      .replace(/^_+|_+$/g, '');
+
   useEffect(() => {
     let canceled = false;
     const load = async () => {
@@ -73,6 +80,20 @@ export default function MusicMap() {
         if (canceled) return;
         const data = payload?.data ?? [];
         setCountries(data);
+        // if url contains ?country=... optionally select it
+        try {
+          const q = new URLSearchParams(window.location.search);
+          const code = q.get('country');
+          const name = q.get('name');
+          if (code) {
+            setSelectedCountryCode(normalizeCode(code));
+          }
+          if (name) {
+            setSelectedCountryName(name);
+          }
+        } catch (err) {
+          // ignore
+        }
       } catch (err) {
         // ignore
       } finally {
@@ -91,7 +112,7 @@ export default function MusicMap() {
   const [metaBySongId, setMetaBySongId] = useState<Record<string, { status: 'loading' | 'ready' | 'error'; coverUrl?: string | null }>>({});
 
   const selectedCountry = useMemo<MusicMapCountry | undefined>(() => {
-    const preset = countries.find((country) => country.code === selectedCountryCode);
+    const preset = countries.find((country) => normalizeCode(country.code) === normalizeCode(selectedCountryCode));
     if (preset) return preset;
     if (!selectedCountryCode || !selectedCountryName) return undefined;
     return buildFallbackCountry(selectedCountryCode, selectedCountryName);

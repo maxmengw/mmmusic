@@ -115,35 +115,19 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                                         </p>
                                         
                                         <div className="result-examples">
-                                            <h4>Examples:</h4>
+                                            <h4>My Music Memos:</h4>
                                             <ul>
                                                 {result.examples.map((example: string, exampleIndex: number) => {
                                                     const key = `${resultKey}-${exampleIndex}`;
                                                     
-                                                    return (
-                                                        <li key={exampleIndex} className="example-item">
-                                                            <span className="example-text">
-                                                                {highlightText(example, searchQuery)}
-                                                            </span>
-                                                            
-                                                            <div className="url-container">
-                                                                <button className="btn-open" onClick={() => openYoutube(example)}>
-                                                                    Open
-                                                                </button>
-                                                                <input
-                                                                    type="text"
-                                                                    placeholder="Paste YouTube URL"
-                                                                    value={youtubeUrls[key] || ''}
-                                                                    onChange={(e) => handleUrlChange(key, e.target.value)}
-                                                                    className="url-input"
-                                                                />
-                                                                <button className="btn-add" onClick={() => handleAddToPlaylist(example, result.country, key)}>
-                                                                    Add
-                                                                </button>
-                                                            </div>
-                                                        </li>
-                                                    );
-                                                })}
+                                                        return (
+                                                            <li key={exampleIndex} className="example-item">
+                                                                <span className="example-text">
+                                                                    {highlightText(example, searchQuery)}
+                                                                </span>
+                                                            </li>
+                                                        );
+                                                    })}
                                             </ul>
                                         </div>
                                     </div>

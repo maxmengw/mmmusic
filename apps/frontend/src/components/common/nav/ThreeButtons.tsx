@@ -13,8 +13,8 @@ export default function ThreeButtons() {
 
     return (
         <div className="three-buttons">
-            <button className="inter-thin" onClick={handleNavigateMusic}>Music</button>
-            <button className="inter-thin" onClick={handleNavigateMusicMap}>Music Map</button>
+            <button type="button" className="inter-thin" onClick={handleNavigateMusic}>Global Music Guide</button>
+            <button type="button" className="inter-thin" onClick={handleNavigateMusicMap}>Music Map</button>
         </div>
     );
 }
