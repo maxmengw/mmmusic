@@ -1,4 +1,4 @@
-import notFoundImage from "../../assets/not-found-rose.jpg";
+import notFoundImage from "../../assets/404-not-found.svg";
 
 export default function NotFound() {
 	return (
@@ -6,7 +6,7 @@ export default function NotFound() {
 			<img
 				className="not-found-page__image"
 				src={notFoundImage}
-				alt="Not Found"
+				alt="404 Not Found"
 			/>
 		</div>
 	);

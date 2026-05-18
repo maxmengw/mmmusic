@@ -1,5 +1,5 @@
 import { useMemo, useState, useEffect } from 'react';
-import notFoundImg from '../../../assets/not-found-rose.jpg';
+import notFoundImg from '../../../assets/404-not-found.svg';
 import HomeButton from '../../common/nav/HomeButton';
 import GlobeMap from './GlobeMap';
 import { MUSIC_MAP_ERAS } from '@shared/data/musicMapCountries';
@@ -120,6 +120,7 @@ export default function MusicMap() {
   const songs = selectedCountry?.songs[visibleEra] ?? [];
   const [candidates, setCandidates] = useState<{ title: string; artist: string; coverUrl?: string | null; source: string; year?: number }[]>([]);
   const [candidateIndex, setCandidateIndex] = useState(0);
+  const [isLoadingCandidates, setIsLoadingCandidates] = useState(false);
 
   useEffect(() => {
     let canceled = false;
@@ -128,21 +129,28 @@ export default function MusicMap() {
       if (!selectedCountry) {
         setCandidates([]);
         setCandidateIndex(0);
+        setIsLoadingCandidates(false);
         return;
       }
+      setIsLoadingCandidates(true);
       try {
         const q = new URLSearchParams();
         q.set('country', selectedCountry.code ?? selectedCountry.name);
         q.set('count', '8');
         q.set('era', visibleEra);
         const res = await fetch(`/api/v1/music/generate?${q.toString()}`);
-        if (!res.ok) return;
+        if (!res.ok) {
+          setIsLoadingCandidates(false);
+          return;
+        }
         const payload = await res.json();
         if (canceled) return;
         const data = payload?.data ?? [];
         setCandidates(data);
         setCandidateIndex(0);
+        setIsLoadingCandidates(false);
       } catch (err) {
+        setIsLoadingCandidates(false);
         // ignore
       }
     };
@@ -275,8 +283,13 @@ export default function MusicMap() {
                 </div>
 
                 <div className={`song-list ${isEraSwitching ? 'is-switching' : ''}`} aria-busy={isEraSwitching}>
-                  {/* Show a single candidate (generated) with next button; fallback to local songs if candidates empty */}
-                  {candidates && candidates.length > 0 ? (
+                  {/* Show loading while fetching candidates */}
+                  {isLoadingCandidates ? (
+                    <div className="song-list-loading">
+                      <div className="spinner"></div>
+                      <p>Loading songs...</p>
+                    </div>
+                  ) : candidates && candidates.length > 0 ? (
                     (() => {
                       const c = candidates[candidateIndex];
                       return (

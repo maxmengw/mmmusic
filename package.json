@@ -7,7 +7,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"npm:start:frontend\" \"npm:start:backend\"",
+    "dev": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "dev:all": "npm run dev:db && concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "dev:db": "docker compose up -d postgres",
     "start:frontend": "npm run dev --workspace=@mms_music/frontend",
     "start:backend": "npm start --workspace=@mms_music/backend",
     "generate:backend": "npx --workspace=@mms_music/backend prisma generate",
