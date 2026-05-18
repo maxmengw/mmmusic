@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import Modal from '../common/ui/Modal';
 import YouTube from 'react-youtube';
 import type { YouTubeMusic } from '@shared/types/youtubeData';
@@ -29,6 +29,27 @@ export default function PlayerExpanded({ open, onClose, song }: Props) {
       }
     }
   };
+
+  const prevWasPlaying = useRef<boolean>(false);
+
+  useEffect(() => {
+    try {
+      // read current background playing state (set by useYoutube)
+      // @ts-ignore
+      prevWasPlaying.current = Boolean(window.__mms_background_playing);
+    } catch (err) {
+      prevWasPlaying.current = false;
+    }
+    // immediately pause background to prevent overlapping audio
+    dispatchBackgroundControl('pause');
+
+    return () => {
+      // on unmount/close, restore background only if it was previously playing
+      if (prevWasPlaying.current) {
+        dispatchBackgroundControl('play');
+      }
+    };
+  }, []);
 
   return (
     <Modal isOpen={open} onClose={onClose}>

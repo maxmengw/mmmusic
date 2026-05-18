@@ -26,6 +26,18 @@ export const useYouTube = (playlist: YouTubeMusic[]) => {
 		YouTubePlayerService.handleStateChange(event.data, setIsPlaying);
 	};
 
+	// expose the current background play state so other components can query it
+	useEffect(() => {
+		try {
+			// store as a simple boolean on window for cross-component coordination
+			// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+			// @ts-ignore
+			window.__mms_background_playing = isPlaying;
+		} catch (err) {
+			// ignore
+		}
+	}, [isPlaying]);
+
 	// Listen for global requests to pause/resume the background player (e.g., when expanded player plays)
 	useEffect(() => {
 		const handler = (e: Event) => {
