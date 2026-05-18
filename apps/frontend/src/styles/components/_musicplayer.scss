@@ -110,6 +110,39 @@
   cursor: pointer;
 }
 
+/* Three-Body (rotating disc) and AI placeholder styles */
+.player-expanded .expanded-actions.three-body {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.rotating-disc {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.12), rgba(0,0,0,0.18)), linear-gradient(135deg, rgba(255,255,255,0.04), rgba(0,0,0,0.2));
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.36), inset 0 -6px 12px rgba(0,0,0,0.25);
+  cursor: pointer;
+  animation: mms-spin 5s linear infinite;
+}
+
+@keyframes mms-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.ai-placeholder {
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid $glass-border;
+  background: $glass-highlight;
+  color: $color-white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
 @include mobile {
   .player-expanded {
     width: calc(100vw - 32px);

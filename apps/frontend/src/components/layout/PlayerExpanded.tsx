@@ -84,8 +84,24 @@ export default function PlayerExpanded({ open, onClose, song }: Props) {
           <div className="player-expanded-meta">
             <p className="expanded-artist">{song.artist}</p>
             <p className="expanded-description">{song.description ?? ''}</p>
-            <div className="expanded-actions">
-              <a className="btn-open" href={`https://www.youtube.com/results?search_query=${encodeURIComponent(song.title + ' ' + (song.artist || ''))}`} target="_blank" rel="noreferrer">Open YouTube</a>
+            <div className="expanded-actions three-body">
+              {/* Rotating disc that opens YouTube search on click */}
+              <button
+                type="button"
+                className="rotating-disc"
+                aria-label={`Open YouTube for ${song.title}`}
+                onClick={() => window.open(`https://www.youtube.com/results?search_query=${encodeURIComponent(song.title + ' ' + (song.artist || ''))}`, '_blank', 'noopener,noreferrer')}
+              />
+
+              {/* Placeholder button for future AI feature */}
+              <button
+                type="button"
+                className="ai-placeholder"
+                aria-label="AI feature (coming soon)"
+                onClick={() => { alert('AI feature coming soon'); }}
+              >
+                AI
+              </button>
             </div>
           </div>
         </div>
