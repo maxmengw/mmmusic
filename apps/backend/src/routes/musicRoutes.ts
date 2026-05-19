@@ -4,6 +4,7 @@ import { requireBearerAuth } from "../api/v1/middleware/bearerAuth";
 import { validateAddMusic, validateDeleteMusic } from "../api/v1/middleware/musicValidation";
 import { fetchMusicMeta } from '../api/v1/services/musicMetaService';
 import { generateCountryCandidates } from '../api/v1/services/musicGenerateService';
+import { generatePlaceholderDescription } from '../api/v1/services/musicAiService';
 import { MUSIC_MAP_COUNTRIES } from '../../../../shared/data/musicMapCountries';
 import { fetchMusicMapCountries } from '../api/v1/services/musicMapService';
 
@@ -73,6 +74,18 @@ router.get('/music/generate', async (req: Request, res: Response) => {
         if (!country) return res.status(400).json({ success: false, message: 'missing country' });
         const items = await generateCountryCandidates(country, Number(count), era);
         return res.status(200).json({ success: true, data: items });
+    } catch (err: any) {
+        return res.status(500).json({ success: false, message: err?.message || 'Internal error' });
+    }
+});
+
+// Prototype endpoint for AI-generated country description (placeholder)
+router.post('/music/describe', async (req: Request, res: Response) => {
+    try {
+        const { country } = req.body as any;
+        if (!country) return res.status(400).json({ success: false, message: 'missing country in body' });
+        const text = await generatePlaceholderDescription(country);
+        return res.status(200).json({ success: true, data: { description: text } });
     } catch (err: any) {
         return res.status(500).json({ success: false, message: err?.message || 'Internal error' });
     }

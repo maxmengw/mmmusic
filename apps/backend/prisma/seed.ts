@@ -1,6 +1,6 @@
 import prisma from "./client";
 import logger from '../src/utils/logger';
-import musicData from "../../../shared/data/musicData.json";
+// legacy musicData.json removed — using MUSIC_MAP_COUNTRIES instead
 import youtubeMusicData from "../../../shared/data/youtubeMusicsList.json";
 import { MUSIC_MAP_COUNTRIES, MUSIC_MAP_ERAS } from "../../../shared/data/musicMapCountries";
 
