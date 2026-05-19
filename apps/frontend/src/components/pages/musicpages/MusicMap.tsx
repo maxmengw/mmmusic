@@ -1,6 +1,7 @@
 import { useMemo, useState, useEffect } from 'react';
 import notFoundImg from '../../../assets/404-not-found.svg';
 import HomeButton from '../../common/nav/HomeButton';
+import { Button } from '../../ui';
 import GlobeMap from './GlobeMap';
 import { MUSIC_MAP_ERAS } from '@shared/data/musicMapCountries';
 import type { MusicMapCountry, MusicMapEra, MusicMapSong } from '@shared/types/musicMap';
@@ -274,9 +275,8 @@ export default function MusicMap({ embedded = false, active = true }: MusicMapPr
               {/* If embedded into Landing and active, show Back button aligned under the timeline chips */}
               {embedded && active && (
                 <div className="music-map-back-wrap">
-                  <button
-                    type="button"
-                    className="landing-back-btn"
+                  <Button
+                    variant="back"
                     style={{ transform: 'translateY(-7px)' }}
                     onClick={() => {
                       try {
@@ -287,7 +287,7 @@ export default function MusicMap({ embedded = false, active = true }: MusicMapPr
                     }}
                   >
                     Back
-                  </button>
+                  </Button>
                 </div>
               )}
               <div className="music-map-globe" aria-label="Selectable world map">
