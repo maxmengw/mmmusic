@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import Modal from './ui/Modal';
 import { useYouTubeMusicsList } from '../../hooks/music/useYouTubeMusicsList';
-import musicDataJson from '../../../../../shared/data/musicData.json';
+import { MUSIC_MAP_COUNTRIES } from '../../../../../shared/data/musicMapCountries';
 
 interface Props {
   isOpen: boolean;
@@ -16,10 +16,7 @@ export default function AddPlaylistModal({ isOpen, onClose }: Props) {
   const [loading, setLoading] = useState(false);
 
   const countries = useMemo(() => {
-    const d: any = musicDataJson as any;
-    if (Array.isArray(d.countries)) return d.countries.map((c: any) => c.name);
-    if (Array.isArray(d.categories)) return d.categories.map((c: any) => c.name);
-    return [];
+    return (MUSIC_MAP_COUNTRIES as any).map((c: any) => c.name);
   }, []);
 
   const openYouTubeSearch = () => {
