@@ -1,5 +1,6 @@
 import HomeButton from "../../common/nav/HomeButton";
 import MusicList from "../../musicintro/MusicIntro";
+import { Button } from '../../ui';
 import Modal from "../../common/ui/Modal";
 import AddForm from "../../common/forms/AddForm";
 import DeleteForm from "../../common/forms/DeleteForm";
@@ -33,9 +34,9 @@ export default function Music() {
             <HomeButton />
             <MusicList data={data} />
 
-            <button className="add-button inter-thin" onClick={() => setShowAddModal(true)}>
+            <Button className="add-button inter-thin" onClick={() => setShowAddModal(true)}>
                 Add
-            </button>
+            </Button>
             <Modal isOpen={showAddModal} onClose={() => setShowAddModal(false)}>
                 <AddForm 
                     className='music-form'
@@ -47,9 +48,9 @@ export default function Music() {
                 />
             </Modal>
 
-            <button className="delete-button inter-thin" onClick={() => setShowDeleteModal(true)}>
+            <Button className="delete-button inter-thin" onClick={() => setShowDeleteModal(true)}>
                 Delete
-            </button>
+            </Button>
             <Modal isOpen={showDeleteModal} onClose={() => setShowDeleteModal(false)}>
                 <DeleteForm
                     className="music-form"

@@ -1,5 +1,6 @@
 import type { MusicData } from '@shared/types/MusicData';
 import { useNavigate } from 'react-router-dom';
+import { Button } from '../ui';
 
 export default function MusicIntro({data}: { data: MusicData }) {
     const navigate = useNavigate();
@@ -30,9 +31,9 @@ export default function MusicIntro({data}: { data: MusicData }) {
                         {countries.map((c: any, index: number) => (
                             <section key={c.code || index} className="category">
                                 <h3 className="category-title">
-                                    <button type="button" className="link-button" onClick={() => handleOpenCountryOnMap(c.code, c.name)}>
+                                    <Button variant="link" onClick={() => handleOpenCountryOnMap(c.code, c.name)}>
                                         {c.name}
-                                    </button>
+                                    </Button>
                                 </h3>
                                 <p className="category-description">{c.description}</p>
                                 {c.genres && (
@@ -73,13 +74,9 @@ export default function MusicIntro({data}: { data: MusicData }) {
                         {data.categories.map((category, index) => (
                             <section key={index} className="category">
                                 <h3 className="category-title">
-                                    <button
-                                        type="button"
-                                        className="link-button"
-                                        onClick={() => handleOpenCountryOnMap(toCountryCode(category.name), category.name)}
-                                    >
+                                    <Button variant="link" onClick={() => handleOpenCountryOnMap(toCountryCode(category.name), category.name)}>
                                         {category.name}
-                                    </button>
+                                    </Button>
                                 </h3>
                                 <p className="category-description">{category.description}</p>
                                 <div className="example">

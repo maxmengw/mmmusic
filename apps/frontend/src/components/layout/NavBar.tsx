@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
 import SearchModal from '../common/search/SearchModal';
+import { Button } from '../ui';
 
 export default function NavBar() {
     const navigate = useNavigate();
@@ -29,7 +30,7 @@ export default function NavBar() {
                     <li>
                         <SignedOut>
                             <SignInButton mode="modal">
-                                <button type="button" className="nav-auth-button inter-thin">Sign in</button>
+                                <Button variant="secondary" className="inter-thin">Sign in</Button>
                             </SignInButton>
                         </SignedOut>
                         <SignedIn>
