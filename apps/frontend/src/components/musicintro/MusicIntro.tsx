@@ -1,4 +1,5 @@
 import type { MusicData } from '@shared/types/MusicData';
+import { MUSIC_MAP_COUNTRIES, MUSIC_MAP_ERAS } from '@shared/data/musicMapCountries';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '../ui';
 
@@ -20,6 +21,28 @@ export default function MusicIntro({data}: { data: MusicData }) {
     };
 
     const countries = (data as any).countries;
+    const getMapExamples = (name: string, code?: string) => {
+        const lookup = String((code || name) || '').trim().toLowerCase().replace(/[^a-z0-9]+/g, '_');
+        const found = (MUSIC_MAP_COUNTRIES as any).find((m: any) => {
+            if (!m) return false;
+            const codeKey = String(m.code || '').toLowerCase();
+            const nameKey = String(m.name || '').toLowerCase();
+            return codeKey === lookup || nameKey === lookup || nameKey.replace(/\s+/g, '_') === lookup;
+        });
+
+        if (!found) return null;
+
+        // Flatten songs across eras, keep first 8 unique title-artist strings
+        const examples: string[] = [];
+        for (const era of MUSIC_MAP_ERAS) {
+            const songs = (found.songs && (found.songs as any)[era]) || [];
+            for (const s of songs) {
+                if (s && s.title) examples.push(`${s.title} - ${s.artist || ''}`.trim());
+            }
+        }
+
+        return Array.from(new Set(examples)).slice(0, 8);
+    };
 
     return (
         <div>
@@ -36,16 +59,20 @@ export default function MusicIntro({data}: { data: MusicData }) {
                                     </Button>
                                 </h3>
                                 <p className="category-description">{c.description}</p>
-                                {c.genres && (
-                                    <div className="example">
-                                        <h4 className="example-title">Genres:</h4>
-                                        <div className="examples-list">
-                                            {c.genres.map((g: string, idx: number) => (
-                                                <p key={idx} className="example-text">{g}</p>
-                                            ))}
-                                        </div>
-                                    </div>
-                                )}
+                                        {(() => {
+                                            const mapExamples = getMapExamples(c.name, c.code);
+                                            const displayExamples = mapExamples && mapExamples.length ? mapExamples : (c.examples || []);
+                                            return displayExamples && displayExamples.length ? (
+                                                <div className="example">
+                                                    <h4 className="example-title">My Music Memos:</h4>
+                                                    <div className="examples-list">
+                                                        {displayExamples.map((ex: string, idx: number) => (
+                                                            <p key={idx} className="example-text">{ex}</p>
+                                                        ))}
+                                                    </div>
+                                                </div>
+                                            ) : null;
+                                        })()}
                                 {c.examples && (
                                     <div className="example">
                                         <h4 className="example-title">My Music Memos:</h4>
