@@ -50,8 +50,9 @@ async function seedData() {
 		// Collect example titles from songs across eras (dedupe and take first 6)
 		const songsByEra = country.songs || {};
 		const examples: string[] = [];
-		for (const era of Object.keys(songsByEra)) {
-			const songs = songsByEra[era] || [];
+		// Iterate known eras to satisfy TypeScript typing
+		for (const era of MUSIC_MAP_ERAS) {
+			const songs = (songsByEra as any)[era] || [];
 			for (const s of songs) {
 				if (s && s.title) examples.push(`${s.title} - ${s.artist || ''}`.trim());
 			}
