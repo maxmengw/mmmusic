@@ -181,12 +181,26 @@
     0 0 30px rgba(233, 69, 96, 0.2),
     0 20px 40px rgba(0, 0, 0, 0.3);
   position: relative;
-  animation: vinyl-spin 20s linear infinite;
 
-  img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; animation: img-counter-spin 20s linear infinite reverse; }
+  img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
 
   &:hover { animation-play-state: paused; img { animation-play-state: paused; } }
 }
+
+/* Rectangular cover used inside expanded player after removing vinyl */
+
+/* AI panel shown inside expanded player (replaces cover) */
+.player-expanded .ai-panel {
+  width: 100%;
+  max-width: 360px;
+  background: transparent;
+  border-radius: 10px;
+  padding: 0.25rem 0;
+}
+.player-expanded .ai-panel h4 { margin: 0 0 0.4rem 0; font-size: 1.05rem; }
+.player-expanded .ai-panel-desc { margin: 0 0 0.6rem 0; color: rgba(255,255,255,0.8); font-size: 0.92rem; }
+.player-expanded .ai-prompt { width: 100%; min-height: 88px; border-radius: 8px; padding: 0.5rem; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.04); color: $color-white; resize: vertical; }
+.player-expanded .ai-panel-actions { margin-top: 0.6rem; }
 
 .player-expanded .song-cover .song-cover-label {
   position: absolute;
@@ -220,64 +234,13 @@
   cursor: pointer;
 }
 
-/* Three-Body (rotating disc) and AI placeholder styles */
+/* AI placeholder styles */
 .player-expanded .expanded-actions.three-body {
   display: flex;
   align-items: center;
   gap: 0.75rem;
 }
-
-.rotating-disc {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(98, 210, 162, 0.14));
-  border: 8px solid rgba(255, 255, 255, 0.25);
-  box-shadow:
-    inset 0 0 20px rgba(0, 0, 0, 0.5),
-    inset -2px -2px 10px rgba(255, 255, 255, 0.2),
-    inset 2px 2px 10px rgba(255, 255, 255, 0.1),
-    0 0 30px rgba(233, 69, 96, 0.2),
-    0 20px 40px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
-  position: relative;
-  cursor: pointer;
-  animation: vinyl-spin 20s linear infinite;
-
-  .disc-img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    animation: img-counter-spin 20s linear infinite reverse;
-  }
-
-  &:hover {
-    animation-play-state: paused;
-    .disc-img { animation-play-state: paused; }
-  }
-}
-
-@keyframes vinyl-spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
 @keyframes img-counter-spin { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } }
-
-.ai-placeholder {
-  padding: 0.6rem 0.9rem;
-  border-radius: 10px;
-  border: 1px solid $glass-border;
-  background: $glass-highlight;
-  color: $color-white;
-  font-weight: 700;
-  cursor: pointer;
-  height: 44px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
 
 @include mobile {
   .player-expanded {

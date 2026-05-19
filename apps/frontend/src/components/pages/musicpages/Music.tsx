@@ -1,4 +1,5 @@
 import HomeButton from "../../common/nav/HomeButton";
+import { createPortal } from 'react-dom';
 import MusicList from "../../musicintro/MusicIntro";
 import { Button } from '../../ui';
 import Modal from "../../common/ui/Modal";
@@ -23,7 +24,14 @@ export default function Music() {
     if (!data || !data.categories || data.categories.length === 0) {
         return (
             <div className="music-page">
-                <HomeButton />
+                {typeof document !== 'undefined' && createPortal(
+                    <>
+                        <HomeButton />
+                        <Button className="add-button inter-thin" onClick={() => setShowAddModal(true)}>Add</Button>
+                        <Button className="delete-button inter-thin" onClick={() => setShowDeleteModal(true)}>Delete</Button>
+                    </>,
+                    document.body
+                )}
                 <div className="no-data-message">No Data</div>
             </div>
         );
@@ -31,12 +39,16 @@ export default function Music() {
 
     return (
         <div className="music-page">
-            <HomeButton />
-            <MusicList data={data} />
+            {typeof document !== 'undefined' && createPortal(
+                <>
+                    <HomeButton />
+                    <Button className="add-button inter-thin" onClick={() => setShowAddModal(true)}>Add</Button>
+                    <Button className="delete-button inter-thin" onClick={() => setShowDeleteModal(true)}>Delete</Button>
+                </>,
+                document.body
+            )}
 
-            <Button className="add-button inter-thin" onClick={() => setShowAddModal(true)}>
-                Add
-            </Button>
+            <MusicList data={data} />
             <Modal isOpen={showAddModal} onClose={() => setShowAddModal(false)}>
                 <AddForm 
                     className='music-form'

@@ -3,10 +3,10 @@
 
 .about-page {
   min-height: 100vh;
-  background: v.$gradient-background;
-  background-image: url('/image/music.jpg');
-  background-size: cover;
-  background-position: center;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(255, 210, 120, 0.18), transparent 26%),
+    radial-gradient(circle at 82% 24%, rgba(92, 124, 255, 0.14), transparent 24%),
+    linear-gradient(150deg, #10131f 0%, #141d35 48%, #06080f 100%);
 
   &::before {
     content: '';
@@ -15,7 +15,9 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(8, 0, 255, 0.3) 0%, rgba(173, 151, 66, 0.3) 100%);
+    background:
+      radial-gradient(circle at 12% 20%, rgba(255, 255, 255, 0.16), transparent 22%),
+      linear-gradient(135deg, rgba(8, 0, 255, 0.24) 0%, rgba(173, 151, 66, 0.16) 100%);
     z-index: v.$z-overlay;
     pointer-events: none;
   }

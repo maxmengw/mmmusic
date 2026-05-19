@@ -2,10 +2,10 @@
 @use '../abstracts/mixins' as *;
 
 .contact-page {
-  background: $gradient-background;
-  background-image: url('/image/music.jpg');
-  background-size: cover;
-  background-position: center;
+  background:
+    radial-gradient(circle at 22% 20%, rgba(98, 210, 162, 0.16), transparent 24%),
+    radial-gradient(circle at 82% 16%, rgba(255, 182, 193, 0.14), transparent 22%),
+    linear-gradient(150deg, #07111f 0%, #111b2d 50%, #05070d 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,7 +19,9 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(8, 0, 255, 0.3) 0%, rgba(173, 151, 66, 0.3) 100%);
+    background:
+      radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.14), transparent 22%),
+      linear-gradient(135deg, rgba(8, 0, 255, 0.2) 0%, rgba(173, 151, 66, 0.14) 100%);
     z-index: $z-overlay;
     pointer-events: none;
   }

@@ -93,38 +93,24 @@ export default function PlayerExpanded({ open, onClose, song }: Props) {
             )}
           </div>
 
-          <div className="player-expanded-meta">
+            <div className="player-expanded-meta">
             <div className="meta-top">
-              <div className="expanded-actions three-body">
-              {/* Use same vinyl/song-cover design as MusicMap */}
-              <div
-                className="song-cover"
-                role="button"
-                tabIndex={0}
-                aria-label={`Open YouTube for ${song.title}`}
-                onClick={() => window.open(`https://www.youtube.com/results?search_query=${encodeURIComponent(song.title + ' ' + (song.artist || ''))}`, '_blank', 'noopener,noreferrer')}
-                onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { window.open(`https://www.youtube.com/results?search_query=${encodeURIComponent(song.title + ' ' + (song.artist || ''))}`, '_blank', 'noopener,noreferrer'); } }}
-              >
-                <>
-                  {song.coverUrl ? (
-                    <img src={song.coverUrl} alt={`${song.title} cover`} onError={(e) => { (e.currentTarget as HTMLImageElement).src = '/image/cover-placeholder.png'; }} />
-                  ) : null}
-                  <div className="song-cover-label" aria-hidden="true">{song.artist ?? song.title}</div>
-                </>
-              </div>
+              {/* AI panel placeholder — cover removed per request */}
+              <div className="ai-panel" role="region" aria-label="AI Music Story">
+                <h4>AI Music Story</h4>
+                <p className="ai-panel-desc">This area will display AI-generated music stories, background, or track interpretations.</p>
+                <textarea className="ai-prompt" placeholder="(Optional — AI will generate based on track information)" aria-label="AI prompt" />
+                <div className="ai-panel-actions">
+                  <button
+                    type="button"
+                    className="ai-button"
+                    onClick={() => { window.alert('Generate music story (placeholder) — backend AI endpoint not connected yet'); }}
+                  >
+                    Generate Music Story
+                  </button>
+                </div>
               </div>
             </div>
-
-            <p className="expanded-description">{song.description ?? ''}</p>
-            {/* Placeholder button for future AI feature */}
-            <button
-              type="button"
-              className="ai-placeholder"
-              aria-label="AI feature (coming soon)"
-              onClick={() => { alert('AI feature coming soon'); }}
-            >
-              AI
-            </button>
           </div>
         </div>
       </div>
