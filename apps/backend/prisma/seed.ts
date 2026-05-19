@@ -44,12 +44,25 @@ async function seedData() {
 	await prisma.musicMapCountry.deleteMany();
 	// Seeding started
 
-	for (const name of musicData.categories) {
+	// Seed music names/examples from the bundled map countries so Music Memos
+	// include the full country dataset rather than a small hand-curated list.
+	for (const country of MUSIC_MAP_COUNTRIES) {
+		// Collect example titles from songs across eras (dedupe and take first 6)
+		const songsByEra = country.songs || {};
+		const examples: string[] = [];
+		for (const era of Object.keys(songsByEra)) {
+			const songs = songsByEra[era] || [];
+			for (const s of songs) {
+				if (s && s.title) examples.push(`${s.title} - ${s.artist || ''}`.trim());
+			}
+		}
+		const uniq = Array.from(new Set(examples)).slice(0, 8);
+
 		await prisma.music.create({
 			data: {
-				name: String(name?.name ?? ''),
-				description: String(name?.description ?? ''),
-				examples: name?.examples ?? [],
+				name: String(country?.name ?? ''),
+				description: String(country?.description ?? ''),
+				examples: uniq,
 			},
 		});
 	}
