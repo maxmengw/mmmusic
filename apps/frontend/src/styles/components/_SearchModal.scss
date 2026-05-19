@@ -270,6 +270,10 @@
   font-size: 0.95rem;
   outline: none;
   box-sizing: border-box;
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
 }
 
 .add-playlist-actions {

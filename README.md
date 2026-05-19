@@ -1,4 +1,4 @@
-# MMS Music
+# MM Music
 
 React (Vite) + Node/Express (TypeScript) + Prisma + PostgreSQL + Clerk
 

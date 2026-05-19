@@ -1,11 +1,11 @@
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation, Navigate } from "react-router-dom";
 import RequireAuth from "../components/common/auth/RequireAuth";
 import Login from "../components/pages/Login"
 import Landing from "../components/layout/Landing";
 import About from "../components/pages/About";
 import Contact from "../components/pages/Contact";
 import Music from "../components/pages/musicpages/Music";
-import MusicMap from "../components/pages/musicpages/MusicMap";
+// MusicMap is now embedded in Landing; keep a redirect route instead of standalone page
 import MusicPlayerBar from "../components/layout/MusicPlayerBar";
 import NotFound from "../components/pages/NotFound";
 
@@ -55,7 +55,7 @@ const routerConfigs: RouterConfig[] = [
     },
     {
         path: "/MusicMap",
-        element: <MusicMap />,
+        element: <Navigate to="/Landing#musicmap" replace />,
         requireAuth: true,
         layout: true
     },

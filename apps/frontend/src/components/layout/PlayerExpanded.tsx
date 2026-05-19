@@ -32,6 +32,18 @@ export default function PlayerExpanded({ open, onClose, song }: Props) {
 
   const prevWasPlaying = useRef<boolean>(false);
 
+  const handleClose = () => {
+    try {
+      if (prevWasPlaying.current) {
+        dispatchBackgroundControl('play');
+        prevWasPlaying.current = false;
+      }
+    } catch (e) {
+      // ignore
+    }
+    onClose();
+  };
+
   useEffect(() => {
     try {
       // read current background playing state (set by useYoutube)
@@ -52,11 +64,11 @@ export default function PlayerExpanded({ open, onClose, song }: Props) {
   }, []);
 
   return (
-    <Modal isOpen={open} onClose={onClose}>
+    <Modal isOpen={open} onClose={handleClose}>
       <div className="player-expanded" onClick={(e) => e.stopPropagation()}>
         <div className="player-expanded-header">
           <h3>{song.title}</h3>
-          <button className="player-expanded-close" onClick={onClose} aria-label="Close">×</button>
+          <button className="player-expanded-close" onClick={handleClose} aria-label="Close">×</button>
         </div>
 
         <div className="player-expanded-body">
@@ -82,27 +94,37 @@ export default function PlayerExpanded({ open, onClose, song }: Props) {
           </div>
 
           <div className="player-expanded-meta">
-            <p className="expanded-artist">{song.artist}</p>
-            <p className="expanded-description">{song.description ?? ''}</p>
-            <div className="expanded-actions three-body">
-              {/* Rotating disc that opens YouTube search on click */}
-              <button
-                type="button"
-                className="rotating-disc"
+            <div className="meta-top">
+              <div className="expanded-actions three-body">
+              {/* Use same vinyl/song-cover design as MusicMap */}
+              <div
+                className="song-cover"
+                role="button"
+                tabIndex={0}
                 aria-label={`Open YouTube for ${song.title}`}
                 onClick={() => window.open(`https://www.youtube.com/results?search_query=${encodeURIComponent(song.title + ' ' + (song.artist || ''))}`, '_blank', 'noopener,noreferrer')}
-              />
-
-              {/* Placeholder button for future AI feature */}
-              <button
-                type="button"
-                className="ai-placeholder"
-                aria-label="AI feature (coming soon)"
-                onClick={() => { alert('AI feature coming soon'); }}
+                onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { window.open(`https://www.youtube.com/results?search_query=${encodeURIComponent(song.title + ' ' + (song.artist || ''))}`, '_blank', 'noopener,noreferrer'); } }}
               >
-                AI
-              </button>
+                <>
+                  {song.coverUrl ? (
+                    <img src={song.coverUrl} alt={`${song.title} cover`} onError={(e) => { (e.currentTarget as HTMLImageElement).src = '/image/cover-placeholder.png'; }} />
+                  ) : null}
+                  <div className="song-cover-label" aria-hidden="true">{song.artist ?? song.title}</div>
+                </>
+              </div>
+              </div>
             </div>
+
+            <p className="expanded-description">{song.description ?? ''}</p>
+            {/* Placeholder button for future AI feature */}
+            <button
+              type="button"
+              className="ai-placeholder"
+              aria-label="AI feature (coming soon)"
+              onClick={() => { alert('AI feature coming soon'); }}
+            >
+              AI
+            </button>
           </div>
         </div>
       </div>

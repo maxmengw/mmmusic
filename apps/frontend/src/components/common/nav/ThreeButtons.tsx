@@ -8,7 +8,13 @@ export default function ThreeButtons() {
     };
 
     const handleNavigateMusicMap = () => {
-        navigate("/MusicMap");
+        try {
+            const ev = new CustomEvent('mms-open-musicmap');
+            window.dispatchEvent(ev);
+        } catch (e) {
+            // fallback: navigate immediately
+            navigate("/MusicMap");
+        }
     };
 
     return (

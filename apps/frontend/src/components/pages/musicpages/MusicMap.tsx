@@ -5,6 +5,11 @@ import GlobeMap from './GlobeMap';
 import { MUSIC_MAP_ERAS } from '@shared/data/musicMapCountries';
 import type { MusicMapCountry, MusicMapEra, MusicMapSong } from '@shared/types/musicMap';
 
+type MusicMapProps = {
+  embedded?: boolean;
+  active?: boolean;
+};
+
 function buildYouTubeSearchUrl(song: MusicMapSong) {
   return `https://www.youtube.com/results?search_query=${encodeURIComponent(`${song.title} ${song.artist}`)}`;
 }
@@ -60,7 +65,7 @@ function buildFallbackCountry(code: string, name: string): MusicMapCountry {
   };
 }
 
-export default function MusicMap() {
+export default function MusicMap({ embedded = false, active = true }: MusicMapProps) {
   const [countries, setCountries] = useState<MusicMapCountry[]>([]);
 
   const normalizeCode = (value: string) =>
@@ -143,9 +148,9 @@ export default function MusicMap() {
   const [candidateIndex, setCandidateIndex] = useState(0);
   const [isLoadingCandidates, setIsLoadingCandidates] = useState(false);
 
+  // Fetch generated candidate songs when the selected country or visible era changes
   useEffect(() => {
     let canceled = false;
-    // when selectedCountry changes, fetch generated candidates for visibleEra
     const loadCandidates = async () => {
       if (!selectedCountry) {
         setCandidates([]);
@@ -176,14 +181,18 @@ export default function MusicMap() {
       }
     };
     void loadCandidates();
+    return () => { canceled = true; };
+  }, [selectedCountry, visibleEra]);
+
+  // Fetch metadata (cover images) for visible songs.
+  // This effect only depends on `songs` so updates to `metaBySongId` won't re-trigger
+  // the candidate fetch above and cause an update loop.
+  useEffect(() => {
+    let canceled = false;
 
     const missingSongs = songs.filter((song) => !metaBySongId[song.id]);
 
-    if (!missingSongs.length) {
-      return () => {
-        canceled = true;
-      };
-    }
+    if (!missingSongs.length) return () => { canceled = true; };
 
     setMetaBySongId((current) => {
       const next = { ...current };
@@ -200,7 +209,6 @@ export default function MusicMap() {
         if (song.title) q.set('title', song.title);
         const res = await fetch(`/api/v1/music/meta?${q.toString()}`);
         if (!res.ok) {
-          // mark as error so UI shows fallback instead of indefinite skeleton
           setMetaBySongId((s) => ({
             ...s,
             [song.id]: { status: 'error', coverUrl: null },
@@ -230,10 +238,8 @@ export default function MusicMap() {
       void fetchMetaForSong(song);
     }
 
-    return () => {
-      canceled = true;
-    };
-  }, [songs, metaBySongId]);
+    return () => { canceled = true; };
+  }, [songs]);
 
   const handleExplore = (song: MusicMapSong) => {
     window.open(buildYouTubeSearchUrl(song), '_blank', 'noopener,noreferrer');
@@ -245,8 +251,8 @@ export default function MusicMap() {
   };
 
   return (
-    <div className="music-map-page">
-      <HomeButton />
+    <div className={`music-map-page ${embedded ? 'is-embedded' : ''} ${active ? 'is-active' : ''}`}>
+      {!embedded && <HomeButton />}
       <div className="music-map-shell">
         <section className="music-map-content">
           <div className="music-map-stage">
@@ -265,6 +271,25 @@ export default function MusicMap() {
             </section>
             <div className="music-map-board">
               <div className="music-map-board-title">World view</div>
+              {/* If embedded into Landing and active, show Back button aligned under the timeline chips */}
+              {embedded && active && (
+                <div className="music-map-back-wrap">
+                  <button
+                    type="button"
+                    className="landing-back-btn"
+                    style={{ transform: 'translateY(-7px)' }}
+                    onClick={() => {
+                      try {
+                        window.history.back();
+                      } catch (e) {
+                        // fallback: do nothing
+                      }
+                    }}
+                  >
+                    Back
+                  </button>
+                </div>
+              )}
               <div className="music-map-globe" aria-label="Selectable world map">
                 <GlobeMap
                   countries={countries}

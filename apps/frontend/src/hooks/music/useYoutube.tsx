@@ -20,6 +20,18 @@ export const useYouTube = (playlist: YouTubeMusic[]) => {
 
 	const onReady = (event: any) => {
 		playerRef.current = event.target;
+		// honor any pending play request set by other components
+		try {
+			// @ts-ignore
+			if (window.__mms_background_pending_play && playerRef.current) {
+				playerRef.current.playVideo();
+				setIsPlaying(true);
+				// @ts-ignore
+				window.__mms_background_pending_play = false;
+			}
+		} catch (err) {
+			// ignore
+		}
 	};
 
 	const onStateChange = (event: any) => {
@@ -43,14 +55,26 @@ export const useYouTube = (playlist: YouTubeMusic[]) => {
 		const handler = (e: Event) => {
 			const custom = e as CustomEvent;
 			const action = custom?.detail?.action;
-			if (!playerRef.current || !action) return;
+			if (!action) return;
 			try {
 				if (action === 'pause') {
-					playerRef.current.pauseVideo();
-					setIsPlaying(false);
+					if (playerRef.current) {
+						playerRef.current.pauseVideo();
+						setIsPlaying(false);
+					} else {
+						// no player ready, mark desired state
+						// @ts-ignore
+						window.__mms_background_pending_play = false;
+					}
 				} else if (action === 'play') {
-					playerRef.current.playVideo();
-					setIsPlaying(true);
+					if (playerRef.current) {
+						playerRef.current.playVideo();
+						setIsPlaying(true);
+					} else {
+						// player not ready yet; record pending play
+						// @ts-ignore
+						window.__mms_background_pending_play = true;
+					}
 				}
 			} catch (err) {
 				// ignore errors calling player API

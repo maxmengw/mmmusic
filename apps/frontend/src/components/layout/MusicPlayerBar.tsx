@@ -17,13 +17,14 @@
 import YouTube from 'react-youtube';
 import { useYouTube } from '../../hooks/music/useYoutube';
 import { useYouTubeMusicsList } from '../../hooks/music/useYouTubeMusicsList';
-import { useState } from 'react';
+import { useState, lazy, Suspense } from 'react';
 import PlaylistModal from './PlaylistModal';
 import PlayerExpanded from './PlayerExpanded';
 
 export default function MusicPlayerBar() {
 	const { musics, deleteFromPlaylist } = useYouTubeMusicsList();
 	const [playlistOpen, setPlaylistOpen] = useState(false);
+	const [showAddPlaylist, setShowAddPlaylist] = useState(false);
 	const [expanded, setExpanded] = useState(false);
 	
 	const {
@@ -76,7 +77,14 @@ export default function MusicPlayerBar() {
 					/>
 				</div>
 				<div className="player-song-info">
-					<div className="song-title" role="button" tabIndex={0} onClick={() => setExpanded(true)} onKeyDown={(e) => { if (e.key === 'Enter') setExpanded(true); }}>{currentSong.title}</div>
+					<button
+						type="button"
+						className="song-title song-title--expand"
+						onClick={() => setExpanded(true)}
+						aria-label={`Open expanded player for ${currentSong.title}`}
+					>
+						<span className="song-title-text">{currentSong.title}</span>
+					</button>
 					<div className="song-artist">{currentSong.artist}</div>
 				</div>
 				   <div className="player-controls">
@@ -85,6 +93,7 @@ export default function MusicPlayerBar() {
 						   {playStatus}
 					   </button>
 					   <button className="control-btn" onClick={playNext}>Next</button>
+					   <button className="control-btn" title="Add to Playlist" onClick={() => setShowAddPlaylist(true)}>+</button>
 					   <button className="control-btn playlist-btn" title="Playlist" onClick={() => setPlaylistOpen(open => !open)}>
 						   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" >
 							   <rect x="3" y="5" width="12" height="2" rx="1" fill="currentColor"/>
@@ -105,8 +114,16 @@ export default function MusicPlayerBar() {
 					   onDelete={(id) => { void deleteFromPlaylist(String(id)); }}
 				   />
 
+				   {showAddPlaylist && (
+					   <Suspense fallback={<div />}>
+						   <AddPlaylistModal isOpen={showAddPlaylist} onClose={() => setShowAddPlaylist(false)} />
+					   </Suspense>
+				   )}
+
 				<PlayerExpanded open={expanded} onClose={() => setExpanded(false)} song={currentSong} />
 			</div>
 		</div>
 	);
 }
+
+const AddPlaylistModal = lazy(() => import('../common/AddPlaylistModal'));

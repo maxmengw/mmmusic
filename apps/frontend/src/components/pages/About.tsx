@@ -6,16 +6,16 @@ export default function About() {
       <HomeButton />
       
       <div className="about-container">
-        <h1 className="page-title">About MMS Music</h1>
+        <h1 className="page-title">About MM Music</h1>
         <p className="about-intro">
           Discover Music Across Cultures • 让音乐连接世界 • 문화와 음악이 만나는 곳
         </p>
 
         <div className="about-content">
           <section className="about-section">
-            <h2 className="section-title">What is MMS Music?</h2>
+            <h2 className="section-title">What is MM Music?</h2>
             <p className="section-text">
-              MMS Music is a user-friendly music memo and playlist manager. It helps you quickly save and organize
+              MM Music is a user-friendly music memo and playlist manager. It helps you quickly save and organize
               the songs you love. Paste a YouTube URL or video ID to attach a playable link and collect it into your
               personal playlist—simple, lightweight, and made for everyday use.
             </p>

@@ -4,6 +4,14 @@ import * as YouTubeMusicsListService from '../../services/music/youtubeMusicsLis
 import logger from '../../utils/logger';
 import type { YouTubeMusic } from '@shared/types/youtubeData';
 
+const guestDemoPlaylist: YouTubeMusic[] = [
+    {
+        title: 'A Matter of Time',
+        artist: 'Three-Body',
+        videoId: 'O5j2duP-_oE',
+    },
+];
+
 export function useYouTubeMusicsList() {
     const [musics, setMusics] = useState<YouTubeMusic[]>([]);
     const [playlist, setPlaylist] = useState<YouTubeMusic[]>([]);
@@ -11,8 +19,8 @@ export function useYouTubeMusicsList() {
 
     const loadData = async () => {
         if (!isSignedIn) {
-            setMusics([]);
-            setPlaylist([]);
+            setMusics(guestDemoPlaylist);
+            setPlaylist(guestDemoPlaylist);
             return;
         }
 
