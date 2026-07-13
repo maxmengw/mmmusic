@@ -1,7 +1,6 @@
 import type { MusicData } from '@shared/types/MusicData';
 import { MUSIC_MAP_COUNTRIES, MUSIC_MAP_ERAS } from '@shared/data/musicMapCountries';
 import { useNavigate } from 'react-router-dom';
-import { useState } from 'react';
 import { Button } from '../ui';
 
 export default function MusicIntro({data}: { data: MusicData }) {
@@ -22,32 +21,6 @@ export default function MusicIntro({data}: { data: MusicData }) {
     };
 
     const countries = (data as any).countries;
-    const [aiDescriptions, setAiDescriptions] = useState<Record<string, string>>({});
-    const [loadingDesc, setLoadingDesc] = useState<Record<string, boolean>>({});
-
-    const handleGenerateDescription = async (country: any) => {
-        const key = country.code || country.name;
-        try {
-            setLoadingDesc((s) => ({ ...s, [key]: true }));
-            const res = await fetch(`/api/v1/music/describe`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ country: country.name || country.code }),
-            });
-            const json = await res.json();
-            if (json && json.success && json.data && json.data.description) {
-                setAiDescriptions((s) => ({ ...s, [key]: json.data.description }));
-            } else if (json && json.data && json.data.description) {
-                setAiDescriptions((s) => ({ ...s, [key]: json.data.description }));
-            } else {
-                setAiDescriptions((s) => ({ ...s, [key]: 'No description returned.' }));
-            }
-        } catch (err) {
-            setAiDescriptions((s) => ({ ...s, [key]: 'Error generating description.' }));
-        } finally {
-            setLoadingDesc((s) => ({ ...s, [key]: false }));
-        }
-    };
     const getMapExamples = (name: string, code?: string) => {
         const lookup = String((code || name) || '').trim().toLowerCase().replace(/[^a-z0-9]+/g, '_');
         const found = (MUSIC_MAP_COUNTRIES as any).find((m: any) => {
@@ -85,12 +58,7 @@ export default function MusicIntro({data}: { data: MusicData }) {
                                         {c.name}
                                     </Button>
                                 </h3>
-                                <p className="category-description">{aiDescriptions[c.code || c.name] ?? c.description}</p>
-                                <div style={{ marginTop: 8 }}>
-                                    <Button variant="link" onClick={() => handleGenerateDescription(c)}>
-                                        {loadingDesc[c.code || c.name] ? 'Generating...' : 'Generate AI description'}
-                                    </Button>
-                                </div>
+                                <p className="category-description">{c.description}</p>
                                         {(() => {
                                             const mapExamples = getMapExamples(c.name, c.code);
                                             const displayExamples = mapExamples && mapExamples.length ? mapExamples : (c.examples || []);

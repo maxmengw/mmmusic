@@ -1,5 +1,5 @@
-import { Music } from "@prisma/client";
-import { MusicDto } from "@shared/types/MusicDto";
+import type { Music } from "@prisma/client";
+import type { MusicDto } from "@shared/types/MusicDto";
 
 export function formatMusic(data: Music): MusicDto {
     return {
