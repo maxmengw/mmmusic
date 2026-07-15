@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: mms-music-api
+    env: node
+    plan: free
+    rootDir: apps/backend
+    buildCommand: npm install && npm run build
+    startCommand: npm run start:prod
+    autoDeploy: true

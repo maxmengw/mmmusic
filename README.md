@@ -1,216 +1,163 @@
 # MM Music
 
-React (Vite) + Node/Express (TypeScript) + Prisma + PostgreSQL + Clerk
-
-A full-stack music memo and playlist manager featuring curated music collections with personalized user libraries.
+A full-stack music memo and playlist manager built with React, Node/Express, Prisma, PostgreSQL, and Clerk.
 
 **Live Demo:** [mms-music-frontend.vercel.app](https://mms-music-frontend.vercel.app)
 
----
+## Overview
+
+MM Music is a monorepo app for browsing curated music collections, saving personal music libraries, and managing YouTube-based playlists per user.
 
 ## Tech Stack
 
-**Frontend:** React 18, TypeScript, Vite, SASS  
-**Backend:** Node.js, Express, TypeScript, Prisma ORM  
-**Database:** PostgreSQL  
-**Auth:** Clerk  
-**Hosting:** Vercel (Frontend)
+- **Frontend:** React 18, TypeScript, Vite, SASS
+- **Backend:** Node.js, Express, TypeScript, Prisma ORM
+- **Database:** PostgreSQL
+- **Auth:** Clerk
+- **Hosting:** Vercel (frontend)
 
----
+## Key Features
 
-## Features
+- Secure sign-in and user-scoped data
+- Personal music collections per account
+- Curated music browsing and search
+- Add/remove songs from libraries
+- YouTube music playlist integration
+- Responsive UI for desktop and mobile
 
-- Secure authentication and user sessions
-- Personal music collections per user
-- Browse curated music categories
-- Real-time search across all categories
-- Add/remove songs from your library
-- YouTube playlist integration
-- Responsive design
+## Project Structure
 
----
+- `apps/frontend` — React client
+- `apps/backend` — Express API + Prisma
+- `shared` — shared types and seed data
+- `docker-compose.yml` — local PostgreSQL container
 
 ## Local Setup
 
 ### Prerequisites
 
-Before running this application locally, ensure you have:
+- Node.js 18+
+- npm 9+
+- Docker Desktop
+- Clerk account
 
-- **Node.js** 18 or higher
-- **npm** 9 or higher
-- **Docker Desktop** (for PostgreSQL database)
-- **Clerk Account** (free tier available at [clerk.com](https://clerk.com))
-- **Git** for version control
+### 1) Clone and install
 
-### Step 1: Clone Repository
 ```bash
 git clone https://github.com/sionkimadd/mms_music.git
 cd mms_music
-```
-
-### Step 2: Install Dependencies
-```bash
 npm install
 ```
 
-This installs dependencies for both frontend and backend using npm workspaces.
+### 2) Configure environment variables
 
-### Step 3: Environment Variables Setup
+Create `apps/frontend/.env`:
 
-#### Frontend Environment Variables
-
-Create `apps/frontend/.env` file:
 ```env
+VITE_API_BASE=http://localhost:3000
+VITE_CLERK_PUBLISHABLE_KEY=pk_test_insertClerkPublishableKeyHere
 VITE_EMAILJS_SERVICE_ID=service_insertAlphanumericKeyHere
 VITE_EMAILJS_TEMPLATE_ID=template_insertTemplateIDHere
 VITE_EMAILJS_PUBLIC_KEY=p-insertPublicKeyHere
- 
-VITE_API_BASE=http://localhost:3000 
-VITE_CLERK_PUBLISHABLE_KEY=pk_test_insertClerkPublishableKeyHere
 ```
 
-**Required Variables:**
-- `VITE_API_BASE` - Backend API URL (use `http://localhost:3000` for local development)
-- `VITE_CLERK_PUBLISHABLE_KEY` - Clerk publishable key from your Clerk dashboard
-- `VITE_EMAILJS_SERVICE_ID` - EmailJS service ID for sending contact form emails (get from EmailJS dashboard)
-- `VITE_EMAILJS_TEMPLATE_ID` - EmailJS template ID that defines your email format (create in EmailJS templates)
-- `VITE_EMAILJS_PUBLIC_KEY` - EmailJS public key to authorize email sending from your app (found in EmailJS account settings)
+Create `apps/backend/.env`:
 
-`To setup emailjs:` https://www.emailjs.com/
-
-#### Backend Environment Variables
-
-Create `apps/backend/.env` file:
 ```env
 PORT=3000
-# DATABASE_URL="file:./dev.db"
 DATABASE_URL=postgresql://postgres:postgres@localhost:5434/postgres
 FRONTEND_URL=http://localhost:5173
- 
 CLERK_SECRET_KEY=sk_test_insertSecretKeyHere
 CLERK_PUBLISHABLE_KEY=pk_test_insertClerkPublishableKeyHere
 ```
 
-**Required Variables:**
-- `PORT` - Port for backend server (default: 3000)
-- `FRONTEND_URL` - Frontend URL for CORS (use `http://localhost:5173` for local)
-- `DATABASE_URL` - PostgreSQL connection string (uses Docker container on port 5434)
-- `CLERK_PUBLISHABLE_KEY` - Clerk publishable key (same as frontend)
-- `CLERK_SECRET_KEY` - Clerk secret key from your Clerk dashboard
+### 3) Start PostgreSQL
 
-`To setup Clerk authentication:` https://clerk.com → Create App → Copy API Keys to `.env` files
-
-
-### Step 4: Database Setup
-
-#### Start PostgreSQL Database
 ```bash
-docker-compose up -d
+npm run dev:db
 ```
 
-This starts a PostgreSQL container on port 5434. Verify it's running:
+### 4) Prepare Prisma
+
 ```bash
-docker ps
+npm run generate:backend
+npm run migrate:backend
+npm run seed:backend
 ```
 
-You should see a container named `postgres` running.
+### 5) Run the app
 
-#### Run Prisma Migrations
-
-Navigate to backend directory and run migrations:
-```bash
-npm run prisma:reset  
-npm run migrate:backend  
-npm run seed:backend   
-npm run generate:backend   
-```
-
-#### Verify Database (Optional)
-
-Open Prisma Studio to view your database:
-```bash
-npx prisma studio
-```
-
-This opens a browser at `http://localhost:5555` where you can see your database tables.
-
-### Step 5: Run the Application
-
-#### Option A: Run Both Frontend and Backend Together
-
-From the root directory:
 ```bash
 npm run dev
 ```
 
-#### Option B: Run Separately
+Frontend: http://localhost:5173
+Backend API: http://localhost:3000
 
-**Terminal 1 - Backend:**
+## Available Scripts
+
+From the repo root:
+
+- `npm run dev` — start frontend and backend together
+- `npm run dev:db` — start the PostgreSQL container
+- `npm run start:frontend` — run the Vite app only
+- `npm run start:backend` — run the API only
+- `npm run generate:backend` — generate Prisma client
+- `npm run migrate:backend` — run Prisma migrations
+- `npm run seed:backend` — seed the database
+
+Backend tests:
+
 ```bash
-npm run start:backend
+npm run test --workspace=@mms_music/backend
 ```
 
-**Terminal 2 - Frontend:**
-```bash
-npm run start:frontend
-```
+## API Surface
 
-**Note:** The publishable key is safe to use in frontend code - it's meant to be public.
+Base path: `/api/v1`
 
-### Step 6: Access the Application
+Common areas include:
 
-- **Frontend:** [http://localhost:5173](http://localhost:5173)
-- **Backend API:** [http://localhost:3000](http://localhost:3000)
-- **Prisma Studio:** [http://localhost:5555](http://localhost:5555) (if running)
+- Music collections and category management
+- User playlist CRUD
+- YouTube music list retrieval
 
-
----
-
-## API Endpoints
-
-All endpoints require `Authorization: Bearer <token>` header.
-
-**Base:** `/api/v1`
-
-### Music Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/filipinomusic` | Get Filipino music |
-| POST | `/filipinomusic/add` | Add Filipino song |
-| DELETE | `/filipinomusic/delete` | Delete Filipino song |
-| GET | `/api/v1/music` | Get music categories |
-| POST | `/api/v1/music/add` | Add music to category |
-| DELETE | `/api/v1/music/delete` | Delete music from category |
-| GET | `/chinesemusic` | Get Chinese music |
-| POST | `/chinesemusic/add` | Add Chinese song |
-| DELETE | `/chinesemusic/delete` | Delete Chinese song |
-
-### Playlist Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/playlist` | Get user's playlists |
-| POST | `/playlist/add` | Add video to playlist |
-| DELETE | `/playlist/:videoid` | Delete video from playlist |
-
-### YouTube Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/youtubemusicslist` | Get YouTube music playlists |
-
----
+All protected routes expect `Authorization: Bearer <token>`.
 
 ## Deployment
 
-**Frontend (Vercel):**
-- Root Directory: `apps/frontend`
-- Build Command: `npm run build`
-- Output Directory: `dist`
-- Environment Variables: `VITE_API_BASE`, `VITE_CLERK_PUBLISHABLE_KEY`,`VITE_EMAILJS_*`
+### Recommended setup
 
-**Backend:**
-- Any Node.js hosting platform 
-- Environment Variables: `DATABASE_URL`, `CLERK_*`, `PORT`
+- **Frontend:** deploy `apps/frontend` to Vercel
+- **Backend:** deploy `apps/backend` to Render
+- **Database:** use a hosted PostgreSQL instance such as Render Postgres, Neon, or Supabase
+
+### Frontend on Vercel
+
+- Set the project root directory to `apps/frontend`
+- Build command: `npm run vercel-build`
+- Output directory: `dist`
+- Environment variables: `VITE_API_BASE`, `VITE_CLERK_PUBLISHABLE_KEY`, `VITE_EMAILJS_SERVICE_ID`, `VITE_EMAILJS_TEMPLATE_ID`, `VITE_EMAILJS_PUBLIC_KEY`
+
+### Backend on Render
+
+- Set the project root directory to `apps/backend`
+- Build command: `npm install && npm run build`
+- Start command: `npm run start:prod`
+- Environment variables: `DATABASE_URL`, `FRONTEND_URL`, `CLERK_SECRET_KEY`, `CLERK_PUBLISHABLE_KEY`
+- Set `FRONTEND_URL` to your Vercel domain and `VITE_API_BASE` on the frontend to your Render API URL
+
+### Deployment notes
+
+- Keep the frontend and backend as two separate services
+- Use the deployed backend URL for all browser API calls
+- Make sure the backend database is reachable from Render
+- `PORT` is provided automatically by Render at runtime
+
+## Resume Highlights
+
+- Full-stack monorepo with auth, database, and playlist workflows
+- Prisma-backed user-scoped data model
+- Backend service tests for formatting, caching, and seed-copy flows
+- Production-ready deployment path with Vercel + PostgreSQL
 

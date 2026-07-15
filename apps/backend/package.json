@@ -4,6 +4,7 @@
   "main": "dist/server.js",
   "scripts": {
     "start": "nodemon src/server.ts",
+    "start:prod": "node dist/server.js",
     "build": "tsc -b",
     "test": "vitest run",
     "test:watch": "vitest",
