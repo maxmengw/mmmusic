@@ -11,6 +11,9 @@ node_modules
 dist
 dist-ssr
 *.local
+.env
+.env.*
+!.env.example
 
 # Editor directories and files
 .vscode/*
@@ -24,4 +27,3 @@ dist-ssr
 *.sw?
 
 
-fullstack-13399-firebase-adminsdk-fbsvc-4f3bbc258f.json

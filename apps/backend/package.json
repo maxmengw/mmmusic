@@ -1,10 +1,10 @@
 {
   "name": "@mms_music/backend",
   "version": "1.0.0",
-  "main": "dist/server.js",
+  "main": "dist/apps/backend/src/server.js",
   "scripts": {
     "start": "nodemon src/server.ts",
-    "start:prod": "node dist/server.js",
+    "start:prod": "node dist/apps/backend/src/server.js",
     "build": "tsc -b",
     "test": "vitest run",
     "test:watch": "vitest",
