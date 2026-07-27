@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import Modal from '../common/ui/Modal';
 import YouTube from 'react-youtube';
 import type { YouTubeMusic } from '@shared/types/youtubeData';

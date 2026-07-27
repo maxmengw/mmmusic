@@ -1,4 +1,7 @@
 {
+    "engines": {
+        "node": "22.x"
+    },
     "installCommand": "npm install --force",
     "buildCommand": "npm run vercel-build",
     "outputDirectory": "dist",
