@@ -11,8 +11,6 @@
  */
 import Modal from '../ui/Modal';
 import { useSearch } from '../../../hooks/useSearch';
-import { useState, useCallback } from 'react';
-import { useYouTubeMusicsList } from '../../../hooks/music/useYouTubeMusicsList';
 
 
 interface SearchModalProps {
@@ -31,32 +29,8 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
         highlightText
     } = useSearch(isOpen);
 
-    // UI-only state for pasted URLs; business validation is handled in the service
-    const [youtubeUrls, setYoutubeUrls] = useState<Record<string, string>>({});
-    const { addToPlaylist } = useYouTubeMusicsList();
-
-    const handleUrlChange = useCallback((key: string, value: string) => {
-        setYoutubeUrls(prev => ({ ...prev, [key]: value }));
-    }, []);
-
-    const openYoutube = useCallback((query: string) => {
-        const url = `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`;
-        window.open(url, '_blank', 'noopener,noreferrer');
-    }, []);
-
-    const handleAddToPlaylist = useCallback(async (songName: string, country: string, key: string) => {
-        const url = youtubeUrls[key] || '';
-        const ok = await addToPlaylist(songName, country, url);
-        if (ok) {
-            setYoutubeUrls(prev => ({ ...prev, [key]: '' }));
-        }
-    }, [addToPlaylist, youtubeUrls]);
-
-    const resetUrls = useCallback(() => setYoutubeUrls({}), []);
-
     const handleClose = () => {
         resetSearch();
-        resetUrls();
         onClose();
     };
 
@@ -118,8 +92,6 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                                             <h4>My Music Memos:</h4>
                                             <ul>
                                                 {result.examples.map((example: string, exampleIndex: number) => {
-                                                    const key = `${resultKey}-${exampleIndex}`;
-                                                    
                                                         return (
                                                             <li key={exampleIndex} className="example-item">
                                                                 <span className="example-text">
