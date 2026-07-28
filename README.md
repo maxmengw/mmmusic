@@ -2,11 +2,11 @@
 
 A full-stack music memo and playlist manager built with React, Node/Express, Prisma, PostgreSQL, and Clerk.
 
-**Live Demo:** [mms-music-frontend.vercel.app](https://mms-music-frontend.vercel.app)
+**Live Demo:** [mmmusic-frontend.vercel.app](https://mmmusic-frontend.vercel.app/)
 
 ## Overview
 
-MM Music is a monorepo app for browsing curated music collections, saving personal music libraries, and managing YouTube-based playlists per user.
+MM Music is a monorepo app for browsing curated music collections, creating personal music memos, exploring music by country on an interactive map, and managing YouTube-based playlists per user.
 
 ## Tech Stack
 
@@ -19,8 +19,9 @@ MM Music is a monorepo app for browsing curated music collections, saving person
 ## Key Features
 
 - Secure sign-in and user-scoped data
-- Personal music collections per account
+- Personal music memos and collections per account
 - Curated music browsing and search
+- Interactive world map for country-based music exploration
 - Add/remove songs from libraries
 - YouTube music playlist integration
 - Responsive UI for desktop and mobile
@@ -154,10 +155,5 @@ All protected routes expect `Authorization: Bearer <token>`.
 - Make sure the backend database is reachable from Render
 - `PORT` is provided automatically by Render at runtime
 
-## Resume Highlights
 
-- Full-stack monorepo with auth, database, and playlist workflows
-- Prisma-backed user-scoped data model
-- Backend service tests for formatting, caching, and seed-copy flows
-- Production-ready deployment path with Vercel + PostgreSQL
 
